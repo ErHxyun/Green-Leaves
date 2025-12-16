@@ -1,0 +1,28 @@
+{
+  "year": 2016,
+  "title": "Seed and Early Growth",
+  "summary": "Launched core initiatives; built community and programs.",
+  "events": [
+    {
+      "id": "2016-05-books",
+      "title": "Bookshelf Setup",
+      "date": "2016-05-12",
+      "detailBlocks": [
+        { "type": "subtitle", "text": "Kickoff Day" },
+        { "type": "text", "text": "We assembled the first community bookshelf.\nVolunteers contributed over 100 books." },
+        { "type": "image", "src": "/pictures/2016-05/bookshelf.jpg", "caption": "New bookshelf stocked with donations" },
+        { "type": "text", "text": "Families started borrowing weekly and sharing recommendations." }
+      ]
+    },
+    {
+      "id": "2016-08-packing",
+      "title": "Packed Gifts",
+      "date": "2016-08-20",
+      "detailBlocks": [
+        { "type": "subtitle", "text": "Community Drive" },
+        { "type": "text", "text": "Organized a packing event for school supplies.\nOver 50 kits assembled." },
+        { "type": "image", "src": "/pictures/2016-08/packed.jpg", "caption": "Volunteers packing kits" }
+      ]
+    }
+  ]
+}
