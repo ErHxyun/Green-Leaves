@@ -28,7 +28,7 @@ export default function SiteFooter() {
 						<MuiLink component={RouterLink} to='/about' underline='none' sx={{ color: '#34582B', fontSize: 14 }}>
 							About
 						</MuiLink>
-						<MuiLink underline='none' sx={{ color: '#34582B', fontSize: 14 }}>
+						<MuiLink component={RouterLink} to='/contact' underline='none' sx={{ color: '#34582B', fontSize: 14 }}>
 							Contact
 						</MuiLink>
 					</Box>

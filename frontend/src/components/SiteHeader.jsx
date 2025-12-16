@@ -39,6 +39,8 @@ export default function SiteHeader() {
 							About Us
 						</Button>
 						<Button
+							component={RouterLink}
+							to='/contact'
 							variant='contained'
 							sx={{
 								backgroundColor: '#34582B',
@@ -50,7 +52,7 @@ export default function SiteHeader() {
 								'&:hover': { backgroundColor: '#5a7a1f' },
 							}}
 						>
-							Join Us
+							Contact Us
 						</Button>
 					</Box>
 				</Box>

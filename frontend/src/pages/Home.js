@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, Button, Container, Grid, Card, IconButton } from '@mui/material';
+import { Link as RouterLink } from 'react-router-dom';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
@@ -176,6 +177,8 @@ function Home() {
 							</Typography>
 							<Box sx={{ display: 'flex', gap: 2, justifyContent: 'flex-start' }}>
 								<Button
+									component={RouterLink}
+									to='/our-efforts'
 									variant='contained'
 									sx={{
 										backgroundColor: '#34582B',
@@ -189,20 +192,6 @@ function Home() {
 									}}
 								>
 									Learn More
-								</Button>
-								<Button
-									variant='outlined'
-									sx={{
-										borderColor: '#999',
-										color: '#34582B',
-										px: 3,
-										py: 1.5,
-										textTransform: 'none',
-										borderRadius: 1,
-										'&:hover': { borderColor: '#666', backgroundColor: '#f9f9f9' },
-									}}
-								>
-									Join Us
 								</Button>
 							</Box>
 						</Card>
@@ -469,6 +458,8 @@ function Home() {
 					</Typography>
 					<Box sx={{ display: 'flex', gap: 2, justifyContent: 'center', flexWrap: 'wrap' }}>
 						<Button
+							component={RouterLink}
+							to='/contact'
 							variant='contained'
 							sx={{
 								backgroundColor: '#ffffff',
@@ -481,7 +472,7 @@ function Home() {
 								'&:hover': { backgroundColor: '#f5f5f5' },
 							}}
 						>
-							Join Us
+							Contact Us
 						</Button>
 					</Box>
 				</Container>
