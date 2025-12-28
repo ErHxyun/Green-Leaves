@@ -4,11 +4,13 @@ import SiteHeader from '../components/SiteHeader';
 import SiteFooter from '../components/SiteFooter';
 import wechatQr from '../pictures/officialQR.jpg';
 import contactQr from '../pictures/contactQR.jpg';
+import { useTranslation } from 'react-i18next';
 
 const WECHAT_QR_SRC = wechatQr;
 const CONTACT_QR_SRC = contactQr;
 
 export default function JoinUs() {
+	const { t } = useTranslation();
 	return (
 		<Box sx={{ minHeight: '100vh', backgroundColor: '#f5f7f1' }}>
 			<SiteHeader />
@@ -16,18 +18,25 @@ export default function JoinUs() {
 				<Stack spacing={4}>
 					<Box textAlign='center'>
 						<Typography variant='h4' sx={{ fontWeight: 'bold', color: '#2f4b2f', mb: 1 }}>
-							Join Us
+							{t('contact.title')}
 						</Typography>
 						<Typography variant='body1' sx={{ color: '#2f2f2f', maxWidth: 640, mx: 'auto', lineHeight: 1.6 }}>
-							Follow our official WeChat for updates, or scan the contact QR to reach the team directly. Together we can
-							grow more Little Green Leaves.
+							{t('contact.intro')}
 						</Typography>
 					</Box>
 
 					<Grid container spacing={3} justifyContent='center'>
 						{[
-							{ title: 'Official WeChat', src: WECHAT_QR_SRC, description: 'News, stories, and program updates.' },
-							{ title: 'Contact / Volunteer', src: CONTACT_QR_SRC, description: 'Scan to message the team directly.' },
+							{
+								title: t('contact.cards.wechat.title'),
+								src: WECHAT_QR_SRC,
+								description: t('contact.cards.wechat.desc'),
+							},
+							{
+								title: t('contact.cards.contact.title'),
+								src: CONTACT_QR_SRC,
+								description: t('contact.cards.contact.desc'),
+							},
 						].map((item) => (
 							<Grid item xs={12} sm={6} key={item.title}>
 								<Card

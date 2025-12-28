@@ -1,6 +1,7 @@
-import React, { useState, useCallback, useEffect, useRef } from 'react';
+import React, { useState, useCallback, useEffect, useRef, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Leaf, HeartHandshake, Droplets, HandCoins, Users } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 import imgBookshelf from '../pictures/2016-08/2016-1.jpg';
 import imgPacked from '../pictures/2016-08/2016-2.jpg';
@@ -46,6 +47,33 @@ import imgKangbaoChristmas1 from '../pictures/xiaokangbao/pic5.jpg';
 import imgKangbaoChristmas2 from '../pictures/xiaokangbao/pic6.jpg';
 import imgKangbaoThankYou1 from '../pictures/xiaokangbao/pic7.jpg';
 import imgKangbaoThankYou2 from '../pictures/xiaokangbao/pic8.jpg';
+
+import imgKenya1 from '../pictures/2019-Africa/africa1.jpg';
+import imgKenya2 from '../pictures/2019-Africa/africa2.jpg';
+import imgKenya3 from '../pictures/2019-Africa/africa3.jpg';
+import imgKenya4 from '../pictures/2019-Africa/africa4.jpg';
+
+import imgKenya11 from '../pictures/2019-Africa-2/africa1.jpg';
+import imgKenya12 from '../pictures/2019-Africa-2/africa2.jpg';
+import imgKenya13 from '../pictures/2019-Africa-2/africa3.jpg';
+import imgKenya14 from '../pictures/2019-Africa-2/africa4.jpg';
+import imgKenya15 from '../pictures/2019-Africa-2/africa5.jpg';
+
+import imgKangbaoPart11 from '../pictures/2019-kangbao/kangbao1.jpg';
+import imgKangbaoPart12 from '../pictures/2019-kangbao/kangbao2.jpg';
+import imgKangbaoPart13 from '../pictures/2019-kangbao/kangbao3.jpg';
+import imgKangbaoPart14 from '../pictures/2019-kangbao/kangbao4.jpg';
+import imgKangbaoPart15 from '../pictures/2019-kangbao/kangbao5.jpg';
+import imgKangbaoPart16 from '../pictures/2019-kangbao/kangbao6.jpg';
+import imgKangbaoPart17 from '../pictures/2019-kangbao/kangbao7.jpg';
+import imgKangbaoPart18 from '../pictures/2019-kangbao/kangbao8.jpg';
+
+import imgBack1 from '../pictures/2020-back/back1.jpg';
+import imgBack2 from '../pictures/2020-back/back2.jpg';
+import imgBack3 from '../pictures/2020-back/back3.jpg';
+import imgBack4 from '../pictures/2020-back/back4.jpg';
+import imgBack5 from '../pictures/2020-back/back5.jpg';
+import imgBack6 from '../pictures/2020-back/back6.jpg';
 
 const defaultData = [
 	{
@@ -880,9 +908,439 @@ const defaultData = [
 			},
 
 			{
-				id: '2019-2',
-				title: 'Sponsorship Expansion',
-				detail: 'Added recurring sponsor tiers increasing retention and long-term stability.',
+				id: '2019-Green Leaves and Kenya',
+				title: 'Crossing Continents — Little Green Leaves in Kenya',
+				detailBlocks: [
+					{ type: 'subtitle', content: 'A Place That Sparked Curiosity' },
+					{
+						type: 'text',
+						content:
+							'There is a place where a group of extraordinary children live. Their environment is harsh, yet they are filled with sunshine and optimism. I was deeply curious — I wanted to step into their world and truly feel their lives.',
+					},
+					{
+						type: 'image',
+						src: imgKenya1,
+						alt: 'Kenyan children',
+						caption: 'Children in Kenya full of sunshine and optimism.',
+					},
+
+					{ type: 'subtitle', content: 'Maasai Mara, Kenya' },
+					{
+						type: 'text',
+						content:
+							'Yes, you guessed it — this place is Maasai Mara, Kenya. Back in the same season of 2015, I ran across the vast savannah alongside wildlife, rose into the sky in a hot air balloon with the sun, and watched hippos migrate along the Mara River. It was a place where I gained friendship and wisdom — a place that left a lasting mark on my heart.',
+					},
+					{ type: 'image', src: imgKenya2, alt: 'Maasai Mara landscape', caption: 'The vast Maasai Mara landscape.' },
+					{ type: 'subtitle', content: 'People Who Inspired My Action' },
+					{
+						type: 'text',
+						content:
+							'There were also two remarkable people — a married couple and partners in mission. They made the bold decision to leave their positions at the United Nations — a choice that might seem a little crazy to many — and founded TAIV. I deeply admired them and wanted to understand their vision, to participate, and to walk alongside them.',
+					},
+					{ type: 'image', src: imgKenya3, alt: 'TAIV founders', caption: 'The founders of TAIV.' },
+
+					{ type: 'subtitle', content: 'Returning as an International Volunteer' },
+					{
+						type: 'text',
+						content:
+							'This time, I returned to Africa as an international volunteer. I came to learn more about Africa, to understand it more deeply, and to fulfill a long-held wish: to build a Chinese-language reading corner there, so African children could learn about China and Chinese culture.',
+					},
+					{
+						type: 'text',
+						content: 'True exchange begins with culture. True care comes from the heart.',
+					},
+
+					{ type: 'subtitle', content: 'Little Green Leaves Has Arrived' },
+					{
+						type: 'text',
+						content:
+							'In this winter in Kenya, Little Green Leaves has arrived — bringing the warmth of spring, bringing the fresh green of new beginnings. We are here. We are here. We are here.',
+					},
+					{
+						type: 'image',
+						src: imgKenya4,
+						alt: 'Green Leaves in Kenya',
+						caption: 'Green Leaves in Kenya.',
+					},
+				],
+			},
+			{
+				id: '2019-kenya-masai-mara-un',
+				title: 'Little Green Leaves’ African Journey — Maasai Mara & the United Nations',
+				detailBlocks: [
+					{ type: 'subtitle', content: 'Back to the Savannah' },
+					{
+						type: 'text',
+						content:
+							'After completing our teaching experience at the orphanage, the volunteers regrouped and set out once again — heading toward the vast Maasai Mara savannah. It was a place that had once left me in awe, a place I could never forget.',
+					},
+
+					{ type: 'subtitle', content: 'Memories from 2015' },
+					{
+						type: 'text',
+						content:
+							'Back in 2015, driven by pure curiosity, I had experienced everything here — tracking the great migration, chasing lions across the plains, watching wildlife under pouring rain and blazing sun. In those moments, I truly felt the power and beauty of nature.',
+					},
+					{
+						type: 'image',
+						src: imgKenya11,
+						alt: 'Wildlife in Maasai Mara',
+						caption: 'The majestic wildlife of Maasai Mara.',
+					},
+
+					{ type: 'subtitle', content: 'A Small Wish' },
+					{
+						type: 'text',
+						content:
+							'To be honest, I returned this time with a small wish: to meet the lion family in the rain once more. It was them who gave me a deeper understanding of parental love. I wasn’t sure if the lions we saw were the same ones — but even encountering them again felt like fate.',
+					},
+					{ type: 'subtitle', content: 'A Day Chasing Life' },
+					{
+						type: 'text',
+						content:
+							'Blessed by a bit of luck, we encountered even more animal friends throughout the day. After hours of tracking wildlife, we returned to the lodge at sunset. That evening, as we watched the Maasai people perform their passionate bonfire dance, I realized something had changed.',
+					},
+					{ type: 'image', src: imgKenya12, alt: 'Maasai wildlife', caption: 'Maasai wildlife encounters.' },
+					{
+						type: 'text',
+						content:
+							'The scenery was still breathtaking, the animals still free and graceful — yet everything outside the vehicle window felt different. It was as if I were standing between two worlds. Though I couldn’t yet put the feeling into words, I knew this was the quiet transformation that comes from experience and exploration.',
+					},
+					{
+						type: 'image',
+						src: imgKenya13,
+						alt: 'Sunset in Maasai Mara',
+						caption: 'A breathtaking sunset in Maasai Mara.',
+					},
+
+					{ type: 'subtitle', content: 'From Wilderness to the City' },
+					{
+						type: 'text',
+						content:
+							'The final stop of our Kenya journey took us to what felt like the “opposite extreme” — Nairobi, often called the Paris of East Africa. Here, we experienced Kenya’s urban culture and, most importantly, had the honor of visiting two major United Nations headquarters: the United Nations Environment Programme (UNEP) and UN-Habitat.',
+					},
+
+					{ type: 'subtitle', content: 'Inside the United Nations' },
+					{
+						type: 'text',
+						content:
+							'At the UN compound in northern Nairobi, we sat under warm sunlight, listened to birdsong, and felt a sense of solemnity and respect. We observed every detail that made this place unique. Seeing the trees personally planted by former Chinese presidents Hu Jintao and Jiang Zemin instantly connected us to the powerful strength of our homeland.',
+					},
+					{
+						type: 'text',
+						content:
+							'We also saw the educational supplies prepared by the United Nations for refugee children. The sight filled us with both awe and deep emotion. In that moment, we silently prayed for a world free of war and filled with peace — a truly world-class experience.',
+					},
+
+					{ type: 'subtitle', content: 'Sitting in the Seat of Responsibility' },
+					{
+						type: 'text',
+						content:
+							'By coincidence, our visit took place during a UN recess, and Little Green Leaves had the rare opportunity to act as representatives of China to the United Nations — with photos to prove it!',
+					},
+					{
+						type: 'text',
+						content:
+							'Having previously participated in Model United Nations, sitting in the actual UN conference seat sparked an immediate sense of mission and responsibility within me. The same chair felt entirely different here — perhaps this is how energy is passed on. I even delivered a short mock “speech,” and yes — even the Wi-Fi was reserved for UN delegates. A truly world-class experience.',
+					},
+					{ type: 'image', src: imgKenya14, alt: 'UN visit', caption: 'A memorable visit to the United Nations.' },
+
+					{ type: 'subtitle', content: 'A World-Class Aspiration' },
+					{
+						type: 'text',
+						content:
+							'Although our visit to the United Nations lasted only half a day, the impact was profound. In this world-class institution, we had a world-class experience — one that quietly reaffirmed my belief that I could become a world-class individual, pursue world-class dreams, and one day help make the world a better place.',
+					},
+
+					{
+						type: 'image',
+						src: imgKenya15,
+						alt: 'Unforgettable moments at UN',
+						caption: 'Unforgettable moments at the United Nations.',
+					},
+				],
+			},
+			{
+				id: 'shared-smiles-shared-effort',
+				title: 'Smiling Faces. Moving Forward Together',
+				detailBlocks: [
+					{ type: 'subtitle', content: 'Different Lives, the Same Childhood' },
+					{
+						type: 'text',
+						content:
+							'We live on the same planet, in the same era — yet in different countries, different environments, and with vastly different life experiences. They are children just like their peers, yet they carry a special label: the vulnerable. Their names differ — left-behind children, orphans, refugees — but the weight they carry is deeply similar.',
+					},
+
+					{ type: 'subtitle', content: 'The Moment That Changed Me' },
+					{
+						type: 'text',
+						content:
+							'In 2016, when I was twelve years old, I first met a child from a poor family. He was three years younger than me. When I gave him a few books, his reaction deeply moved me. That moment led me to decide to help children in impoverished mountain areas build reading corners — because I believed books were what they needed most.',
+					},
+					{
+						type: 'text',
+						content:
+							'Over three years, we raised more than 20,000 donated books through various efforts and supported five mountain village primary schools. Yet as I visited these schools and spent time with the children, I realized something unexpected.',
+					},
+					{
+						type: 'text',
+						content:
+							'They were not as joyful as I had imagined. Some were introverted and avoided communication. Some lacked confidence and struggled to make friends. Others had poor hygiene or weak study habits. After speaking with teachers, I learned that most of them were left-behind children — raised mainly by grandparents while one or both parents worked far away. What they lacked most was not material support, but emotional care and warmth.',
+					},
+
+					{ type: 'subtitle', content: 'Africa: Joy Amid Scarcity' },
+					{
+						type: 'text',
+						content:
+							'In the summer of 2019, I had the opportunity to visit a welfare home in Africa that housed over 300 children. More than 100 of them were orphans; others had been taken in from the streets by their “daddy.” Their daily meals consisted only of boiled beans and rice. The water they drank was yellowish and murky, even after settling.',
+					},
+					{
+						type: 'text',
+						content:
+							'Yet whenever someone visited, they greeted us with bright, optimistic smiles. The children were warm and eager to help with chores. They were curious and loved learning, constantly asking teachers questions. They had never left the compound and were deeply curious about the world beyond its walls. Whenever they saw me or other teachers, they asked for food and school supplies — not out of greed, but because resources were so scarce.',
+					},
+					{
+						type: 'text',
+						content:
+							'I couldn’t help but wonder: how could children living in such harsh conditions remain so optimistic and motivated?',
+					},
+
+					{ type: 'subtitle', content: 'Meeting Refugee Children' },
+					{
+						type: 'text',
+						content:
+							'At the start of my tenth-grade year, I joined a school-organized community program that brought me face-to-face with children in a refugee camp. Sometimes I taught them English. Sometimes we played games together. Other times, I wrote them letters filled with encouragement and care.',
+					},
+					{
+						type: 'text',
+						content:
+							'Some children were quiet and reserved, but most were sincere, optimistic, and deeply respectful of others’ feelings. I remember one visit vividly. We entered a crude building called a “classroom.” The children’s eyes were wide with nervous curiosity. Though timid, they stood up and introduced themselves bravely at the teacher’s request, then carefully accepted the “letters of love” we had written.',
+					},
+					{
+						type: 'text',
+						content:
+							'They read every word attentively. Later, they wrote their dreams on inflated balloons. In my group, one child dreamed of becoming a professor, another of becoming a math teacher. After writing, they hugged their balloons tightly, afraid they might be damaged. It was clear how much their dreams meant to them — and I truly believe they will work hard to achieve them.',
+					},
+
+					{ type: 'subtitle', content: 'Joy in the Simplest Moments' },
+					{
+						type: 'text',
+						content:
+							'They had very little for entertainment — just one old football. After the initial shyness faded, we began playing together. The “soccer field” was a small dirt courtyard, barely 50–60 square meters. One section of wall served as the goal; if the ball hit it, it counted as a score.',
+					},
+					{
+						type: 'text',
+						content:
+							'I tried to let them score more goals, but they insisted on playing by the rules. Sometimes, they even looked out for my feelings. Every child’s face was filled with laughter, and we played joyfully together.',
+					},
+
+					{ type: 'subtitle', content: 'What They Truly Need' },
+					{
+						type: 'text',
+						content:
+							'Left-behind children have parents, yet lack emotional companionship. African orphans have no parents and face extreme material scarcity, yet remain optimistic. Refugee children have no country — and although they appear cheerful, the lack of security is visible in their eyes.',
+					},
+					{
+						type: 'text',
+						content:
+							'What can I do for these children? This is the question I continue to study and reflect on. I hope to find the best way to support them — not only materially, but also emotionally and psychologically — giving them what they truly need most.',
+					},
+				],
+			},
+			{
+				id: 'kangbao-winter-warmth-part-1',
+				title: 'Connected by Warmth in the Deepest Winter (Part I)',
+				detailBlocks: [
+					{ type: 'subtitle', content: 'Arriving Through Snow' },
+					{
+						type: 'text',
+						content:
+							'Traveling through snow, the harsh winter of the Bashang Plateau revealed a unique beauty. While feeling the biting cold, we also witnessed the changes taking place in Kangbao. More than ninety newly built residential buildings for relocated families stood neatly along the roads. Covered in snow, the wide, straight streets seemed even broader. In the cold wind, hints of New Year celebrations quietly filled the air.',
+					},
+
+					{ type: 'subtitle', content: 'A Year of Connection, A Moment of Fulfillment' },
+					{
+						type: 'text',
+						content:
+							'One year ago, Little Green Leaves formed a meaningful bond with Kangbao. Through this connection, we met Ms. Liu Yanfeng, Deputy Mayor of Kangbao Town — a warm-hearted leader who generously helped connect Little Green Leaves with Dongguan Primary School and Qinglong Village Primary School. Today, ten Little Green Leaves Reading Corners were officially completed at the two schools.',
+					},
+
+					{ type: 'subtitle', content: 'A Warm Welcome at Dongguan Primary School' },
+					{
+						type: 'text',
+						content:
+							'Accompanied by their families, two members of the Little Green Leaves Volunteer Alliance arrived at Dongguan Primary School. The principal introduced the newly constructed teaching building and the bright, spacious classrooms the students had just moved into.',
+					},
+					{
+						type: 'image',
+						src: imgKangbaoPart11,
+						alt: 'Green Leaves arrived at school',
+						caption: 'Two members of Little Green Leaves arriving at Dongguan Primary School.',
+					},
+					{
+						type: 'text',
+						content:
+							'Leaders from the county, town, and education bureau joined the event, including Chairwoman Zhao Yongfang of the County Women’s Federation, Deputy Mayor Liu Yanfeng, Director Jiang Linke from the Education and Sports Bureau, Principal Zhou Yushan of Dongguan Primary School, and Principal Kou Zhongchang of Qinglong Village Primary School. More than 100 teachers and students from both schools participated, reflecting the strong support and attention from local leadership.',
+					},
+
+					{ type: 'subtitle', content: 'Standing Once Again as a Young Pioneer' },
+					{
+						type: 'text',
+						content:
+							'When I once again put on the familiar red Young Pioneer scarf, heard the powerful background music, and saw the students salute with precision, I felt as if I had returned to my own elementary school days. Touching the red scarf on my chest brought an instant sense of closeness with the students — and filled me with unexpected strength.',
+					},
+					{
+						type: 'image',
+						src: imgKangbaoPart12,
+						alt: 'Wearing red scarf',
+						caption: 'Wearing the red scarf again brought unexpected strength.',
+					},
+
+					{ type: 'subtitle', content: 'Sharing Dreams and Strength' },
+					{
+						type: 'text',
+						content:
+							'With gratitude in my heart, Little Green Leaves shared the importance of dreams and the experience of studying abroad. It was because of a dream that the Little Green Leaves Volunteer Alliance was founded — and because of that same dream that we continue to move forward, bringing warmth wherever we go.',
+					},
+					{
+						type: 'text',
+						content:
+							'Studying abroad deepened my appreciation for my homeland — for family, food, and the sense of pride that comes from knowing a strong nation stands behind us. I told the younger students that although some of them may face challenges in learning or daily life, these hardships are trials meant to strengthen their will and independence. The message was warmly received, and I could see a change in the children’s eyes — confidence slowly beginning to shine.',
+					},
+
+					{ type: 'subtitle', content: 'More Than a Backpack' },
+					{
+						type: 'text',
+						content:
+							'During this Kangbao visit, Little Green Leaves also brought love-filled backpacks to more than twenty students from disadvantaged families. While they may not urgently need material assistance, we hoped this gesture would help us draw closer to their hearts — allowing them to feel cared for and reminding them that beauty exists everywhere in life.',
+					},
+					{
+						type: 'text',
+						content:
+							'From this day forward, Little Green Leaves believes that these backpacks carry not only books and knowledge, but also warmth, love, and the power of dreams.',
+					},
+
+					{ type: 'subtitle', content: 'Building Reading Corners, One by One' },
+					{
+						type: 'text',
+						content:
+							'Accompanied by teachers, the two Little Green Leaves volunteers visited each classroom to place the reading corners and personally attach the “Little Green Leaves Reading Corner” labels. Each completed reading corner felt like a treasured accomplishment — a space built with care, effort, and hope.',
+					},
+					{
+						type: 'text',
+						content:
+							'We believe these donated books will bring not only knowledge, but also warmth that reaches deep into the children’s hearts.',
+					},
+					{
+						type: 'image',
+						src: imgKangbaoPart13,
+						alt: 'Reading corner setup',
+						caption: 'Setting up the reading corners with care.',
+					},
+
+					{ type: 'subtitle', content: 'Energy Passed On' },
+					{
+						type: 'text',
+						content:
+							'Dongguan Primary School specially organized a jump-rope performance, reflecting the school’s dedication to students’ physical and mental well-being. Watching the children’s energetic and positive spirit was deeply moving.',
+					},
+					{
+						type: 'text',
+						content:
+							'Little Green Leaves delivered warmth, shared care, and received energy in return from leaders, teachers, and students alike. Each visit allows me to grow from a new perspective. I am deeply grateful for the opportunity to sow seeds of kindness — and thankful for the strength that continues to guide me forward.',
+					},
+				],
+			},
+			{
+				id: 'kangbao-winter-warmth-part-2',
+				title: 'Connected by Warmth in the Deepest Winter (Part II)',
+				detailBlocks: [
+					{ type: 'subtitle', content: 'A Different Atmosphere' },
+					{
+						type: 'text',
+						content:
+							'After the event at Dongguan Primary School, we traveled together with the students from Qinglong Village Primary School back to their campus. From the moment the activities began, it was clear that these children were different from those at Dongguan. Their movements were more restrained, and their eyes lacked the confidence we had seen earlier.',
+					},
+					{
+						type: 'image',
+						src: imgKangbaoPart14,
+						alt: 'Qinglong Village Primary School',
+						caption: 'Arriving at Qinglong Village Primary School.',
+					},
+
+					{ type: 'subtitle', content: 'Understanding Their Reality' },
+					{
+						type: 'text',
+						content:
+							'After listening to the principal’s introduction, we learned that the school had just over 80 students, most of whom lived in even more difficult circumstances. Nearly all were left-behind children or orphans. I sat among them, speaking openly and gently about topics we all cared about.',
+					},
+					{
+						type: 'image',
+						src: imgKangbaoPart15,
+						alt: 'Listening to students',
+						caption: 'Listening to the the principal at Qinglong.',
+					},
+					{
+						type: 'text',
+						content:
+							'Some had lost their parents; others had parents working far away. As a result, they lived in rented collective dormitories near the school. When I asked about their relationship with teachers, their eyes instinctively shifted away. They liked their teachers, yet were also afraid of them — afraid to ask questions when they didn’t understand.',
+					},
+					{
+						type: 'image',
+						src: imgKangbaoPart16,
+						alt: 'Students at Qinglong',
+						caption: 'Students at Qinglong Village Primary School.',
+					},
+
+					{ type: 'subtitle', content: 'Planting Confidence' },
+					{
+						type: 'text',
+						content:
+							'Little Green Leaves shared personal experiences to help the children understand the importance of confidence. We believe that from this day forward, they will no longer feel inferior because they are left-behind children or because they lack parental companionship.',
+					},
+
+					{ type: 'subtitle', content: 'Books, Joy, and Belonging' },
+					{
+						type: 'text',
+						content:
+							'Standing in the completed reading corner at Qinglong Village Primary School, the principal personally helped attach the “Little Green Leaves Reading Corner” sign and asked about the meaning behind the Little Green Leaves logo. Watching the children immersed in reading filled us with indescribable happiness.',
+					},
+					{
+						type: 'image',
+						src: imgKangbaoPart17,
+						alt: 'Reading corner at Qinglong',
+						caption: 'The reading corner at Qinglong Village Primary School.',
+					},
+
+					{ type: 'subtitle', content: 'A New Beginning for the Youngest Ones' },
+					{
+						type: 'text',
+						content:
+							'Principal Kou then showed us the newly built kindergarten. We prepared clay and educational toys for the younger children. Their classrooms and surroundings were beautifully decorated with care by their teachers. Watching the children learn and play freely in such a warm environment made us feel both joyful and a little envious.',
+					},
+
+					{ type: 'subtitle', content: 'Carrying Warmth Into the Future' },
+					{
+						type: 'text',
+						content:
+							'The festive decorations in the kindergarten classrooms were so full of warmth that I decided to borrow this image to mark the final act of kindness in 2019. Looking ahead to 2020 — and even further into the future — Little Green Leaves will continue walking this path.',
+					},
+					{
+						type: 'image',
+						src: imgKangbaoPart18,
+						alt: 'Kindergarten decorations',
+						caption: 'Festive decorations in the kindergarten classrooms.',
+					},
+					{
+						type: 'text',
+						content:
+							'As Romain Rolland once said, “The most beautiful music of the soul is kindness.” Little Green Leaves hopes to follow this music together with more people — allowing our small dreams to merge into the greater Chinese Dream. Let us continue chasing dreams and moving forward with warmth.',
+					},
+					{
+						type: 'text',
+						content: 'Little Green Leaves growing into a forest — thank you for being part of this journey.',
+					},
+				],
 			},
 		],
 		icon: Users,
@@ -890,13 +1348,92 @@ const defaultData = [
 	{
 		year: 2020,
 		title: 'Weathering the Storm',
-		summary: 'Emergency relief and remote distribution during global disruptions; kept programs running.',
+		summary: 'How we adapted operations during COVID-19 to maintain love and aid delivery.',
 		events: [
 			{
-				id: '2020-1',
-				title: 'Remote Learning Kits',
-				detail: 'Distributed printed lesson packs and radios to continue studies during school closures.',
+				id: 'kangbao-warmth-back-on-duty',
+				title: '2020 - Back on Duty with Warmth',
+				detailBlocks: [
+					{ type: 'subtitle', content: 'Warmth Returns to Service' },
+					{
+						type: 'text',
+						content:
+							'Just after the holiday ended and Little Green Leaves returned to school, we received wonderful news from our “warm-hearted deputy mayor auntie” in Kangbao Town. Fifteen boxes containing 684 pieces of donated clothing, mailed to Kangbao during the break, had finally been officially “rehired” and put back on duty.',
+					},
+					{
+						type: 'text',
+						content:
+							'Under the careful coordination of Deputy Mayor Liu Yanfeng, these love-filled clothes were distributed to five villages and delivered directly to families and individuals in need. Once retired from daily use, these clothes returned with a new mission — and I believe they felt a deep sense of pride.',
+					},
+
+					{ type: 'subtitle', content: 'Smiles That Made Everything Worth It' },
+					{
+						type: 'text',
+						content:
+							'Seeing the photos of people holding the clothes with joyful smiles filled Little Green Leaves with overwhelming happiness — words simply weren’t enough to describe the feeling.',
+					},
+					{
+						type: 'image',
+						src: imgBack1,
+						alt: 'Recipients with donated clothes',
+						caption: 'Joyful recipients of donated clothes.',
+					},
+					{
+						type: 'image',
+						src: imgBack2,
+						alt: 'Recipients with donated clothes',
+						caption: 'Joyful recipients of donated clothes.',
+					},
+					{
+						type: 'image',
+						src: imgBack3,
+						alt: 'Recipients with donated clothes',
+						caption: 'Joyful recipients of donated clothes.',
+					},
+					{
+						type: 'image',
+						src: imgBack4,
+						alt: 'Recipients with donated clothes',
+						caption: 'Joyful recipients of donated clothes.',
+					},
+					{ type: 'subtitle', content: 'Every Effort Remembered' },
+					{
+						type: 'text',
+						content:
+							'Thinking back to every holiday spent carefully selecting, stacking, packing, and labeling each item — scene after scene replayed like a movie. In this moment, everything felt completely worth it.',
+					},
+					{
+						type: 'image',
+						src: imgBack5,
+						alt: 'Packing donated clothes',
+						caption: 'Packing donated clothes with care.',
+					},
+					{
+						type: 'text',
+						content:
+							'To all the kindhearted uncles and aunties who supported Little Green Leaves: we are delivering your love and your kindness. I am both a messenger and a recipient — every act of love flows through Little Green Leaves, and the very first person to be warmed is me.',
+					},
+
+					{ type: 'subtitle', content: 'A Channel of Love' },
+					{
+						type: 'text',
+						content:
+							'I am a messenger, but also a relay station — ensuring that every act of kindness reaches those in need as quickly and fully as possible.',
+					},
+					{
+						type: 'image',
+						src: imgBack6,
+						alt: 'Delivering donated clothes',
+						caption: 'Delivering donated clothes to those in need.',
+					},
+					{
+						type: 'text',
+						content:
+							'The channel of love at Little Green Leaves will always remain open, waiting for you with a smile. Thank you for your trust — it strengthens our confidence. Thank you for your kindness — it fuels our persistence. Thank you for choosing to believe — it reminds us that the road of dreams is lined with beauty. Thank you for your love — it gives us the courage to keep moving forward with warmth.',
+					},
+				],
 			},
+
 			{
 				id: '2020-2',
 				title: 'Relief Logistics Hub',
@@ -1118,6 +1655,54 @@ export default function TreeOfGrowthTimeline({
 	subheading = 'A decade of steady, sustainable growth powered by community and care.',
 	modalMaxWidth = 'max-w-6xl', // widened default
 }) {
+	const { t } = useTranslation();
+	const localizedHeading = t('timeline.heading');
+	const localizedSubheading = t('timeline.subheading');
+	const localizedData = useMemo(() => {
+		return defaultData.map((item) => {
+			const yearKey = `timeline.${item.year}`;
+			const localizedEvents = (item.events ?? []).map((ev) => {
+				const blocks = (ev.detailBlocks ?? []).map((block, i) => {
+					if (block.type === 'subtitle') {
+						return {
+							...block,
+							content: t(`${yearKey}.events.${ev.id}.blocks.${i}.content`, {
+								defaultValue: block.content,
+							}),
+						};
+					}
+					if (block.type === 'text') {
+						return {
+							...block,
+							content: t(`${yearKey}.events.${ev.id}.blocks.${i}.content`, {
+								defaultValue: block.content,
+							}),
+						};
+					}
+					if (block.type === 'image') {
+						return {
+							...block,
+							caption: t(`${yearKey}.events.${ev.id}.blocks.${i}.caption`, {
+								defaultValue: block.caption ?? '',
+							}),
+						};
+					}
+					return block;
+				});
+				return {
+					...ev,
+					title: t(`${yearKey}.events.${ev.id}.title`, { defaultValue: ev.title }),
+					detailBlocks: blocks,
+				};
+			});
+			return {
+				...item,
+				title: t(`${yearKey}.title`, { defaultValue: item.title }),
+				summary: t(`${yearKey}.summary`, { defaultValue: item.summary }),
+				events: localizedEvents,
+			};
+		});
+	}, [t]);
 	const [active, setActive] = useState(null); // { yearItem, event }
 	const close = useCallback(() => setActive(null), []);
 	const escHandler = useCallback(
@@ -1148,8 +1733,8 @@ export default function TreeOfGrowthTimeline({
 					transition={{ duration: 0.6 }}
 					className='mx-auto mb-12 max-w-3xl text-center'
 				>
-					<h2 className='text-3xl md:text-5xl font-extrabold tracking-tight text-emerald-900'>{heading}</h2>
-					<p className='mt-4 text-emerald-900/80 md:text-lg'>{subheading}</p>
+					<h2 className='text-3xl md:text-5xl font-extrabold tracking-tight text-emerald-900'>{localizedHeading}</h2>
+					<p className='mt-4 text-emerald-900/80 md:text-lg'>{localizedSubheading}</p>
 				</motion.div>
 				<div className='relative'>
 					<div
@@ -1157,7 +1742,7 @@ export default function TreeOfGrowthTimeline({
 						className='pointer-events-none absolute left-1/2 top-0 -ml-0.5 h-full w-1 rounded-full bg-gradient-to-b from-emerald-800 via-emerald-600 to-emerald-400 shadow-[0_0_20px_rgba(16,185,129,0.25)]'
 					/>
 					<div className='relative mx-auto grid gap-10 md:gap-16'>
-						{data.map((item, idx) => {
+						{(data === defaultData ? localizedData : data).map((item, idx) => {
 							const side = idx % 2 === 0 ? 'left' : 'right';
 							return (
 								<div key={item.year} className='relative md:min-h-[7rem]'>

@@ -122,6 +122,40 @@ Connosoar is a React-based frontend for art asset trading, designed for a clean,
 
 For questions or feedback, please reach out to the project owner.
 
+## Internationalization (i18n)
+
+This app uses `i18next` + `react-i18next` for bilingual support (English/Chinese).
+
+Customize translations:
+
+- Edit locale files: see [src/locales/en/common.json](src/locales/en/common.json) and [src/locales/zh/common.json](src/locales/zh/common.json).
+- Add new keys and use them in components via `t('your.key')`.
+- Persist toggle: the selected language is saved to `localStorage` and loaded on startup from [src/services/i18n.js](src/services/i18n.js).
+- To translate new pages, add keys under logical sections (e.g., `about.title`, `contact.form.submit`) and replace hardcoded strings with `t()`.
+
+Examples:
+
+- In a component: `const { t } = useTranslation();` then `t('nav.home')`.
+- Interpolation: `t('impact.count', { count: 132 })` with JSON like `{ "impact": { "count": "{{count}} Children Supported" } }`.
+- Plurals: define `impact.count_one` and `impact.count_other` and call `t('impact.count', { count })`.
+
+Files to look at:
+
+- Header toggle: [src/components/SiteHeader.jsx](src/components/SiteHeader.jsx)
+- i18n setup: [src/services/i18n.js](src/services/i18n.js)
+- Home page strings: [src/pages/Home.js](src/pages/Home.js)
+
+Add another language:
+
+1. Create `src/locales/<lang>/common.json`.
+2. Import and register it in `resources` inside [src/services/i18n.js](src/services/i18n.js).
+3. Update the toggle UI to show/select the new language.
+
+Optional enhancements:
+
+- Split translations by namespace (e.g., `home.json`, `about.json`) and load per page.
+- Auto-detect browser language or region if desired.
+
 ---
 
-\*This README will be updated as development
+_This README will be updated as development continues._

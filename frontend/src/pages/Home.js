@@ -17,8 +17,10 @@ import childImage5 from '../pictures/childrenImage/childImage5.jpg';
 // ...existing code...
 import SiteHeader from '../components/SiteHeader';
 import SiteFooter from '../components/SiteFooter';
+import { useTranslation } from 'react-i18next';
 
 function Home() {
+	const { t } = useTranslation();
 	// State for testimonial carousel
 	const [currentTestimonial, setCurrentTestimonial] = useState(0);
 
@@ -161,7 +163,7 @@ function Home() {
 									fontSize: { xs: '1.8rem', md: '2.2rem' },
 								}}
 							>
-								Welcome to Little Green Leaves
+								{t('hero.title')}
 							</Typography>
 							<Typography
 								variant='body1'
@@ -172,8 +174,7 @@ function Home() {
 									fontSize: '16px',
 								}}
 							>
-								Where we raise funds and support children's dreams of education and brighter futures in rural
-								communities across China and Kenya
+								{t('hero.subtitle')}
 							</Typography>
 							<Box sx={{ display: 'flex', gap: 2, justifyContent: 'flex-start' }}>
 								<Button
@@ -191,7 +192,7 @@ function Home() {
 										'&:hover': { backgroundColor: '#5a7a1f' },
 									}}
 								>
-									Learn More
+									{t('hero.cta')}
 								</Button>
 							</Box>
 						</Card>
@@ -217,7 +218,7 @@ function Home() {
 							fontSize: { xs: '2rem', md: '2.5rem' },
 						}}
 					>
-						Our Impact
+						{t('impact.title')}
 					</Typography>
 					<Grid container spacing={4} justifyContent='center'>
 						<Grid item xs={4} sm={4} md={4}>
@@ -242,10 +243,10 @@ function Home() {
 									132
 								</Typography>
 								<Typography variant='h6' sx={{ color: '#333', fontWeight: 'bold', mb: 1 }}>
-									Children Supported
+									{t('impact.children')}
 								</Typography>
 								<Typography variant='body2' sx={{ color: '#666' }}>
-									Students receiving educational support across rural communities
+									{t('impact.childrenDesc')}
 								</Typography>
 							</Card>
 						</Grid>
@@ -271,10 +272,10 @@ function Home() {
 									3
 								</Typography>
 								<Typography variant='h6' sx={{ color: '#333', fontWeight: 'bold', mb: 1 }}>
-									Continents
+									{t('impact.continents')}
 								</Typography>
 								<Typography variant='body2' sx={{ color: '#666' }}>
-									Making our efforts to support children from China, Kenya, and Middle East
+									{t('impact.continentsDesc')}
 								</Typography>
 							</Card>
 						</Grid>
@@ -300,10 +301,10 @@ function Home() {
 									$88,000+
 								</Typography>
 								<Typography variant='h6' sx={{ color: '#333', fontWeight: 'bold', mb: 1 }}>
-									Funds Raised
+									{t('impact.funds')}
 								</Typography>
 								<Typography variant='body2' sx={{ color: '#666' }}>
-									Total donations directed toward education initiatives
+									{t('impact.fundsDesc')}
 								</Typography>
 							</Card>
 						</Grid>
@@ -329,7 +330,7 @@ function Home() {
 							fontSize: { xs: '2rem', md: '2.5rem' },
 						}}
 					>
-						What People Say
+						{t('testimonials.title')}
 					</Typography>
 					<Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 2 }}>
 						<IconButton
@@ -443,7 +444,7 @@ function Home() {
 							fontSize: { xs: '2rem', md: '2.5rem' },
 						}}
 					>
-						Join the Little Green Leaves Movement
+						{t('cta.title')}
 					</Typography>
 					<Typography
 						variant='h6'
@@ -454,7 +455,7 @@ function Home() {
 							fontSize: '18px',
 						}}
 					>
-						Be part of the change. Together we can help more children to read realize their dreams.
+						{t('cta.subtitle')}
 					</Typography>
 					<Box sx={{ display: 'flex', gap: 2, justifyContent: 'center', flexWrap: 'wrap' }}>
 						<Button
@@ -472,7 +473,7 @@ function Home() {
 								'&:hover': { backgroundColor: '#f5f5f5' },
 							}}
 						>
-							Contact Us
+							{t('cta.contactButton')}
 						</Button>
 					</Box>
 				</Container>
