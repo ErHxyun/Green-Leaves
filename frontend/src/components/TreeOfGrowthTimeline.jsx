@@ -3,238 +3,240 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Leaf, HeartHandshake, Droplets, HandCoins, Users } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-import imgBookshelf from '../pictures/2016-08/2016-1.jpg';
-import imgPacked from '../pictures/2016-08/2016-2.jpg';
-import imgShippment from '../pictures/2016-08/2016-3.jpg';
-import imgArrival from '../pictures/2016-08/2016-4.jpg';
-import imgBooksReady from '../pictures/2016-08/2016-5.jpg';
-import imgBookCorner from '../pictures/2016-08/2016-6.jpg';
-import imgHomeVisit from '../pictures/2016-08/2016-7.jpg';
-import imgSchoolVisit from '../pictures/2016-08/2016-8.jpg';
+const publicImage = (p) => `${process.env.PUBLIC_URL}/pictures/${p}`;
 
-import imgGather from '../pictures/2016-07/2016-1.jpg';
-import imgCommunityEngagement from '../pictures/2016-07/2016-2.jpg';
-import imgMoments from '../pictures/2016-07/2016-3.jpg';
-import imgSupport from '../pictures/2016-07/2016-4.jpg';
-import imgProfessional from '../pictures/2016-07/2016-5.jpg';
+const imgBookshelf = publicImage('2016-08/2016-1.jpg');
+const imgPacked = publicImage('2016-08/2016-2.jpg');
+const imgShippment = publicImage('2016-08/2016-3.jpg');
+const imgArrival = publicImage('2016-08/2016-4.jpg');
+const imgBooksReady = publicImage('2016-08/2016-5.jpg');
+const imgBookCorner = publicImage('2016-08/2016-6.jpg');
+const imgHomeVisit = publicImage('2016-08/2016-7.jpg');
+const imgSchoolVisit = publicImage('2016-08/2016-8.jpg');
 
-import imgBookDonationEvent from '../pictures/2016-05/2016-1.jpg';
-import imgGrowRecognition from '../pictures/2016-05/2016-2.jpg';
-import imgLessonsBeyondClassroom from '../pictures/2016-05/2016-3.jpg';
-import imgConfidence from '../pictures/2016-05/2016-4.jpg';
+const imgGather = publicImage('2016-07/2016-1.jpg');
+const imgCommunityEngagement = publicImage('2016-07/2016-2.jpg');
+const imgMoments = publicImage('2016-07/2016-3.jpg');
+const imgSupport = publicImage('2016-07/2016-4.jpg');
+const imgProfessional = publicImage('2016-07/2016-5.jpg');
 
-import imgFuding1 from '../pictures/2017-Spring/2017-1.jpg';
-import imgFuding2 from '../pictures/2017-Spring/2017-2.jpg';
-import imgFuding3 from '../pictures/2017-Spring/2017-3.jpg';
+const imgBookDonationEvent = publicImage('2016-05/2016-1.jpg');
+const imgGrowRecognition = publicImage('2016-05/2016-2.jpg');
+const imgLessonsBeyondClassroom = publicImage('2016-05/2016-3.jpg');
+const imgConfidence = publicImage('2016-05/2016-4.jpg');
 
-import imgSichuan1 from '../pictures/2017-Winter/2017-1.jpg';
-import imgSichuan2 from '../pictures/2017-Winter/2017-2.jpg';
-import imgSichuan3 from '../pictures/2017-Winter/2017-3.jpg';
+const imgFuding1 = publicImage('2017-Spring/2017-1.jpg');
+const imgFuding2 = publicImage('2017-Spring/2017-2.jpg');
+const imgFuding3 = publicImage('2017-Spring/2017-3.jpg');
 
-import imgCampusDonation_1 from '../pictures/2018-Spring/2018-1.jpg';
-import imgCampusDonation_2 from '../pictures/2018-Spring/2018-2.jpg';
+const imgSichuan1 = publicImage('2017-Winter/2017-1.jpg');
+const imgSichuan2 = publicImage('2017-Winter/2017-2.jpg');
+const imgSichuan3 = publicImage('2017-Winter/2017-3.jpg');
 
-import imgKangbao1 from '../pictures/2018-Summer/2018-1.jpg';
-import imgKangbao2 from '../pictures/2018-Summer/2018-2.jpg';
-import imgKangbao3 from '../pictures/2018-Summer/2018-3.jpg';
-import imgKangbao4 from '../pictures/2018-Summer/2018-4.jpg';
+const imgCampusDonation_1 = publicImage('2018-Spring/2018-1.jpg');
+const imgCampusDonation_2 = publicImage('2018-Spring/2018-2.jpg');
 
-import imgKangbaoMeet1 from '../pictures/xiaokangbao/pic1.jpg';
-import imgKangbaoMeet2 from '../pictures/xiaokangbao/pic2.jpg';
-import imgKangbaoSmile1 from '../pictures/xiaokangbao/pic3.jpg';
-import imgKangbaoSmile2 from '../pictures/xiaokangbao/pic4.jpg';
-import imgKangbaoChristmas1 from '../pictures/xiaokangbao/pic5.jpg';
-import imgKangbaoChristmas2 from '../pictures/xiaokangbao/pic6.jpg';
-import imgKangbaoThankYou1 from '../pictures/xiaokangbao/pic7.jpg';
-import imgKangbaoThankYou2 from '../pictures/xiaokangbao/pic8.jpg';
+const imgKangbao1 = publicImage('2018-Summer/2018-1.jpg');
+const imgKangbao2 = publicImage('2018-Summer/2018-2.jpg');
+const imgKangbao3 = publicImage('2018-Summer/2018-3.jpg');
+const imgKangbao4 = publicImage('2018-Summer/2018-4.jpg');
 
-import imgKspring1 from '../pictures/2019-kangbao4/kspring1.jpg';
-import imgKspring2 from '../pictures/2019-kangbao4/kspring2.jpg';
-import imgKspring3 from '../pictures/2019-kangbao4/kspring3.jpg';
-import imgKspring4 from '../pictures/2019-kangbao4/kspring4.jpg';
-import imgKspring5 from '../pictures/2019-kangbao4/kspring5.jpg';
-import imgKspring6 from '../pictures/2019-kangbao4/kspring6.jpg';
-import imgKspring7 from '../pictures/2019-kangbao4/kspring7.jpg';
+const imgKangbaoMeet1 = publicImage('xiaokangbao/pic1.jpg');
+const imgKangbaoMeet2 = publicImage('xiaokangbao/pic2.jpg');
+const imgKangbaoSmile1 = publicImage('xiaokangbao/pic3.jpg');
+const imgKangbaoSmile2 = publicImage('xiaokangbao/pic4.jpg');
+const imgKangbaoChristmas1 = publicImage('xiaokangbao/pic5.jpg');
+const imgKangbaoChristmas2 = publicImage('xiaokangbao/pic6.jpg');
+const imgKangbaoThankYou1 = publicImage('xiaokangbao/pic7.jpg');
+const imgKangbaoThankYou2 = publicImage('xiaokangbao/pic8.jpg');
 
-import imgKenya1 from '../pictures/2019-Africa/africa1.jpg';
-import imgKenya2 from '../pictures/2019-Africa/africa2.jpg';
-import imgKenya3 from '../pictures/2019-Africa/africa3.jpg';
-import imgKenya4 from '../pictures/2019-Africa/africa4.jpg';
+const imgKspring1 = publicImage('2019-kangbao4/kspring1.jpg');
+const imgKspring2 = publicImage('2019-kangbao4/kspring2.jpg');
+const imgKspring3 = publicImage('2019-kangbao4/kspring3.jpg');
+const imgKspring4 = publicImage('2019-kangbao4/kspring4.jpg');
+const imgKspring5 = publicImage('2019-kangbao4/kspring5.jpg');
+const imgKspring6 = publicImage('2019-kangbao4/kspring6.jpg');
+const imgKspring7 = publicImage('2019-kangbao4/kspring7.jpg');
 
-import imgKenya11 from '../pictures/2019-Africa-2/africa1.jpg';
-import imgKenya12 from '../pictures/2019-Africa-2/africa2.jpg';
-import imgKenya13 from '../pictures/2019-Africa-2/africa3.jpg';
-import imgKenya14 from '../pictures/2019-Africa-2/africa4.jpg';
-import imgKenya15 from '../pictures/2019-Africa-2/africa5.jpg';
+const imgKenya1 = publicImage('2019-Africa/africa1.jpg');
+const imgKenya2 = publicImage('2019-Africa/africa2.jpg');
+const imgKenya3 = publicImage('2019-Africa/africa3.jpg');
+const imgKenya4 = publicImage('2019-Africa/africa4.jpg');
 
-import imgKangbaoPart11 from '../pictures/2019-kangbao/kangbao1.jpg';
-import imgKangbaoPart12 from '../pictures/2019-kangbao/kangbao2.jpg';
-import imgKangbaoPart13 from '../pictures/2019-kangbao/kangbao3.jpg';
-import imgKangbaoPart14 from '../pictures/2019-kangbao/kangbao4.jpg';
-import imgKangbaoPart15 from '../pictures/2019-kangbao/kangbao5.jpg';
-import imgKangbaoPart16 from '../pictures/2019-kangbao/kangbao6.jpg';
-import imgKangbaoPart17 from '../pictures/2019-kangbao/kangbao7.jpg';
-import imgKangbaoPart18 from '../pictures/2019-kangbao/kangbao8.jpg';
+const imgKenya11 = publicImage('2019-Africa-2/africa1.jpg');
+const imgKenya12 = publicImage('2019-Africa-2/africa2.jpg');
+const imgKenya13 = publicImage('2019-Africa-2/africa3.jpg');
+const imgKenya14 = publicImage('2019-Africa-2/africa4.jpg');
+const imgKenya15 = publicImage('2019-Africa-2/africa5.jpg');
 
-import imgSmile1 from '../pictures/2019-smile/smile1.jpg';
-import imgSmile2 from '../pictures/2019-smile/smile2.jpg';
-import imgSmile3 from '../pictures/2019-smile/smile3.jpg';
-import imgSmile4 from '../pictures/2019-smile/smile4.jpg';
-import imgSmile5 from '../pictures/2019-smile/smile5.jpg';
+const imgKangbaoPart11 = publicImage('2019-kangbao/kangbao1.jpg');
+const imgKangbaoPart12 = publicImage('2019-kangbao/kangbao2.jpg');
+const imgKangbaoPart13 = publicImage('2019-kangbao/kangbao3.jpg');
+const imgKangbaoPart14 = publicImage('2019-kangbao/kangbao4.jpg');
+const imgKangbaoPart15 = publicImage('2019-kangbao/kangbao5.jpg');
+const imgKangbaoPart16 = publicImage('2019-kangbao/kangbao6.jpg');
+const imgKangbaoPart17 = publicImage('2019-kangbao/kangbao7.jpg');
+const imgKangbaoPart18 = publicImage('2019-kangbao/kangbao8.jpg');
 
-import imgBack1 from '../pictures/2020-back/back1.jpg';
-import imgBack2 from '../pictures/2020-back/back2.jpg';
-import imgBack3 from '../pictures/2020-back/back3.jpg';
-import imgBack4 from '../pictures/2020-back/back4.jpg';
-import imgBack5 from '../pictures/2020-back/back5.jpg';
-import imgBack6 from '../pictures/2020-back/back6.jpg';
+const imgSmile1 = publicImage('2019-smile/smile1.jpg');
+const imgSmile2 = publicImage('2019-smile/smile2.jpg');
+const imgSmile3 = publicImage('2019-smile/smile3.jpg');
+const imgSmile4 = publicImage('2019-smile/smile4.jpg');
+const imgSmile5 = publicImage('2019-smile/smile5.jpg');
 
-import imgCovid1 from '../pictures/2020-COVID/covid1.jpg';
-import imgCovid2 from '../pictures/2020-COVID/covid2.jpg';
-import imgCovid3 from '../pictures/2020-COVID/covid3.jpg';
-import imgCovid4 from '../pictures/2020-COVID/covid4.jpg';
-import imgCovid5 from '../pictures/2020-COVID/covid5.jpg';
+const imgBack1 = publicImage('2020-back/back1.jpg');
+const imgBack2 = publicImage('2020-back/back2.jpg');
+const imgBack3 = publicImage('2020-back/back3.jpg');
+const imgBack4 = publicImage('2020-back/back4.jpg');
+const imgBack5 = publicImage('2020-back/back5.jpg');
+const imgBack6 = publicImage('2020-back/back6.jpg');
 
-import imgLonging1 from '../pictures/2020-longing/longing1.jpg';
-import imgLonging2 from '../pictures/2020-longing/longing2.jpg';
-import imgLonging3 from '../pictures/2020-longing/longing3.jpg';
+const imgCovid1 = publicImage('2020-COVID/covid1.jpg');
+const imgCovid2 = publicImage('2020-COVID/covid2.jpg');
+const imgCovid3 = publicImage('2020-COVID/covid3.jpg');
+const imgCovid4 = publicImage('2020-COVID/covid4.jpg');
+const imgCovid5 = publicImage('2020-COVID/covid5.jpg');
 
-import imgPandemic1 from '../pictures/2020-pandemic/pandemic1.jpg';
-import imgPandemic2 from '../pictures/2020-pandemic/pandemic2.jpg';
-import imgPandemic3 from '../pictures/2020-pandemic/pandemic3.jpg';
+const imgLonging1 = publicImage('2020-longing/longing1.jpg');
+const imgLonging2 = publicImage('2020-longing/longing2.jpg');
+const imgLonging3 = publicImage('2020-longing/longing3.jpg');
 
-import imgPBIC1 from '../pictures/2020-PBIC/pbic1.jpg';
-import imgPBIC2 from '../pictures/2020-PBIC/pbic2.jpg';
-import imgPBIC3 from '../pictures/2020-PBIC/pbic3.jpg';
+const imgPandemic1 = publicImage('2020-pandemic/pandemic1.jpg');
+const imgPandemic2 = publicImage('2020-pandemic/pandemic2.jpg');
+const imgPandemic3 = publicImage('2020-pandemic/pandemic3.jpg');
 
-import imgKangbao20201 from '../pictures/2020-kangbao/kangbao1.jpg';
-import imgKangbao20202 from '../pictures/2020-kangbao/kangbao2.jpg';
-import imgKangbao20203 from '../pictures/2020-kangbao/kangbao3.jpg';
-import imgKangbao20204 from '../pictures/2020-kangbao/kangbao4.jpg';
-import imgKangbao20205 from '../pictures/2020-kangbao/kangbao5.jpg';
-import imgKangbao20206 from '../pictures/2020-kangbao/kangbao6.png';
+const imgPBIC1 = publicImage('2020-PBIC/pbic1.jpg');
+const imgPBIC2 = publicImage('2020-PBIC/pbic2.jpg');
+const imgPBIC3 = publicImage('2020-PBIC/pbic3.jpg');
 
-import imgChampion1 from '../pictures/2020-champions/champion1.jpg';
-import imgChampion2 from '../pictures/2020-champions/champion2.jpg';
-import imgChampion3 from '../pictures/2020-champions/champion3.jpg';
-import imgChampion4 from '../pictures/2020-champions/champion4.jpg';
-import imgChampion5 from '../pictures/2020-champions/champion5.jpg';
+const imgKangbao20201 = publicImage('2020-kangbao/kangbao1.jpg');
+const imgKangbao20202 = publicImage('2020-kangbao/kangbao2.jpg');
+const imgKangbao20203 = publicImage('2020-kangbao/kangbao3.jpg');
+const imgKangbao20204 = publicImage('2020-kangbao/kangbao4.jpg');
+const imgKangbao20205 = publicImage('2020-kangbao/kangbao5.jpg');
+const imgKangbao20206 = publicImage('2020-kangbao/kangbao6.png');
 
-import imgClass1 from '../pictures/2021-class/class1.jpg';
-import imgClass2 from '../pictures/2021-class/class2.png';
-import imgClass3 from '../pictures/2021-class/class3.jpg';
-import imgClass4 from '../pictures/2021-class/class4.jpg';
+const imgChampion1 = publicImage('2020-champions/champion1.jpg');
+const imgChampion2 = publicImage('2020-champions/champion2.jpg');
+const imgChampion3 = publicImage('2020-champions/champion3.jpg');
+const imgChampion4 = publicImage('2020-champions/champion4.jpg');
+const imgChampion5 = publicImage('2020-champions/champion5.jpg');
 
-import imgLaba1 from '../pictures/2021-Laba/action1.jpg';
-import imgLaba2 from '../pictures/2021-Laba/action2.jpg';
-import imgLaba3 from '../pictures/2021-Laba/action3.jpg';
-import imgLaba4 from '../pictures/2021-Laba/action4.jpg';
+const imgClass1 = publicImage('2021-class/class1.jpg');
+const imgClass2 = publicImage('2021-class/class2.png');
+const imgClass3 = publicImage('2021-class/class3.jpg');
+const imgClass4 = publicImage('2021-class/class4.jpg');
 
-import imgMom1 from '../pictures/2021-womenDay/mom1.jpg';
-import imgMom2 from '../pictures/2021-womenDay/mom2.jpg';
+const imgLaba1 = publicImage('2021-Laba/action1.jpg');
+const imgLaba2 = publicImage('2021-Laba/action2.jpg');
+const imgLaba3 = publicImage('2021-Laba/action3.jpg');
+const imgLaba4 = publicImage('2021-Laba/action4.jpg');
 
-import imgDream1 from '../pictures/2021-dream/dream1.jpg';
-import imgDream2 from '../pictures/2021-dream/dream2.jpg';
-import imgDream3 from '../pictures/2021-dream/dream3.jpg';
-import imgDream4 from '../pictures/2021-dream/dream4.png';
-import imgDream5 from '../pictures/2021-dream/dream5.png';
-import imgDream6 from '../pictures/2021-dream/dream6.png';
-import imgDream7 from '../pictures/2021-dream/dream7.png';
+const imgMom1 = publicImage('2021-womenDay/mom1.jpg');
+const imgMom2 = publicImage('2021-womenDay/mom2.jpg');
 
-import imgCentennial1 from '../pictures/2021-centennial/centennial1.png';
-import imgCentennial2 from '../pictures/2021-centennial/centennial2.png';
-import imgCentennial3 from '../pictures/2021-centennial/centennial3.png';
+const imgDream1 = publicImage('2021-dream/dream1.jpg');
+const imgDream2 = publicImage('2021-dream/dream2.jpg');
+const imgDream3 = publicImage('2021-dream/dream3.jpg');
+const imgDream4 = publicImage('2021-dream/dream4.png');
+const imgDream5 = publicImage('2021-dream/dream5.png');
+const imgDream6 = publicImage('2021-dream/dream6.png');
+const imgDream7 = publicImage('2021-dream/dream7.png');
 
-import imgKangbao20211 from '../pictures/2021-kangbao/kangbao20211.jpg';
-import imgKangbao20212 from '../pictures/2021-kangbao/kangbao20212.jpg';
-import imgKangbao20213 from '../pictures/2021-kangbao/kangbao20213.jpg';
-import imgKangbao20214 from '../pictures/2021-kangbao/kangbao20214.jpg';
-import imgKangbao20215 from '../pictures/2021-kangbao/kangbao20215.jpg';
+const imgCentennial1 = publicImage('2021-centennial/centennial1.png');
+const imgCentennial2 = publicImage('2021-centennial/centennial2.png');
+const imgCentennial3 = publicImage('2021-centennial/centennial3.png');
 
-import imgReflection1 from '../pictures/2022-reflection/reflection1.gif';
+const imgKangbao20211 = publicImage('2021-kangbao/kangbao20211.jpg');
+const imgKangbao20212 = publicImage('2021-kangbao/kangbao20212.jpg');
+const imgKangbao20213 = publicImage('2021-kangbao/kangbao20213.jpg');
+const imgKangbao20214 = publicImage('2021-kangbao/kangbao20214.jpg');
+const imgKangbao20215 = publicImage('2021-kangbao/kangbao20215.jpg');
 
-import imgGift1 from '../pictures/2022-gift/gift1.jpg';
-import imgGift2 from '../pictures/2022-gift/gift2.jpg';
+const imgReflection1 = publicImage('2022-reflection/reflection1.gif');
 
-import imgDream20221 from '../pictures/2022-dream/dream20221.jpg';
-import imgDream20222 from '../pictures/2022-dream/dream20222.jpg';
-import imgDream20223 from '../pictures/2022-dream/dream20223.jpg';
+const imgGift1 = publicImage('2022-gift/gift1.jpg');
+const imgGift2 = publicImage('2022-gift/gift2.jpg');
 
-import imgGratitude1 from '../pictures/2022-gratitude/gratitude1.jpg';
-import imgGratitude2 from '../pictures/2022-gratitude/gratitude2.jpg';
+const imgDream20221 = publicImage('2022-dream/dream20221.jpg');
+const imgDream20222 = publicImage('2022-dream/dream20222.jpg');
+const imgDream20223 = publicImage('2022-dream/dream20223.jpg');
 
-import imgSpring1 from '../pictures/2023-spring/spring1.jpg';
-import imgSpring2 from '../pictures/2023-spring/spring2.jpg';
-import imgSpring4 from '../pictures/2023-spring/spring4.jpg';
-import imgSpring5 from '../pictures/2023-spring/spring5.jpg';
-import imgSpring6 from '../pictures/2023-spring/spring6.jpg';
-import imgSpring7 from '../pictures/2023-spring/spring7.jpg';
-import imgSpring8 from '../pictures/2023-spring/spring8.jpg';
+const imgGratitude1 = publicImage('2022-gratitude/gratitude1.jpg');
+const imgGratitude2 = publicImage('2022-gratitude/gratitude2.jpg');
 
-import imgRole1 from '../pictures/2023-rolemodel/role1.jpg';
-import imgRole2 from '../pictures/2023-rolemodel/role2.jpg';
-import imgRole3 from '../pictures/2023-rolemodel/role3.jpg';
-import imgRole4 from '../pictures/2023-rolemodel/role4.jpg';
-import imgRole5 from '../pictures/2023-rolemodel/role5.jpg';
-import imgRole6 from '../pictures/2023-rolemodel/role6.jpg';
-import imgRole7 from '../pictures/2023-rolemodel/role7.jpg';
-import imgRole8 from '../pictures/2023-rolemodel/role8.jpg';
-import imgRole9 from '../pictures/2023-rolemodel/role9.jpg';
-import imgRole10 from '../pictures/2023-rolemodel/role10.jpg';
-import imgRole11 from '../pictures/2023-rolemodel/role11.jpg';
-import imgRole12 from '../pictures/2023-rolemodel/role12.jpg';
-import imgRole13 from '../pictures/2023-rolemodel/role13.jpg';
-import imgRole14 from '../pictures/2023-rolemodel/role14.jpg';
+const imgSpring1 = publicImage('2023-spring/spring1.jpg');
+const imgSpring2 = publicImage('2023-spring/spring2.jpg');
+const imgSpring4 = publicImage('2023-spring/spring4.jpg');
+const imgSpring5 = publicImage('2023-spring/spring5.jpg');
+const imgSpring6 = publicImage('2023-spring/spring6.jpg');
+const imgSpring7 = publicImage('2023-spring/spring7.jpg');
+const imgSpring8 = publicImage('2023-spring/spring8.jpg');
 
-import imgNews1 from '../pictures/2023-goodnews/goodnews1.jpg';
-import imgNews2 from '../pictures/2023-goodnews/goodnews2.jpg';
-import imgNews3 from '../pictures/2023-goodnews/goodnews3.jpg';
-import imgNews4 from '../pictures/2023-goodnews/goodnews4.jpg';
-import imgNews5 from '../pictures/2023-goodnews/goodnews5.jpg';
-import imgNews6 from '../pictures/2023-goodnews/goodnews6.jpg';
-import imgNews7 from '../pictures/2023-goodnews/goodnews7.jpg';
-import imgNews8 from '../pictures/2023-goodnews/goodnews8.jpg';
-import imgNews9 from '../pictures/2023-goodnews/goodnews9.jpg';
-import imgNews10 from '../pictures/2023-goodnews/goodnews10.jpg';
-import imgNews11 from '../pictures/2023-goodnews/goodnews11.jpg';
+const imgRole1 = publicImage('2023-rolemodel/role1.jpg');
+const imgRole2 = publicImage('2023-rolemodel/role2.jpg');
+const imgRole3 = publicImage('2023-rolemodel/role3.jpg');
+const imgRole4 = publicImage('2023-rolemodel/role4.jpg');
+const imgRole5 = publicImage('2023-rolemodel/role5.jpg');
+const imgRole6 = publicImage('2023-rolemodel/role6.jpg');
+const imgRole7 = publicImage('2023-rolemodel/role7.jpg');
+const imgRole8 = publicImage('2023-rolemodel/role8.jpg');
+const imgRole9 = publicImage('2023-rolemodel/role9.jpg');
+const imgRole10 = publicImage('2023-rolemodel/role10.jpg');
+const imgRole11 = publicImage('2023-rolemodel/role11.jpg');
+const imgRole12 = publicImage('2023-rolemodel/role12.jpg');
+const imgRole13 = publicImage('2023-rolemodel/role13.jpg');
+const imgRole14 = publicImage('2023-rolemodel/role14.jpg');
 
-import imgSpring20241 from '../pictures/2024-spring/spring20241.png';
-import imgSpring20242 from '../pictures/2024-spring/spring20242.jpg';
-import imgSpring20243 from '../pictures/2024-spring/spring20243.jpg';
-import imgSpring20244 from '../pictures/2024-spring/spring20244.jpg';
-import imgSpring20245 from '../pictures/2024-spring/spring20245.jpg';
-import imgSpring20246 from '../pictures/2024-spring/spring20246.jpg';
-import imgSpring20247 from '../pictures/2024-spring/spring20247.jpg';
-import imgSpring20248 from '../pictures/2024-spring/spring20248.jpg';
-import imgSpring20249 from '../pictures/2024-spring/spring20249.jpg';
-import imgSpring202410 from '../pictures/2024-spring/spring202410.jpg';
-import imgSpring202411 from '../pictures/2024-spring/spring202411.jpg';
-import imgSpring202412 from '../pictures/2024-spring/spring202412.jpg';
+const imgNews1 = publicImage('2023-goodnews/goodnews1.jpg');
+const imgNews2 = publicImage('2023-goodnews/goodnews2.jpg');
+const imgNews3 = publicImage('2023-goodnews/goodnews3.jpg');
+const imgNews4 = publicImage('2023-goodnews/goodnews4.jpg');
+const imgNews5 = publicImage('2023-goodnews/goodnews5.jpg');
+const imgNews6 = publicImage('2023-goodnews/goodnews6.jpg');
+const imgNews7 = publicImage('2023-goodnews/goodnews7.jpg');
+const imgNews8 = publicImage('2023-goodnews/goodnews8.jpg');
+const imgNews9 = publicImage('2023-goodnews/goodnews9.jpg');
+const imgNews10 = publicImage('2023-goodnews/goodnews10.jpg');
+const imgNews11 = publicImage('2023-goodnews/goodnews11.jpg');
 
-import imgKangbao20241 from '../pictures/2024-kangbao/kangbao20241.jpg';
-import imgKangbao20242 from '../pictures/2024-kangbao/kangbao20242.jpg';
-import imgKangbao20243 from '../pictures/2024-kangbao/kangbao20243.jpg';
-import imgKangbao20244 from '../pictures/2024-kangbao/kangbao20244.jpg';
-import imgKangbao20245 from '../pictures/2024-kangbao/kangbao20245.jpg';
-import imgKangbao20246 from '../pictures/2024-kangbao/kangbao20246.jpg';
-import imgKangbao20247 from '../pictures/2024-kangbao/kangbao20247.jpg';
-import imgKangbao20248 from '../pictures/2024-kangbao/kangbao20248.jpg';
-import imgKangbao20249 from '../pictures/2024-kangbao/kangbao20249.jpg';
-import imgKangbao202410 from '../pictures/2024-kangbao/kangbao202410.jpg';
-import imgKangbao202411 from '../pictures/2024-kangbao/kangbao202411.jpg';
-import imgKangbao202412 from '../pictures/2024-kangbao/kangbao202412.png';
-import imgKangbao202413 from '../pictures/2024-kangbao/kangbao202413.png';
+const imgSpring20241 = publicImage('2024-spring/spring20241.png');
+const imgSpring20242 = publicImage('2024-spring/spring20242.jpg');
+const imgSpring20243 = publicImage('2024-spring/spring20243.jpg');
+const imgSpring20244 = publicImage('2024-spring/spring20244.jpg');
+const imgSpring20245 = publicImage('2024-spring/spring20245.jpg');
+const imgSpring20246 = publicImage('2024-spring/spring20246.jpg');
+const imgSpring20247 = publicImage('2024-spring/spring20247.jpg');
+const imgSpring20248 = publicImage('2024-spring/spring20248.jpg');
+const imgSpring20249 = publicImage('2024-spring/spring20249.jpg');
+const imgSpring202410 = publicImage('2024-spring/spring202410.jpg');
+const imgSpring202411 = publicImage('2024-spring/spring202411.jpg');
+const imgSpring202412 = publicImage('2024-spring/spring202412.jpg');
 
-import imgDecade1 from '../pictures/2025-decade/decade1.jpg';
-import imgDecade2 from '../pictures/2025-decade/decade2.jpg';
-import imgDecade3 from '../pictures/2025-decade/decade3.jpg';
-import imgDecade4 from '../pictures/2025-decade/decade4.jpg';
+const imgKangbao20241 = publicImage('2024-kangbao/kangbao20241.jpg');
+const imgKangbao20242 = publicImage('2024-kangbao/kangbao20242.jpg');
+const imgKangbao20243 = publicImage('2024-kangbao/kangbao20243.jpg');
+const imgKangbao20244 = publicImage('2024-kangbao/kangbao20244.jpg');
+const imgKangbao20245 = publicImage('2024-kangbao/kangbao20245.jpg');
+const imgKangbao20246 = publicImage('2024-kangbao/kangbao20246.jpg');
+const imgKangbao20247 = publicImage('2024-kangbao/kangbao20247.jpg');
+const imgKangbao20248 = publicImage('2024-kangbao/kangbao20248.jpg');
+const imgKangbao20249 = publicImage('2024-kangbao/kangbao20249.jpg');
+const imgKangbao202410 = publicImage('2024-kangbao/kangbao202410.jpg');
+const imgKangbao202411 = publicImage('2024-kangbao/kangbao202411.jpg');
+const imgKangbao202412 = publicImage('2024-kangbao/kangbao202412.png');
+const imgKangbao202413 = publicImage('2024-kangbao/kangbao202413.png');
 
-import imgLighting1 from '../pictures/2025-lighting/lighting1.jpg';
-import imgLighting2 from '../pictures/2025-lighting/lighting2.jpg';
-import imgLighting3 from '../pictures/2025-lighting/lighting3.png';
-import imgLighting4 from '../pictures/2025-lighting/lighting4.png';
-import imgLighting5 from '../pictures/2025-lighting/lighting5.png';
+const imgDecade1 = publicImage('2025-decade/decade1.jpg');
+const imgDecade2 = publicImage('2025-decade/decade2.jpg');
+const imgDecade3 = publicImage('2025-decade/decade3.jpg');
+const imgDecade4 = publicImage('2025-decade/decade4.jpg');
+
+const imgLighting1 = publicImage('2025-lighting/lighting1.jpg');
+const imgLighting2 = publicImage('2025-lighting/lighting2.jpg');
+const imgLighting3 = publicImage('2025-lighting/lighting3.png');
+const imgLighting4 = publicImage('2025-lighting/lighting4.png');
+const imgLighting5 = publicImage('2025-lighting/lighting5.png');
 
 const defaultData = [
 	{
@@ -4901,7 +4903,13 @@ export default function TreeOfGrowthTimeline({
 														key={i}
 														className='rounded-xl overflow-hidden border border-emerald-100 bg-white/70 shadow-sm backdrop-blur'
 													>
-														<img src={block.src} alt={block.alt || ''} className='w-full h-auto object-cover' />
+														<img
+															src={block.src}
+															alt={block.alt || ''}
+															loading='lazy'
+															decoding='async'
+															className='w-full h-auto object-cover'
+														/>
 														{block.caption && (
 															<figcaption className='px-4 py-2 text-xs md:text-sm text-emerald-800/80 border-t border-emerald-100 bg-emerald-50/60'>
 																{block.caption}
