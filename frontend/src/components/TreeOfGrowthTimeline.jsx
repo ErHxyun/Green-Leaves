@@ -48,6 +48,14 @@ import imgKangbaoChristmas2 from '../pictures/xiaokangbao/pic6.jpg';
 import imgKangbaoThankYou1 from '../pictures/xiaokangbao/pic7.jpg';
 import imgKangbaoThankYou2 from '../pictures/xiaokangbao/pic8.jpg';
 
+import imgKspring1 from '../pictures/2019-kangbao4/kspring1.jpg';
+import imgKspring2 from '../pictures/2019-kangbao4/kspring2.jpg';
+import imgKspring3 from '../pictures/2019-kangbao4/kspring3.jpg';
+import imgKspring4 from '../pictures/2019-kangbao4/kspring4.jpg';
+import imgKspring5 from '../pictures/2019-kangbao4/kspring5.jpg';
+import imgKspring6 from '../pictures/2019-kangbao4/kspring6.jpg';
+import imgKspring7 from '../pictures/2019-kangbao4/kspring7.jpg';
+
 import imgKenya1 from '../pictures/2019-Africa/africa1.jpg';
 import imgKenya2 from '../pictures/2019-Africa/africa2.jpg';
 import imgKenya3 from '../pictures/2019-Africa/africa3.jpg';
@@ -67,6 +75,12 @@ import imgKangbaoPart15 from '../pictures/2019-kangbao/kangbao5.jpg';
 import imgKangbaoPart16 from '../pictures/2019-kangbao/kangbao6.jpg';
 import imgKangbaoPart17 from '../pictures/2019-kangbao/kangbao7.jpg';
 import imgKangbaoPart18 from '../pictures/2019-kangbao/kangbao8.jpg';
+
+import imgSmile1 from '../pictures/2019-smile/smile1.jpg';
+import imgSmile2 from '../pictures/2019-smile/smile2.jpg';
+import imgSmile3 from '../pictures/2019-smile/smile3.jpg';
+import imgSmile4 from '../pictures/2019-smile/smile4.jpg';
+import imgSmile5 from '../pictures/2019-smile/smile5.jpg';
 
 import imgBack1 from '../pictures/2020-back/back1.jpg';
 import imgBack2 from '../pictures/2020-back/back2.jpg';
@@ -151,7 +165,6 @@ import imgGratitude2 from '../pictures/2022-gratitude/gratitude2.jpg';
 
 import imgSpring1 from '../pictures/2023-spring/spring1.jpg';
 import imgSpring2 from '../pictures/2023-spring/spring2.jpg';
-import imgSpring3 from '../pictures/2023-spring/spring3.jpg';
 import imgSpring4 from '../pictures/2023-spring/spring4.jpg';
 import imgSpring5 from '../pictures/2023-spring/spring5.jpg';
 import imgSpring6 from '../pictures/2023-spring/spring6.jpg';
@@ -984,7 +997,7 @@ const defaultData = [
 		events: [
 			{
 				id: '2019-kangbao-fourth-visit',
-				title: '2019-summmer kangbao-fourth-visit',
+				title: '2019-summer kangbao-fourth-visit',
 				detailBlocks: [
 					{ type: 'subtitle', content: 'Returning After One Year' },
 					{
@@ -992,11 +1005,13 @@ const defaultData = [
 						content:
 							'One year later, I returned for the fourth time. Walking into this place that felt both familiar and new, I noticed changes everywhere — cleaner streets, a more beautiful environment, more high-rise buildings, blue skies, white clouds, and a refreshing, gentle breeze. As I traveled through the town, I couldn’t help but reflect on how much he — and this place — had grown.',
 					},
+
 					{
 						type: 'text',
 						content:
 							'We arrived in the evening. Despite the four-hour drive, Little Green Leaves felt no exhaustion at all — we came carrying flowers and gratitude. Ms. Liang Jingjing, Chairwoman of the Kangbao County Women’s Federation, was still waiting to welcome us warmly. I shared the growth journey of Little Green Leaves and learned in detail about the situation of left-behind children in the county.',
 					},
+					{ type: 'image', src: imgKspring1, alt: 'Kangbao town view' },
 
 					{ type: 'subtitle', content: 'Love Helps Growth — No Child Left Alone' },
 					{
@@ -1004,23 +1019,26 @@ const defaultData = [
 						content:
 							'This visit was part of the Kangbao County Women’s Federation’s third round of the program “Love Helps Growth, No Child Left Alone,” which focuses on pairing and supporting left-behind children. Despite his busy schedule, County Mayor Li personally attended the event, listened carefully to the introductions from the “loving families,” and learned about the origin and development of Little Green Leaves. He expressed strong affirmation and encouragement.',
 					},
+					{ type: 'image', src: imgKspring3, alt: 'Kangbao event photo' },
 					{
 						type: 'text',
 						content:
 							'During the event, I was also honored to meet Ms. Fan Weihua, Chairwoman of Zhangjiakou Zhangheng Big Sister Domestic Services Co., Ltd., and Ms. Zhang Jing, Chairwoman of Hebei Hengtai Leather Goods Co., Ltd. Listening to their stories of helping children in need deeply moved me. I sincerely applaud these two compassionate leaders for their generosity and dedication.',
 					},
-
+					{ type: 'image', src: imgKspring2, alt: 'Kangbao event photo' },
 					{ type: 'subtitle', content: 'Standing Beneath the Flag' },
 					{
 						type: 'text',
 						content:
 							'When I once again put on the red Young Pioneer scarf and watched the national flag rise slowly in the hands of the students, I felt deeply moved. My love for this country is not only rooted in family, food, and beautiful scenery — but also in the pride that comes from its strength. Behind us stands a powerful nation we can rely on, giving us confidence and peace of mind. I believe every international student shares this same feeling.',
 					},
+					{ type: 'image', src: imgKspring4, alt: 'Raising the flag' },
 					{
 						type: 'text',
 						content:
 							'Little Green Leaves shared its own growth story with the students and spoke to them about the power of dreams. I hope every child can discover their own dream — and let it become the driving force that pushes them forward.',
 					},
+					{ type: 'image', src: imgKspring5, alt: 'Kangbao students' },
 
 					{ type: 'subtitle', content: 'A Meaningful Beginning' },
 					{
@@ -1028,6 +1046,7 @@ const defaultData = [
 						content:
 							'I sincerely invited Chairwoman Liang to serve as an “Ambassador of Love” for the Little Green Leaves Volunteer Alliance. She happily accepted. This was the very first invitation we have ever extended — and we believe it marks a beautiful beginning.',
 					},
+					{ type: 'image', src: imgKspring6, alt: 'Ambassador of Love invitation' },
 
 					{ type: 'subtitle', content: 'Beyond Books — What Children Truly Need' },
 					{
@@ -1045,6 +1064,7 @@ const defaultData = [
 						content:
 							'From this day forward, Little Green Leaves believes these children are no longer alone. The backpacks they carry hold not only books and knowledge, but also warmth, love, and the power of dreams.',
 					},
+					{ type: 'image', src: imgKspring7, alt: 'Children with backpacks' },
 
 					{ type: 'subtitle', content: 'Gratitude and Strength' },
 					{
@@ -1225,11 +1245,13 @@ const defaultData = [
 						content:
 							'In 2016, when I was twelve years old, I first met a child from a poor family. He was three years younger than me. When I gave him a few books, his reaction deeply moved me. That moment led me to decide to help children in impoverished mountain areas build reading corners — because I believed books were what they needed most.',
 					},
+					{ type: 'image', src: imgSmile1, alt: 'Child receiving books' },
 					{
 						type: 'text',
 						content:
 							'Over three years, we raised more than 20,000 donated books through various efforts and supported five mountain village primary schools. Yet as I visited these schools and spent time with the children, I realized something unexpected.',
 					},
+					{ type: 'image', src: imgSmile2, alt: 'Children in mountain school' },
 					{
 						type: 'text',
 						content:
@@ -1242,6 +1264,7 @@ const defaultData = [
 						content:
 							'In the summer of 2019, I had the opportunity to visit a welfare home in Africa that housed over 300 children. More than 100 of them were orphans; others had been taken in from the streets by their “daddy.” Their daily meals consisted only of boiled beans and rice. The water they drank was yellowish and murky, even after settling.',
 					},
+					{ type: 'image', src: imgSmile3, alt: 'African orphanage children' },
 					{
 						type: 'text',
 						content:
@@ -1264,6 +1287,7 @@ const defaultData = [
 						content:
 							'Some children were quiet and reserved, but most were sincere, optimistic, and deeply respectful of others’ feelings. I remember one visit vividly. We entered a crude building called a “classroom.” The children’s eyes were wide with nervous curiosity. Though timid, they stood up and introduced themselves bravely at the teacher’s request, then carefully accepted the “letters of love” we had written.',
 					},
+					{ type: 'image', src: imgSmile4, alt: 'Refugee children receiving letters' },
 					{
 						type: 'text',
 						content:
@@ -1276,6 +1300,7 @@ const defaultData = [
 						content:
 							'They had very little for entertainment — just one old football. After the initial shyness faded, we began playing together. The “soccer field” was a small dirt courtyard, barely 50–60 square meters. One section of wall served as the goal; if the ball hit it, it counted as a score.',
 					},
+					{ type: 'image', src: imgSmile5, alt: 'Playing football with refugee children' },
 					{
 						type: 'text',
 						content:
@@ -1986,7 +2011,7 @@ const defaultData = [
 						content:
 							'Yanan has also grown more open and confident. She now studies independently without her grandmother worrying, and I am truly happy for her. This autumn, she will enter sixth grade — and even little Li Kang is about to become a primary school student.',
 					},
-					{ type: 'image', src: imgKangbao20204, alt: 'Yanan', caption: 'Yanan in 2021.' },
+					{ type: 'image', src: imgKangbao20204, alt: 'Yanan', caption: 'Yanan in 2020.' },
 					{
 						type: 'text',
 						content:
@@ -2279,7 +2304,7 @@ const defaultData = [
 						content:
 							'Today is March 8, 2021 — the 111th International Women’s Day and the 98th Women’s Day celebrated in China, affectionately known as “Goddess Day.” On this special day, I wish a happy holiday to my forever-young goddess — my mom — and to all the goddesses around the world.',
 					},
-					{ type: 'image', src: imgMom1, alt: 'Mom', caption: 'To my forever-young goddess — my mom.' },
+					{ type: 'image', src: imgMom1, alt: 'Mom' },
 
 					{ type: 'subtitle', content: 'A Movie, A Memory' },
 					{
@@ -2318,7 +2343,7 @@ const defaultData = [
 						content:
 							'Wishing my goddess eternal youth — forever eighteen at heart. And wishing happiness and joy to every goddess in the world.',
 					},
-					{ type: 'image', src: imgMom2, alt: 'Mom', caption: "Happy Women's Day to all the goddesses!" },
+					{ type: 'image', src: imgMom2, alt: 'Mom' },
 				],
 			},
 			{
@@ -2989,23 +3014,14 @@ const defaultData = [
 					{
 						type: 'text',
 						content:
-							'As the first half of the 2022 Dream Journey came to a successful close, dozens of dream builders continued to offer care and generosity.',
-					},
-					{
-						type: 'text',
-						content:
-							'Like a clear, refreshing spring flowing through the height of summer, their love crossed mountains and rivers from all corners of the country, once again reaching the children.',
+							'As the first half of the 2022 Dream Journey came to a successful close, dozens of dream builders continued to offer care and generosity. Like a clear, refreshing spring flowing through the height of summer, their love crossed mountains and rivers from all corners of the country, once again reaching the children.',
 					},
 
 					{ type: 'subtitle', content: 'Delivering Warmth, Even Under the Summer Sun' },
 					{
 						type: 'text',
 						content:
-							'Despite the intense summer heat, local village officials and驻村工作组 leaders ensured that dream funds were delivered to the children as soon as they were received.',
-					},
-					{
-						type: 'text',
-						content: 'Their dedication ensured that every act of kindness reached the children without delay.',
+							'Despite the intense summer heat, local village officials and leaders ensured that dream funds were delivered to the children as soon as they were received. Their dedication ensured that every act of kindness reached the children without delay.',
 					},
 
 					{ type: 'subtitle', content: 'Growing Impact, Quiet Devotion' },
@@ -3110,7 +3126,7 @@ const defaultData = [
 						content: 'To date, **33 left-behind children** have been matched with one-on-one dream-building families.',
 					},
 
-					{ type: 'subtitle', content: 'Quiet Acts of Love' },
+					{ type: 'subtitle', content: 'Quiet Acts of Love' }, //13
 					{
 						type: 'text',
 						content:
@@ -3122,7 +3138,7 @@ const defaultData = [
 							'Many contribute quietly, asking that their names not be mentioned. For this selfless dedication, we extend our deepest gratitude.',
 					},
 
-					{ type: 'subtitle', content: 'Our Guiding Philosophy' },
+					{ type: 'subtitle', content: 'Our Guiding Philosophy' }, //16
 					{
 						type: 'text',
 						content:
@@ -3134,7 +3150,7 @@ const defaultData = [
 							'This is the philosophy behind our dream-building work, and it remains the goal that guides us forward.',
 					},
 
-					{ type: 'subtitle', content: 'From Children to Families, From Dreams to Futures' },
+					{ type: 'subtitle', content: 'From Children to Families, From Dreams to Futures' }, //19
 					{
 						type: 'text',
 						content: 'Helping a child can influence an entire family. Supporting growth can change the future.',
@@ -3144,7 +3160,7 @@ const defaultData = [
 						content: 'As long as we persist, we remain on the road. As long as we work hard, results will follow.',
 					},
 
-					{ type: 'subtitle', content: 'Gratitude Beyond Words' },
+					{ type: 'subtitle', content: 'Gratitude Beyond Words' }, //22
 					{
 						type: 'text',
 						content:
@@ -3193,7 +3209,7 @@ const defaultData = [
 	{
 		year: 2023,
 		title: 'Deep Roots',
-		summary: 'Impact audits show sustained outcomes in education, water access, and incomes.',
+		summary: 'Witness the growth, stand as a role model!',
 		events: [
 			{
 				id: 'a-new-beginning-again',
@@ -3248,19 +3264,19 @@ const defaultData = [
 						type: 'text',
 						content:
 							'Each article documents both the growth of Little Green Leaves and the selfless contributions of countless kindhearted supporters, preserving moments of warmth and sincerity.',
-					},
+					}, //12
 
 					{ type: 'subtitle', content: 'Eight Years of Love in Action' },
 					{
 						type: 'text',
 						content:
 							'From the spring of 2016 to the spring of 2023 — eight full years — Little Green Leaves has served as a channel of love, delivering care and warmth across the country to places where help was needed.',
-					},
+					}, //14
 					{
 						type: 'text',
 						content:
 							'During this time, we collected **over 30,000 donated books**, supported **seven primary schools and two orphanages**, and distributed **more than 1,000 pieces of donated clothing**.',
-					},
+					}, //15
 					{
 						type: 'text',
 						content:
@@ -3272,32 +3288,32 @@ const defaultData = [
 						type: 'text',
 						content:
 							'In 2019, we successfully established a **Chinese Reading Corner** at the Garden Home Orphanage in Africa.',
-					},
+					}, //18
 					{
 						type: 'text',
 						content: 'Though small, I believe it will continue to grow — just like Little Green Leaves itself.',
-					},
+					}, //19
 					{
 						type: 'text',
 						content:
 							'I also believe that this small Chinese reading corner will open a window for African children to understand China, and serve as a bridge connecting them to the wider world.',
-					},
+					}, //20
 
 					{ type: 'subtitle', content: 'Dream Platform: Love Never Paused' },
 					{
 						type: 'text',
 						content:
 							'In 2021, I launched the Little Green Leaves Dream Platform to help left-behind children find one-on-one dream-building families.',
-					},
+					}, //22
 					{
 						type: 'text',
 						content: 'Even during the most difficult years of the pandemic, love continued to move forward.',
-					},
+					}, //23
 					{
 						type: 'text',
 						content:
 							'Over the past two years, we have successfully supported **35 students** facing hardship. Currently, **32 students** continue to receive sponsorship.',
-					},
+					}, //24
 					{
 						type: 'text',
 						content: 'By the end of 2022, total dream sponsorship funds reached **126,400 RMB**.',
@@ -3306,14 +3322,14 @@ const defaultData = [
 						type: 'text',
 						content:
 							'While the financial support may not be large, it provides powerful emotional strength — and often gives an entire family hope for the future.',
-					},
+					}, //26
 
-					{ type: 'subtitle', content: 'Every Reader Is a Dream Builder' },
+					{ type: 'subtitle', content: 'Every Reader Is a Dream Builder' }, //27
 					{
 						type: 'text',
 						content:
 							'From just a few readers, to dozens, hundreds, and sometimes thousands — every reader of the Little Green Leaves public account is a bearer of great love.',
-					},
+					}, //28
 					{
 						type: 'text',
 						content: 'Thank you for following and walking alongside us throughout this journey.',
@@ -3322,17 +3338,17 @@ const defaultData = [
 						type: 'text',
 						content:
 							'My deepest gratitude goes to every supporter — family, friends, teachers, classmates, and kindhearted individuals I may or may not have met.',
-					},
+					}, //30
 					{
 						type: 'text',
 						content:
 							'It is your selfless love that gives Little Green Leaves the strength to persist, and your quiet support that gives us the confidence to move forward with warmth.',
 					},
 
-					{ type: 'subtitle', content: 'From Across the Ocean, With Blessings' },
+					{ type: 'subtitle', content: 'From Across the Ocean, With Blessings' }, //32
 					{
 						type: 'text',
-						content: 'At this moment, from across the ocean, I send my New Year’s wishes to you.',
+						content: 'At this moment, from across the ocean, I send my New Year’s wishes to you.', //33
 					},
 					{
 						type: 'text',
@@ -3351,7 +3367,7 @@ const defaultData = [
 						content: 'May 2023 bring fulfillment, happiness, and beautiful moments.',
 					},
 
-					{ type: 'subtitle', content: 'With Gratitude' },
+					{ type: 'subtitle', content: 'With Gratitude' }, //38
 					{
 						type: 'text',
 						content: 'From little green leaves to a forest — thank you for being here.',
@@ -3378,40 +3394,39 @@ const defaultData = [
 					{
 						type: 'text',
 						content: 'The **third year** of the Little Green Leaves Dream Platform has officially begun.',
-					},
+					}, //3
 
-					{ type: 'subtitle', content: 'The Flow of Love' },
+					{ type: 'subtitle', content: 'The Flow of Love' }, //4
 					{
 						type: 'text',
 						content:
 							'With the start of a new semester in the first half of 2023, the love and warmth of **35 dream builders** crossed mountains and distances, arriving — as promised — in the hands of every child in need.',
 					},
-					{ type: 'image', src: imgSpring1, alt: 'Little Green Leaves Spring 2023' },
-					{ type: 'image', src: imgSpring2, alt: 'Little Green Leaves Spring 2023' },
-					{ type: 'image', src: imgSpring3, alt: 'Little Green Leaves Spring 2023' },
-					{ type: 'image', src: imgSpring4, alt: 'Little Green Leaves Spring 2023' },
+					{ type: 'image', src: imgSpring1, alt: 'Little Green Leaves Spring 2023' }, //6
+					{ type: 'image', src: imgSpring2, alt: 'Little Green Leaves Spring 2023' }, //7
+					{ type: 'image', src: imgSpring4, alt: 'Little Green Leaves Spring 2023' }, //8
 
-					{ type: 'subtitle', content: 'Warmth, Delivered with Care' },
+					{ type: 'subtitle', content: 'Warmth, Delivered with Care' }, //9
 					{
 						type: 'text',
 						content:
 							'All dream sponsorship funds were personally delivered to the supported children by **Deputy Mayor Liu Yanfeng of Kangbao Town**.',
-					},
+					}, //10
 					{
 						type: 'text',
 						content:
 							'Photos and videos were shared in the “Dream Builder Group,” allowing sponsors to clearly see where their love went, while helping children truly feel society’s care and warmth.',
 					},
-					{ type: 'image', src: imgSpring5, alt: 'Little Green Leaves Spring 2023' },
-					{ type: 'image', src: imgSpring6, alt: 'Little Green Leaves Spring 2023' },
-					{ type: 'image', src: imgSpring7, alt: 'Little Green Leaves Spring 2023' },
-					{ type: 'image', src: imgSpring8, alt: 'Little Green Leaves Spring 2023' },
+					{ type: 'image', src: imgSpring5, alt: 'Little Green Leaves Spring 2023' }, //12
+					{ type: 'image', src: imgSpring6, alt: 'Little Green Leaves Spring 2023' }, //13
+					{ type: 'image', src: imgSpring7, alt: 'Little Green Leaves Spring 2023' }, //14
+					{ type: 'image', src: imgSpring8, alt: 'Little Green Leaves Spring 2023' }, //15
 					{
 						type: 'text',
 						content: 'We sincerely thank Deputy Mayor Liu for using his personal time to build this bridge of love.',
-					},
+					}, //16
 
-					{ type: 'subtitle', content: 'Our Growing Impact' },
+					{ type: 'subtitle', content: 'Our Growing Impact' }, //17
 					{
 						type: 'text',
 						content: 'Since the spring of 2021, the Little Green Leaves Dream Platform has grown steadily.',
@@ -3419,16 +3434,16 @@ const defaultData = [
 					{
 						type: 'text',
 						content: '- Dream builders: from **1** to **45**\n- Supported children: from **1** to **42**',
-					},
+					}, //19
 					{
 						type: 'text',
 						content:
 							'Although some sponsorships paused due to changing circumstances, love has never stopped flowing. New dream builders continue to join, and sponsorships are adjusted responsibly to ensure fairness and effectiveness.',
-					},
+					}, //20
 					{
 						type: 'text',
 						content: 'As of today, **35 students** continue to receive sustained support and care.',
-					},
+					}, //21
 
 					{ type: 'subtitle', content: 'Year-by-Year Progress' },
 					{
@@ -3437,17 +3452,17 @@ const defaultData = [
 							'- **2021**: 17 underprivileged students supported\n' +
 							'- **2022**: Expanded to 31 students\n' +
 							'- **2023 (First Half)**: 42 students supported in total; 4 cases discontinued due to eligibility review; **35 students currently supported**',
-					},
+					}, //23
 
-					{ type: 'subtitle', content: 'Beyond Support, Toward Hope' },
+					{ type: 'subtitle', content: 'Beyond Support, Toward Hope' }, //24
 					{
 						type: 'text',
 						content:
 							'Every act of trust and generosity does more than offer material support — it delivers encouragement, confidence, and a positive force that helps shape a child’s future.',
-					},
+					}, //25
 					{
 						type: 'text',
-						content: 'It brings hope not only to one child, but to an entire family.',
+						content: 'It brings hope not only to one child, but to an entire family.', //26
 					},
 
 					{ type: 'subtitle', content: 'Our Guiding Philosophy' },
@@ -3467,88 +3482,88 @@ const defaultData = [
 				id: 'witness-growth-become-a-role-model',
 				title: 'Witnessing Growth, Becoming a Role Model',
 				detailBlocks: [
-					{ type: 'subtitle', content: 'Returning to Kangbao, Once Again' },
+					{ type: 'subtitle', content: 'Returning to Kangbao, Once Again' }, //0
 					{
 						type: 'text',
 						content: 'Five summers later, today marks my **seventh visit** to the Bashang Plateau — Kangbao.',
-					},
+					}, //1
 					{
 						type: 'text',
 						content:
 							'In the summer of 2018, Little Green Leaves helped establish reading corners in two primary schools in Kangbao County, Zhangjiakou. It was during that journey that I met you — Li Kang — and from that moment on, a bond was formed that could never be undone.',
-					},
+					}, //2
 
-					{ type: 'subtitle', content: 'Where the Story Began' },
+					{ type: 'subtitle', content: 'Where the Story Began' }, //3
 					{
 						type: 'text',
 						content:
 							'Through the introduction of Deputy Mayor Liu Yanfeng of Kangbao Town, I learned that Li Kang was five years old, living in Daoyindi Village. His father had passed away in a traffic accident, his mother had remarried, and he lived with his ailing grandparents.',
-					},
+					}, //4
 					{
 						type: 'text',
 						content:
 							'Local leaders were searching for a caring family to support him. The coincidence felt almost miraculous — a bond between Kangbao and us, between Li Kang and Little Green Leaves.',
 					},
 
-					{ type: 'subtitle', content: 'The First Decision' },
+					{ type: 'subtitle', content: 'The First Decision' }, //6
 					{
 						type: 'text',
 						content:
 							'In June 2018, I visited you at kindergarten for the first time. At that moment, I made a bold decision — to accompany you as you grew up, and to witness our growth together.',
-					},
-					{ type: 'image', src: imgRole1, alt: 'Li Kang First Meeting' },
+					}, //7
+					{ type: 'image', src: imgRole1, alt: 'Li Kang First Meeting' }, //8
 					{
 						type: 'text',
 						content:
 							'Back then, both of us were still shy and uncertain. You looked into the camera with a hint of nervousness, unfamiliar with the world.',
-					},
+					}, //9
 
-					{ type: 'subtitle', content: 'Your First Birthday Together' },
+					{ type: 'subtitle', content: 'Your First Birthday Together' }, //10
 					{
 						type: 'text',
 						content:
 							'In August of the same year, just before the school year began, I returned to Kangbao. It was the first birthday we celebrated together — your fifth.',
-					},
-					{ type: 'image', src: imgRole2, alt: 'Li Kang Birthday' },
+					}, //11
+					{ type: 'image', src: imgRole2, alt: 'Li Kang Birthday' }, //12
 					{
 						type: 'text',
 						content:
 							'Inside a small, worn home, a slightly unstable table held a birthday cake. Surrounded by loved ones, we celebrated a simple yet unforgettable moment.',
-					},
+					}, //13
 
 					{ type: 'subtitle', content: 'Winter Warmth' },
 					{
 						type: 'text',
 						content:
 							'In December 2018, during winter break, I returned again after settling back home. Carrying bags of gifts, I walked through a weathered gate and saw two newly built brick rooms provided by the government.',
-					},
+					}, //15
 					{ type: 'image', src: imgRole3, alt: 'Li Kang Winter Visit' },
 					{ type: 'image', src: imgRole4, alt: 'Li Kang Winter Visit' },
 					{
 						type: 'text',
 						content:
 							'Even more joyful was seeing your brighter smile. The sense of unfamiliarity had faded — replaced by closeness and endless conversation.',
-					},
+					}, //18
 
 					{ type: 'subtitle', content: 'Running Toward the Future' },
 					{
 						type: 'text',
 						content:
 							'In the summer of 2019, after a four-hour drive, I arrived in Kangbao once more. This time, you jumped off an electric bike and ran toward us.',
-					},
-					{ type: 'image', src: imgRole5, alt: 'Li Kang Summer Visit' },
+					}, //20
+					{ type: 'image', src: imgRole5, alt: 'Li Kang Summer Visit' }, //21
 					{
 						type: 'text',
 						content: 'You held your new backpack tightly, circling around us nonstop, overflowing with excitement.',
-					},
+					}, //22
 
 					{ type: 'subtitle', content: 'Fearless Play, Quiet Growth' },
 					{
 						type: 'text',
 						content:
 							'After changing into new clothes, you insisted on going to the village committee office to play. You carefully learned the characters posted at the entrance, then climbed and explored like a little monkey.',
-					},
-					{ type: 'image', src: imgRole6, alt: 'Li Kang Playing' },
+					}, //24
+					{ type: 'image', src: imgRole6, alt: 'Li Kang Playing' }, //25
 
 					{
 						type: 'text',
@@ -3556,81 +3571,81 @@ const defaultData = [
 							'I stood below, a little worried, afraid you might fall — but you played with confidence and courage, fully immersed in joy.',
 					},
 					{ type: 'image', src: imgRole7, alt: 'Li Kang Playing' },
-					{ type: 'subtitle', content: 'Confidence Takes Root' },
+					{ type: 'subtitle', content: 'Confidence Takes Root' }, //28
 					{
 						type: 'text',
 						content:
 							'In December 2019, on a snowy winter solstice, I returned again. Wrapped like a little dumpling, you ran out to greet my mother and me, crunching through the snow.',
-					},
+					}, //29
 					{ type: 'image', src: imgRole8, alt: 'Li Kang Winter Visit' },
 					{
 						type: 'text',
 						content:
 							'Standing on the warm kang bed, you tried on bright red new clothes, proudly saying, “I have a brother studying in the United States.” You were becoming more confident, brave, and joyful.',
-					},
+					}, //31
 
-					{ type: 'subtitle', content: 'Growing Without Distance' },
+					{ type: 'subtitle', content: 'Growing Without Distance' }, //32
 					{
 						type: 'text',
 						content:
 							'After the pandemic, I finally returned in the summer of 2021. Together with my cousin, I brought you the roller skates you had long dreamed of.',
-					},
+					}, //33
 					{ type: 'image', src: imgRole9, alt: 'Li Kang Roller Skates' },
 					{
 						type: 'text',
 						content:
 							'There was no sense of distance at all — only excitement. You eagerly showed me your progress: starting primary school, learning pinyin, solving math problems, talking about your teachers and friends.',
-					},
+					}, //35
 					{ type: 'image', src: imgRole10, alt: 'Li Kang Roller Skates' },
 
-					{ type: 'subtitle', content: 'Five Years Later' },
+					{ type: 'subtitle', content: 'Five Years Later' }, //37
 					{
 						type: 'text',
 						content:
 							'2022 was a year of intense college applications, and I was unable to visit. Today, in 2023, I finally returned — this time driving the entire journey myself after earning my license.',
-					},
-					{ type: 'image', src: imgRole11, alt: 'Li Kang 2023 Visit' },
+					}, //38
+					{ type: 'image', src: imgRole11, alt: 'Li Kang 2023 Visit' }, //39
 					{
 						type: 'text',
 						content:
 							'You had grown taller, your smile brighter, your personality more open. Compared to the timid child I first met, you now spoke with confidence, like a young grown-up.',
-					},
+					}, //40
 					{ type: 'image', src: imgRole12, alt: 'Li Kang 2023 Visit' },
 
-					{ type: 'subtitle', content: 'Learning, Dreaming, Believing' },
+					{ type: 'subtitle', content: 'Learning, Dreaming, Believing' }, //42
 					{
 						type: 'text',
 						content:
 							'Five years passed in a blink. You are now a third-grade student. After playtime, you opened your textbooks and calligraphy practice sheets to ask questions.',
-					},
+					}, //43
 					{ type: 'image', src: imgRole13, alt: 'Li Kang Studying' },
 					{
 						type: 'text',
 						content:
 							'I gently reminded you that handwriting reflects character — to write carefully, stroke by stroke.',
-					},
+					}, //45
 
-					{ type: 'subtitle', content: 'A Voice of Determination' },
+					{ type: 'subtitle', content: 'A Voice of Determination' }, //46
 					{
 						type: 'text',
 						content: 'When I asked if you believed you could attend university someday, you answered softly, “Yes.”',
-					},
+					}, //47
 					{
 						type: 'text',
 						content: 'When I asked again, you gathered all your strength and shouted loudly, “Yes!”',
-					},
+					}, //48
 
 					{ type: 'subtitle', content: 'Growing Together' },
 					{
 						type: 'text',
 						content:
 							'I do not know exactly who you will become in the future, but I truly look forward to seeing your efforts — your joy, your optimism, your kindness, and your respect for family and teachers.',
-					},
+					}, //50
 					{
 						type: 'text',
 						content:
 							'As I witness your growth, I will not stop moving forward either. I will continue striving to be the role model you can look up to.',
-					},
+					}, //51
 					{ type: 'image', src: imgRole14, alt: 'Li Kang 2023 Visit' },
 				],
 			},
@@ -3643,26 +3658,26 @@ const defaultData = [
 						type: 'text',
 						content:
 							'Today, we are delighted to share the inspiring achievements of the Little Green Leaves Dream Platform in 2023.',
-					},
+					}, //1
 
-					{ type: 'subtitle', content: 'Every Contribution Delivered with Care' },
+					{ type: 'subtitle', content: 'Every Contribution Delivered with Care' }, //2
 					{
 						type: 'text',
 						content:
 							'First, we are pleased to announce a reassuring and meaningful update. After multiple rounds of verification and review, the Little Green Leaves Dream Platform can confidently confirm that **all sponsorship funds for the second half of 2023 have been fully and accurately delivered to every supported child**.',
-					},
+					}, //3
 					{
 						type: 'text',
 						content:
 							'Each contribution represents more than material assistance — it carries the deep care and heartfelt love of our dream builders. We are proud and grateful to have successfully delivered this warmth, as intense and genuine as summer sunshine, into the hands of the children.',
-					},
+					}, //4
 
 					{ type: 'subtitle', content: 'Growing Together, Reaching Further' },
 					{
 						type: 'text',
 						content:
 							'With the continued trust and support of our dream builders, the Dream Platform has reached new milestones this year.',
-					},
+					}, //6
 					{ type: 'image', src: imgNews1, alt: 'Dream Platform 2023 Achievements' },
 					{ type: 'image', src: imgNews2, alt: 'Dream Platform 2023 Achievements' },
 					{ type: 'image', src: imgNews3, alt: 'Dream Platform 2023 Achievements' },
@@ -3672,7 +3687,7 @@ const defaultData = [
 						type: 'text',
 						content:
 							'In 2023 alone, we expanded our support to **19 additional children** — young individuals facing economic hardship, yet full of hope and passion for life.',
-					},
+					}, //12
 					{
 						type: 'text',
 						content:
@@ -3682,52 +3697,52 @@ const defaultData = [
 						type: 'text',
 						content:
 							'Since 2021, the Little Green Leaves Dream Platform has supported **53 children** in total, with cumulative sponsorship funds reaching **237,800 RMB**.',
-					},
+					}, //14
 					{ type: 'image', src: imgNews6, alt: 'Dream Platform 2023 Achievements' },
 					{ type: 'image', src: imgNews7, alt: 'Dream Platform 2023 Achievements' },
 					{ type: 'image', src: imgNews8, alt: 'Dream Platform 2023 Achievements' },
 					{ type: 'image', src: imgNews9, alt: 'Dream Platform 2023 Achievements' },
 					{ type: 'image', src: imgNews10, alt: 'Dream Platform 2023 Achievements' },
 
-					{ type: 'subtitle', content: 'A Story of Resilience and Hope' },
+					{ type: 'subtitle', content: 'A Story of Resilience and Hope' }, //20
 					{
 						type: 'text',
 						content:
 							'Among the many children supported by the Dream Platform, one story stands out — that of **Student Wu**.',
-					},
+					}, //21
 					{
 						type: 'text',
 						content:
 							'Her upbringing was filled with hardship. She lost her mother at a young age, and her father was unable to work due to illness. From early on, she learned independence and lived for long periods with her aunt.',
-					},
+					}, //22
 					{
 						type: 'text',
 						content:
 							'Despite life’s challenges, she persevered with determination and discipline. This year, she achieved an impressive **568 points on the National College Entrance Examination** and was successfully admitted to **Hebei University**.',
-					},
+					}, //23
 					{
 						type: 'text',
 						content:
 							'Her success is a source of pride for the Dream Platform — and for every dream builder who supported her. Her journey proves that even in adversity, effort can carve a path forward.',
-					},
-					{ type: 'image', src: imgNews11, alt: 'Student Wu College Entrance Exam' },
+					}, //24
+					{ type: 'image', src: imgNews11, alt: 'Student Wu College Entrance Exam' }, //25
 					{
 						type: 'text',
 						content:
 							'With your continued companionship and encouragement, we believe more children will follow in her footsteps — breaking through hardship and pursuing their dreams with courage.',
-					},
+					}, //26
 
 					{ type: 'subtitle', content: 'Our Guiding Mission' },
 					{
 						type: 'text',
 						content:
 							'We remain committed to the founding mission of the Little Green Leaves Dream Platform: to help students escape poverty both materially and emotionally, to learn how to change their destinies, and to cultivate a spirit of contribution and gratitude.',
-					},
+					}, //28
 					{
 						type: 'text',
 						content:
 							'We strive to guide them toward a positive, optimistic outlook on life and to achieve meaningful, lasting transformation. This is our philosophy — and our ultimate goal.',
-					},
+					}, //29
 
 					{ type: 'subtitle', content: 'With Deep Gratitude' },
 					{
@@ -3747,7 +3762,7 @@ const defaultData = [
 	{
 		year: 2024,
 		title: 'Forest of Allies',
-		summary: 'Corporate matching and local stewardship councils accelerate scale.',
+		summary: 'Years of Efforts, Together We Grow!',
 		events: [
 			{
 				id: 'little-green-leaves-first-five-years',
@@ -3770,73 +3785,79 @@ const defaultData = [
 						type: 'text',
 						content:
 							'Along the way, Little Green Leaves grew side by side with its founder — from youthful uncertainty to steady commitment — each step taken firmly on the road of purpose and compassion.',
-					},
+					}, //4
 
-					{ type: 'subtitle', content: 'From Giving Things to Nurturing Dreams' },
+					{ type: 'subtitle', content: 'From Giving Things to Nurturing Dreams' }, //5
 					{
 						type: 'text',
 						content:
 							'Over time, Little Green Leaves evolved from collecting books and clothing into building a one-to-one Dream Support system.',
-					},
+					}, //6
 					{
 						type: 'text',
 						content:
 							'The mission expanded from meeting material needs to nurturing inner strength — offering emotional support, encouragement, and long-term companionship to children in need.',
-					},
+					}, //7
 
-					{ type: 'subtitle', content: 'Books as Bridges to the World' },
+					{
+						type: 'text',
+						content:
+							'Five years of efforts. We cannot reach this point without you. Thank you for being part of our journey.',
+					}, //8
+
+					{ type: 'subtitle', content: 'Books as Bridges to the World' }, //9
 					{
 						type: 'text',
 						content:
 							'Since its beginnings, Little Green Leaves has collected and donated over **30,000 books**, supporting **7 rural primary schools** and **2 orphanages**.',
-					},
+					}, //10
 					{
 						type: 'text',
 						content:
 							'Along the way, **2 libraries and 46 reading corners** were established — including a special **Chinese Reading Corner in an African orphanage**, opening a small yet meaningful window for children to understand China and the wider world.',
-					},
+					}, //11
 
-					{ type: 'subtitle', content: 'Love Never Paused, Even in Uncertainty' },
+					{ type: 'subtitle', content: 'Love Never Paused, Even in Uncertainty' }, //12
 					{
 						type: 'text',
 						content: 'During the pandemic, when distance separated people, compassion continued to travel.',
-					},
+					}, //13
 					{
 						type: 'text',
 						content:
 							'In 2020, the Little Green Leaves team participated in the **Public Benefit International Challenge for Youth (PBIC)**, earning the **National Championship** and raising **86,868 RMB** to support an African orphanage.',
-					},
+					}, //14
 
-					{ type: 'subtitle', content: 'The Dream Platform Takes Root' },
+					{ type: 'subtitle', content: 'The Dream Platform Takes Root' }, //15
 					{
 						type: 'text',
 						content:
 							'In 2021, Little Green Leaves launched the Dream Platform, focusing on the emotional well-being of left-behind children and building long-term, one-to-one support relationships.',
-					},
+					}, //16
 					{
 						type: 'text',
 						content:
 							'Over three years, the platform has supported **54 children**, with **45 currently receiving sponsorship**, and total contributions reaching **232,600 RMB**.',
-					},
+					}, //17
 					{
 						type: 'text',
 						content:
 							'Behind these numbers are **56 dream builders** from diverse backgrounds — students, professionals, medical workers, entrepreneurs — many of whom had never met the founder, yet chose trust and kindness.',
-					},
+					}, //18
 
-					{ type: 'subtitle', content: 'Trust That Grows into a Forest' },
+					{ type: 'subtitle', content: 'Trust That Grows into a Forest' }, //19
 					{
 						type: 'text',
 						content:
 							'This journey was never walked alone. Each supporter offered not only resources, but belief — turning small acts of kindness into a growing forest of hope.',
-					},
+					}, //20
 
-					{ type: 'subtitle', content: 'Looking Ahead to the Next Five Years' },
+					{ type: 'subtitle', content: 'Looking Ahead to the Next Five Years' }, //21
 					{
 						type: 'text',
 						content:
 							'The first five years laid the roots. The next chapters will continue to grow — supporting more children, strengthening more families, and writing new stories of resilience and love.',
-					},
+					}, //22
 					{
 						type: 'text',
 						content:
@@ -3848,39 +3869,39 @@ const defaultData = [
 				id: 'little-green-leaves-spring-2024',
 				title: 'The Spring of Little Green Leaves',
 				detailBlocks: [
-					{ type: 'subtitle', content: 'Spring Returns, Growth Continues' },
+					{ type: 'subtitle', content: 'Spring Returns, Growth Continues' }, //0
 					{
 						type: 'text',
 						content:
 							'As spring arrives once again, the Little Green Leaves Dream Platform quietly completes its third year. What began in the spring of 2021 as a small seed has steadily grown — from zero, to one, and then to many.',
-					},
+					}, //1
 					{
 						type: 'text',
 						content:
 							'Over the past three years, we have helped **58 children from underprivileged backgrounds** find one-to-one dream-support families. While some sponsorships were paused due to eligibility changes, **48 children are currently continuing to receive sustained care and support**.',
-					},
+					}, //2
 
-					{ type: 'subtitle', content: 'Love That Never Stops Flowing' },
+					{ type: 'subtitle', content: 'Love That Never Stops Flowing' }, //3
 					{
 						type: 'text',
 						content:
 							'During these three years, **64 dream builders** joined the Little Green Leaves journey. Some had to pause along the way for personal reasons, yet warmth never stopped flowing — new dream builders continued to arrive, one after another.',
-					},
+					}, //4
 					{
 						type: 'text',
 						content:
 							'They come from all walks of life: business leaders, principals, doctors, teachers, lawyers, young professionals, university students, and high school students. They come from across the country.',
-					},
+					}, //5
 					{
 						type: 'text',
 						content:
 							'Some are family members, teachers, friends, or classmates of Little Green Leaves — but most are people who had never met us, and in some cases, did not even know us before choosing to trust, support, and walk this path without hesitation.',
-					},
+					}, //6
 					{
 						type: 'text',
 						content:
 							'It is this unconditional trust that gives Little Green Leaves the courage to persist and the strength to move forward with warmth. Perhaps this is the quiet power of unseen connections — an energy that brings us together on the road of building dreams.',
-					},
+					}, //7
 					{ type: 'image', src: imgSpring20241, alt: 'Little Green Leaves Spring 2024' },
 					{ type: 'image', src: imgSpring20242, alt: 'Little Green Leaves Spring 2024' },
 					{ type: 'image', src: imgSpring20243, alt: 'Little Green Leaves Spring 2024' },
@@ -3888,34 +3909,34 @@ const defaultData = [
 					{ type: 'image', src: imgSpring20245, alt: 'Little Green Leaves Spring 2024' },
 					{ type: 'image', src: imgSpring20246, alt: 'Little Green Leaves Spring 2024' },
 
-					{ type: 'subtitle', content: '2024: Delivering Warmth, One Step at a Time' },
+					{ type: 'subtitle', content: '2024: Delivering Warmth, One Step at a Time' }, //14
 					{
 						type: 'text',
 						content:
 							'In the first half of 2024, **all Dream Platform funds were fully and accurately delivered to every supported child**.',
-					},
+					}, //15
 					{
 						type: 'text',
 						content:
 							'Even during the coldest season, this love crossed mountains and distances — warming unfamiliar hearts, encouraging unseen hopes, and lighting the path forward for a new generation.',
-					},
+					}, //16
 
-					{ type: 'subtitle', content: 'Transparency and Trust' },
+					{ type: 'subtitle', content: 'Transparency and Trust' }, //17
 					{
 						type: 'text',
 						content:
 							'2023 marked the fastest growth period in our journey, with **20 newly supported children**. At the beginning of 2024, **4 more children** joined the program.',
-					},
+					}, //18
 					{
 						type: 'text',
 						content:
 							'Little Green Leaves remains committed to openness and transparency. All sponsorship funds are delivered through **county, township, and village-level government leaders**, who assist dream builders in personally transferring funds to children and families.',
-					},
+					}, //19
 					{
 						type: 'text',
 						content:
 							'Photos and videos are shared promptly in the Dream Builder groups, ensuring that every contribution is visible, traceable, and meaningful. This careful process has earned the trust of more supporters and the recognition of women’s federations and education authorities.',
-					},
+					}, //20
 					{ type: 'image', src: imgSpring20247, alt: 'Little Green Leaves Spring 2024' },
 					{ type: 'image', src: imgSpring20248, alt: 'Little Green Leaves Spring 2024' },
 					{ type: 'image', src: imgSpring20249, alt: 'Little Green Leaves Spring 2024' },
@@ -3923,197 +3944,197 @@ const defaultData = [
 					{ type: 'image', src: imgSpring202411, alt: 'Little Green Leaves Spring 2024' },
 					{ type: 'image', src: imgSpring202412, alt: 'Little Green Leaves Spring 2024' },
 
-					{ type: 'subtitle', content: 'Our Guiding Philosophy' },
+					{ type: 'subtitle', content: 'Our Guiding Philosophy' }, //27
 					{
 						type: 'text',
 						content:
 							'Our mission remains unchanged: to help students escape poverty both materially and emotionally, to learn how to change their destinies, and to cultivate a spirit of gratitude, contribution, and love for life.',
-					},
+					}, //28
 					{
 						type: 'text',
 						content:
 							'We strive to guide them toward a positive, optimistic outlook on life and to pursue meaningful, long-term transformation. This is our philosophy — and our ultimate goal.',
-					},
+					}, //29
 
-					{ type: 'subtitle', content: 'Growing Year by Year' },
+					{ type: 'subtitle', content: 'Growing Year by Year' }, //30
 					{
 						type: 'text',
 						content: '• 2018–2020: Supported two children using personal savings, contributing **12,000 RMB**.',
-					},
+					}, //31
 					{
 						type: 'text',
 						content: '• 2021: Helped **19 students**, with **39,400 RMB** in sponsorship funds.',
-					},
+					}, //32
 					{
 						type: 'text',
 						content: '• 2022: Expanded to **34 students**, with **77,800 RMB** in sponsorship funds.',
-					},
+					}, //33
 					{
 						type: 'text',
 						content:
 							'• 2023: Supported **54 students** (43 active by year-end), with **102,200 RMB** in sponsorship funds; one student admitted to **Hebei University**.',
-					},
+					}, //34
 					{
 						type: 'text',
 						content: '• 2024 (First Half): Supporting **48 children**, with **57,300 RMB** delivered.',
-					},
+					}, //35
 					{
 						type: 'text',
 						content: 'To date, cumulative Dream Platform sponsorship funds total **288,700 RMB**.',
-					},
+					}, //36
 
-					{ type: 'subtitle', content: 'Still on the Road of Dream Building' },
+					{ type: 'subtitle', content: 'Still on the Road of Dream Building' }, //37
 					{
 						type: 'text',
 						content: 'With gratitude in our hearts, we move forward with greater focus and humility.',
-					},
+					}, //38
 					{
 						type: 'text',
 						content:
 							'It is your trust and support that give Little Green Leaves its strength and confidence. It is the encouragement from leaders at all levels that gives us the opportunity to keep dreaming.',
-					},
+					}, //39
 					{
 						type: 'text',
 						content: 'Help a child. Influence a family. Build dreams. Change the future.',
-					},
+					}, //40
 					{
 						type: 'text',
 						content: 'As long as we stay on the road, effort will always bear fruit.',
-					},
+					}, //41
 				],
 			},
 			{
 				id: 'dream-platform-kangbao-2024',
 				title: 'Seven Years of Commitment — Warmth in Bloom | Little Green Leaves Kangbao Visit',
 				detailBlocks: [
-					{ type: 'subtitle', content: 'A Seed of Love Takes Root in Kangbao' },
-					{ type: 'image', src: imgKangbao20241, alt: 'Little Green Leaves Kangbao Visit 2024' },
+					{ type: 'subtitle', content: 'A Seed of Love Takes Root in Kangbao' }, //0
+					{ type: 'image', src: imgKangbao20241, alt: 'Little Green Leaves Kangbao Visit 2024' }, //1
 					{
 						type: 'text',
 						content:
 							'On the land of Kangbao, a small green leaf has been quietly growing, carrying hope and warmth. The story of the Little Green Leaves Dream Platform began with a simple act of donation.',
-					},
-					{ type: 'image', src: imgKangbao20242, alt: 'Little Green Leaves Kangbao Visit 2024' },
+					}, //2
+					{ type: 'image', src: imgKangbao20242, alt: 'Little Green Leaves Kangbao Visit 2024' }, //3
 					{
 						type: 'text',
 						content:
 							'In 2018, my first visit to Kangbao County was to deliver donated books and clothing collected by the Little Green Leaves Volunteers. During that visit, we noticed something deeply unsettling: many children avoided eye contact, hesitated to greet strangers, and carried insecurity in their eyes and behavior.',
-					},
-					{ type: 'image', src: imgKangbao20243, alt: 'Little Green Leaves Kangbao Visit 2024' },
+					}, //4
+					{ type: 'image', src: imgKangbao20243, alt: 'Little Green Leaves Kangbao Visit 2024' }, //5
 					{
 						type: 'text',
 						content:
 							'These moments revealed a deeper truth — the children were not only lacking material support, but were also facing urgent emotional and psychological challenges. Poverty is not just material scarcity; it is often a poverty of confidence, security, and hope.',
-					},
+					}, //6
 					{
 						type: 'text',
 						content:
 							'This realization led to the founding of the **Little Green Leaves Dream Platform in 2021**, with a clear purpose: to support children from the inside out, helping them feel seen, valued, and supported by society.',
-					},
+					}, //7
 
-					{ type: 'subtitle', content: 'Seven Years of Care, Growing Greener Each Year' },
+					{ type: 'subtitle', content: 'Seven Years of Care, Growing Greener Each Year' }, //8
 					{
 						type: 'text',
 						content:
 							'Since its launch, the Dream Platform has journeyed through multiple seasons of growth. Over these years, we have witnessed countless moments of transformation — children rediscovering confidence, students entering their dream universities, families stepping out of hardship, and more caring individuals joining our mission.',
-					},
-					{ type: 'image', src: imgKangbao20244, alt: 'Little Green Leaves Kangbao Visit 2024' },
-					{ type: 'image', src: imgKangbao20245, alt: 'Little Green Leaves Kangbao Visit 2024' },
-					{ type: 'image', src: imgKangbao20246, alt: 'Little Green Leaves Kangbao Visit 2024' },
+					}, //9
+					{ type: 'image', src: imgKangbao20244, alt: 'Little Green Leaves Kangbao Visit 2024' }, //10
+					{ type: 'image', src: imgKangbao20245, alt: 'Little Green Leaves Kangbao Visit 2024' }, //11
+					{ type: 'image', src: imgKangbao20246, alt: 'Little Green Leaves Kangbao Visit 2024' }, //12
 
-					{ type: 'subtitle', content: 'Returning to Kangbao: A Reunion of Hope' },
+					{ type: 'subtitle', content: 'Returning to Kangbao: A Reunion of Hope' }, //13
 					{
 						type: 'text',
 						content:
 							'On **August 7, 2024**, we once again set foot in Kangbao after a four-hour journey — carrying not only our own passion, but the collective hopes of countless dream builders.',
-					},
+					}, //14
 					{
 						type: 'text',
 						content:
 							'We hosted the event **“Nurturing Dreams with Love, Safeguarding Mental Well-being — 2024 Little Green Leaves Kangbao Visit.”**',
-					},
+					}, //15
 					{
 						type: 'text',
 						content:
 							'The event was strongly supported by local leadership. The Chair of the Kangbao Women’s Federation, Town Mayor Liu Yanfeng, and village secretaries attended despite their busy schedules. **35 children and their grandparents** gathered together to witness this moment of shared care.',
-					},
-					{ type: 'image', src: imgKangbao20247, alt: 'Little Green Leaves Kangbao Visit 2024' },
+					}, //16
+					{ type: 'image', src: imgKangbao20247, alt: 'Little Green Leaves Kangbao Visit 2024' }, //17
 					{
 						type: 'text',
 						content:
 							'We prepared backpacks, water bottles, jump ropes, and books — gifts that carried not only material value, but encouragement and emotional nourishment.',
-					},
-					{ type: 'image', src: imgKangbao20248, alt: 'Little Green Leaves Kangbao Visit 2024' },
-					{ type: 'subtitle', content: 'Sharing Confidence, Planting Dreams' },
-					{ type: 'image', src: imgKangbao20249, alt: 'Little Green Leaves Kangbao Visit 2024' },
-					{ type: 'image', src: imgKangbao202410, alt: 'Little Green Leaves Kangbao Visit 2024' },
+					}, //18
+					{ type: 'image', src: imgKangbao20248, alt: 'Little Green Leaves Kangbao Visit 2024' }, //19
+					{ type: 'subtitle', content: 'Sharing Confidence, Planting Dreams' }, //20
+					{ type: 'image', src: imgKangbao20249, alt: 'Little Green Leaves Kangbao Visit 2024' }, //21
+					{ type: 'image', src: imgKangbao202410, alt: 'Little Green Leaves Kangbao Visit 2024' }, //22
 					{
 						type: 'text',
 						content:
 							'As the founder of Little Green Leaves, I had the opportunity to speak with the children about the importance of self-confidence and how it can be built.',
-					},
+					}, //23
 					{
 						type: 'text',
 						content:
 							'Looking into their eager eyes and listening to their aspirations for the future, I could hardly believe these were the same children who once avoided eye contact. This transformation strengthened my resolve — every child is a seed of hope, and with care, they will grow.',
-					},
+					}, //24
 
-					{ type: 'subtitle', content: 'Every Drop of Love, A Growing Ocean' },
+					{ type: 'subtitle', content: 'Every Drop of Love, A Growing Ocean' }, //25
 					{
 						type: 'text',
 						content:
 							'From simple donations to comprehensive, long-term support, the growth of Little Green Leaves has been steady and heartfelt.',
-					},
+					}, //26
 					{
 						type: 'text',
 						content: 'As of **August 7, 2024**:',
-					},
+					}, //27
 					{
 						type: 'text',
 						content:
 							'• **65 children** have received support in total\n• **55 children** are currently receiving ongoing sponsorship\n• **360,600 RMB** in total sponsorship funds have been delivered',
-					},
-					{ type: 'image', src: imgKangbao202411, alt: 'Little Green Leaves Kangbao Visit 2024' },
-					{ type: 'image', src: imgKangbao202412, alt: 'Little Green Leaves Kangbao Visit 2024' },
-					{ type: 'subtitle', content: 'Transparency Builds Trust' },
+					}, //28
+					{ type: 'image', src: imgKangbao202411, alt: 'Little Green Leaves Kangbao Visit 2024' }, //29
+					{ type: 'image', src: imgKangbao202412, alt: 'Little Green Leaves Kangbao Visit 2024' }, //30
+					{ type: 'subtitle', content: 'Transparency Builds Trust' }, //31
 					{
 						type: 'text',
 						content: 'By the second half of 2024, most Dream Platform funds had already been successfully delivered.',
-					},
+					}, //32
 					{
 						type: 'text',
 						content:
 							'Every contribution is transferred with the assistance of county, township, and village-level officials, ensuring that funds are personally delivered to supported children and families.',
-					},
-					{ type: 'image', src: imgKangbao202413, alt: 'Little Green Leaves Kangbao Visit 2024' },
+					}, //33
+					{ type: 'image', src: imgKangbao202413, alt: 'Little Green Leaves Kangbao Visit 2024' }, //34
 					{
 						type: 'text',
 						content:
 							'Photos and videos are shared promptly within the Dream Builder groups, ensuring transparency, accountability, and trust — a system that has earned the confidence of more supporters over time.',
-					},
+					}, //35
 
-					{ type: 'subtitle', content: 'Our Unchanging Mission' },
+					{ type: 'subtitle', content: 'Our Unchanging Mission' }, //36
 					{
 						type: 'text',
 						content:
 							'The guiding mission of the Little Green Leaves Dream Platform has never changed: to help children escape poverty both materially and emotionally, to learn how to change their destinies, and to cultivate gratitude, resilience, and a spirit of giving.',
-					},
+					}, //37
 					{
 						type: 'text',
 						content:
 							'We aim to guide them toward a positive, optimistic outlook on life and toward meaningful, lasting transformation. This is our philosophy — and our ultimate goal.',
-					},
+					}, //38
 
-					{ type: 'subtitle', content: 'Walking Forward Together' },
+					{ type: 'subtitle', content: 'Walking Forward Together' }, //39
 					{
 						type: 'text',
 						content: 'Behind every number is a caring heart, dedicated leadership, and the quiet growth of a child.',
-					},
+					}, //40
 					{
 						type: 'text',
 						content:
 							'The journey of Little Green Leaves continues — rooted in trust, sustained by love, and guided by the belief that warmth, once planted, will always bloom.',
-					},
+					}, //41
 				],
 			},
 		],
@@ -4129,280 +4150,276 @@ const defaultData = [
 				id: 'nine-year-journey',
 				title: 'Nine Years of Giving — From a Single Book to a Forest of Hope',
 				detailBlocks: [
-					{ type: 'subtitle', content: 'Nine Years, Three Chapters, One Heart' },
+					{ type: 'subtitle', content: 'Nine Years, Three Chapters, One Heart' }, //0
 					{
 						type: 'text',
 						content:
 							'Time has flown by — and Little Green Leaves has now journeyed through **nine full years**. What began with a single book, a small act of warmth, and a simple dream has grown into a thriving oasis of compassion.',
-					},
+					}, //1
 					{
 						type: 'text',
 						content:
 							'These nine years have unfolded in three meaningful stages: **Little Green Leaves Book Corners** (planting the seed), **Little Green Leaves Warmth Delivery** (taking root), and **Little Green Leaves Dream Platform** (growing upward with strength). Every step has been shaped by countless caring hands — and filled with moments of kindness and gratitude we will never forget.',
-					},
+					}, //2
 
-					{ type: 'subtitle', content: 'Chapter 1 — Little Green Leaves Book Corners' },
+					{ type: 'subtitle', content: 'Chapter 1 — Little Green Leaves Book Corners' }, //3
 					{
 						type: 'text',
 						content:
 							'The story of Little Green Leaves began with the power of books. Back then, we were still middle school students — saving pocket money and collecting secondhand books through holiday donation drives — to build “Little Green Leaves Book Corners” for under-resourced rural schools.',
-					},
+					}, //4
 					{
 						type: 'text',
 						content:
 							'Since **2016**, more than **30,000 donated books** have supported **7 primary schools** and **2 orphanages**. These books crossed mountains and distance to become spiritual nourishment — opening children’s horizons and guiding them toward their dreams.',
-					},
+					}, //5
 					{
 						type: 'text',
 						content:
 							'I still remember the children’s faces — the surprise, the wide smiles, and the small groups gathering together to flip through pages. Those book corners lit the first morning light of hope for many children, and also planted a seed deeply in my own heart.',
-					},
+					}, //6
 					{
 						type: 'text',
 						content:
 							'They taught me something lasting: **with belief, intention, and action, even the smallest kindness can gather into a powerful force.**',
-					},
+					}, //7
 
-					{ type: 'subtitle', content: 'Chapter 2 — Little Green Leaves Warmth Delivery' },
+					{ type: 'subtitle', content: 'Chapter 2 — Little Green Leaves Warmth Delivery' }, //8
 					{
 						type: 'text',
 						content:
 							'After the Book Corners, we realized that children in underserved areas needed more than knowledge — they also needed material support. That is how **Little Green Leaves Warmth Delivery** was born.',
-					},
+					}, //9
 					{
 						type: 'text',
 						content:
 							'From a winter coat to warm shoes, from school supplies to daily necessities, we worked to bring more color and comfort into children’s lives — closing the distance between hearts through action.',
-					},
+					}, //10
 					{
 						type: 'text',
 						content:
 							'Seeing children put on new clothes with joy, or open a backpack full of supplies with curiosity, reminded us that this warmth was not only improving living conditions — it was also offering comfort, dignity, and encouragement.',
-					},
+					}, //11
 					{
 						type: 'text',
 						content:
 							'It helped children feel what every child deserves to feel: **being cared for, being seen, and being supported.**',
-					},
+					}, //12
 
-					{ type: 'subtitle', content: 'Chapter 3 — Little Green Leaves Dream Platform' },
+					{ type: 'subtitle', content: 'Chapter 3 — Little Green Leaves Dream Platform' }, //13
 					{
 						type: 'text',
 						content:
 							'As our work deepened, we came to understand that material support matters — but **long-term companionship and emotional care** are what truly help children change their futures.',
-					},
+					}, //14
 					{
 						type: 'text',
 						content:
 							'In **2021**, the **Little Green Leaves Dream Platform** was created. Through one-on-one sponsorship and holistic care, every supported child is matched with a “Dream Partner” family.',
-					},
+					}, //15
 					{
 						type: 'text',
 						content:
 							'Dream builders provide financial support, but also stay connected through messages, video calls, and ongoing communication — guiding children in both study and daily life. Many children have gradually grown stronger through this steady warmth: once uncertain eyes become determined; once timid hearts become confident.',
-					},
+					}, //16
 					{
 						type: 'text',
 						content:
 							'Alongside sponsorship, Little Green Leaves also organizes online programs such as learning support, dream-building guidance, and emotional well-being activities — helping children find direction and giving them wings to pursue the future.',
-					},
+					}, //17
 
-					{ type: 'subtitle', content: 'A Community of Trust, A Network of Love' },
+					{ type: 'subtitle', content: 'A Community of Trust, A Network of Love' }, //18
 					{
 						type: 'text',
 						content:
 							'Time has deepened our shared goodwill. Today, we are supported by **97 caring families** and, together with dedicated volunteers, **over 100 loving supporters** have come together through this platform.',
-					},
+					}, //19
 					{
 						type: 'text',
 						content:
 							'They come from every walk of life — entrepreneurs, university teachers, legal professionals, doctors and nurses, young professionals, and students full of promise. Many of us have never met in person, yet we choose to trust one another and walk forward together through kindness.',
-					},
+					}, //20
 					{
 						type: 'text',
 						content:
 							'So far, the Dream Platform has supported **90 children** across China — and our love has also crossed borders.',
-					},
+					}, //21
 					{
 						type: 'text',
 						content:
 							'In **2019**, we established a Chinese book corner in Kenya. In **2020**, through the PBIC Global Youth Public Benefit Innovation Challenge, we raised **80,000+ RMB** to support children in Kenya and improve their living and learning conditions.',
-					},
+					}, //22
 
-					{ type: 'subtitle', content: 'Transparency, Accountability, Respect' },
+					{ type: 'subtitle', content: 'Transparency, Accountability, Respect' }, //23
 					{
 						type: 'text',
 						content: 'Since 2020, cumulative Dream Platform sponsorship funds have approached **500,000 RMB**.',
-					},
+					}, //24
 					{
 						type: 'text',
 						content:
 							'Every contribution is delivered through a transparent, publicly accountable process — ensuring that funds reach the supported children **in full**, and that updates are shared promptly in our Dream Builder groups.',
-					},
+					}, //25
 					{
 						type: 'text',
 						content:
 							'Behind every number is a real child, a real family, and a real connection — a dialogue across distance, built on trust and love.',
-					},
+					}, //26
 
-					{ type: 'subtitle', content: 'Warmth On the Road, Always' },
+					{ type: 'subtitle', content: 'Warmth On the Road, Always' }, //27
 					{
 						type: 'text',
 						content:
 							'Little Green Leaves believes the road ahead will grow even wider. Across China — and even across the world — we hope to reach more people in need, gather small drops of kindness into rivers, and help dreams create miracles.',
-					},
+					}, //28
 					{
 						type: 'text',
 						content:
 							'Nine years of growth: one green leaf has become a thriving canopy. Our初心 (original intention) remains unchanged — to build bridges through compassion, to stand on trust, and to light the way with companionship — so that more children gain the courage and ability to change their futures.',
-					},
+					}, //29
 					{
 						type: 'text',
 						content:
 							'Whether it is a book corner being lit, a warm package being delivered, or steady support along the dream-building journey — Little Green Leaves will always be here, walking alongside every caring heart.',
-					},
-					{
-						type: 'subtitle',
-						content: 'With Gratitude, Into the Next Nine Years',
-					},
+					}, //30
 					{
 						type: 'text',
 						content:
 							'Nine years of chapters — thank you for being part of them. From a single leaf to fields of green, we believe: **as long as there is love, everything is possible.**',
-					},
+					}, //31
 					{
 						type: 'text',
 						content:
 							'May the next nine years find us still walking side by side — giving more lives the strength they need, and watching more dreams break through the soil and grow freely toward the light.',
-					},
+					}, //32
 					{
 						type: 'text',
 						content: 'Little Green Leaves becomes a forest — thank you for being with us.',
-					},
+					}, //33
 				],
 			},
 			{
 				id: 'ten-year-journey-report-card',
 				title: 'Ten Years of Commitment — The Little Green Leaves Report Card',
 				detailBlocks: [
-					{ type: 'subtitle', content: 'Time as a Witness' },
+					{ type: 'subtitle', content: 'Time as a Witness' }, //0
 					{
 						type: 'text',
 						content:
 							'Time is the most faithful witness. Ten years ago, a small seed called the **Little Green Leaves Volunteers Alliance** was quietly planted.',
-					},
+					}, //1
 					{
 						type: 'text',
 						content:
 							'Its dream was simple, yet profound: to help children facing hardship — yet carrying starlight in their eyes — find a guiding light, a source of support, and a “dream family” that could walk alongside them.',
-					},
+					}, //2
 
-					{ type: 'subtitle', content: 'Ten Years of Growth, One Path of Love' },
+					{ type: 'subtitle', content: 'Ten Years of Growth, One Path of Love' }, //3
 					{
 						type: 'text',
 						content:
 							'Over the past decade, like spring rain nourishing the earth, Little Green Leaves has grown steadily and quietly.',
-					},
+					}, //4
 					{
 						type: 'text',
 						content:
 							'From its first tentative steps to its present strength, the organization has expanded from **book donations** and **clothing drives** to the creation of the **Little Green Leaves Dream Platform** — growing itself while witnessing the fulfillment of countless children’s dreams.',
-					},
+					}, //5
 					{
 						type: 'text',
 						content: 'This summer, we harvested some of the sweetest fruits of that long journey.',
-					},
+					}, //6
 
-					{ type: 'subtitle', content: 'Good News That Echoes with Hope' },
+					{ type: 'subtitle', content: 'Good News That Echoes with Hope' }, //7
 					{
 						type: 'text',
 						content:
 							'Joyful news has reached us: among the **135 children** supported by Little Green Leaves, **five students** entered the national college entrance examination this year and achieved outstanding results.',
-					},
+					}, //8
 					{
 						type: 'text',
 						content: 'With perseverance as their pen, they wrote the most remarkable chapters of their youth.',
-					},
+					}, //9
 					{
 						type: 'text',
 						content:
 							'Most heartwarming of all was a pair of **twin brothers**, who were admitted respectively to **Hebei University** and **Hebei University of Science and Technology**, each entering their dream institutions.',
-					},
+					}, //10
 					{
 						type: 'text',
 						content:
 							'In addition, three other students were admitted to **Yanjing Institute of Technology** and **Baoding University of Technology**, marking another proud milestone.',
-					},
-					{ type: 'image', src: imgDecade1, alt: 'Little Green Leaves Ten Year Report Card' },
-					{ type: 'image', src: imgDecade2, alt: 'Little Green Leaves Ten Year Report Card' },
-					{ type: 'image', src: imgDecade3, alt: 'Little Green Leaves Ten Year Report Card' },
+					}, //11
+					{ type: 'image', src: imgDecade1, alt: 'Little Green Leaves Ten Year Report Card' }, //12
+					{ type: 'image', src: imgDecade2, alt: 'Little Green Leaves Ten Year Report Card' }, //13
+					{ type: 'image', src: imgDecade3, alt: 'Little Green Leaves Ten Year Report Card' }, //14
 
-					{ type: 'subtitle', content: 'Shining on the Middle School Path' },
+					{ type: 'subtitle', content: 'Shining on the Middle School Path' }, //15
 					{
 						type: 'text',
 						content:
 							'At the same time, **three more students** stood out in the middle school entrance examinations, achieving impressively high scores and delivering truly exceptional performances.',
-					},
-					{ type: 'image', src: imgDecade4, alt: 'Little Green Leaves Ten Year Report Card' },
+					}, //16
+					{ type: 'image', src: imgDecade4, alt: 'Little Green Leaves Ten Year Report Card' }, //17
 					{
 						type: 'text',
 						content:
 							'We can almost see it — the once timid faces now glowing with confidence, the once uncertain eyes now filled with determination for the future.',
-					},
+					}, //18
 
-					{ type: 'subtitle', content: 'A Shared Achievement' },
+					{ type: 'subtitle', content: 'A Shared Achievement' }, //19
 					{
 						type: 'text',
-						content: 'This report card belongs to the diligent and resilient children.',
+						content: 'This report card belongs to the diligent and resilient children.', //20
 					},
 					{
 						type: 'text',
 						content: 'It belongs to the selfless dream-building families who offered steady companionship and care.',
-					},
+					}, //21
 					{
 						type: 'text',
 						content:
 							'And it belongs to **every single person** who has supported, believed in, and walked alongside Little Green Leaves over the years.',
-					},
+					}, //22
 
-					{ type: 'subtitle', content: 'One-on-One Support, Long-Term Companionship' },
+					{ type: 'subtitle', content: 'One-on-One Support, Long-Term Companionship' }, //23
 					{
 						type: 'text',
 						content:
 							'Since the launch of the **Little Green Leaves Dream Platform in 2021**, every step forward has been steady and intentional.',
-					},
+					}, //24
 					{
 						type: 'text',
 						content:
 							'One-on-one sponsorship represents deeper connection, more precise support, and enduring companionship.',
-					},
+					}, //25
 					{
 						type: 'text',
 						content:
 							'We have witnessed children grow from primary school to middle school, and from middle school to university — and alongside them, we have seen beautiful bonds form between dream families and children: not related by blood, yet closer than family.',
-					},
+					}, //26
 
-					{ type: 'subtitle', content: 'The Road Ahead, Together' },
+					{ type: 'subtitle', content: 'The Road Ahead, Together' }, //27
 					{
 						type: 'text',
 						content: 'Ten years is not an ending — it is only a beginning.',
-					},
+					}, //28
 					{
 						type: 'text',
 						content:
 							'There are still many children waiting for a light, waiting for an opportunity to change their destiny.',
-					},
+					}, //29
 					{
 						type: 'text',
 						content:
 							'Every moment of attention, every act of sharing, may become the bridge that connects the next child to their dream.',
-					},
+					}, //30
 
-					{ type: 'subtitle', content: 'Still a Green Leaf, Still Moving Forward' },
+					{ type: 'subtitle', content: 'Still a Green Leaf, Still Moving Forward' }, //31
 					{
 						type: 'text',
 						content: 'Let us continue to be those quiet “Little Green Leaves” —',
-					},
+					}, //32
 					{
 						type: 'text',
 						content: 'holding up a clear sky for more dreams, and walking together toward a future filled with light.',
@@ -4413,155 +4430,155 @@ const defaultData = [
 				id: 'dream-platform-2025-56-dreams',
 				title: '2025 — Lighting the Way for 56 Dreams',
 				detailBlocks: [
-					{ type: 'subtitle', content: '2025 Little Green Leaves Dream Platform' },
+					{ type: 'subtitle', content: '2025 Little Green Leaves Dream Platform' }, //0
 					{
 						type: 'text',
 						content:
 							'Time flows on, yet love never pauses. Standing at the final quarter of 2025 and looking back, the Little Green Leaves Dream Platform has once again completed a journey that is both solid and deeply heartwarming.',
-					},
+					}, //1
 
-					{ type: 'subtitle', content: 'From One Beginning to Many Destinies' },
+					{ type: 'subtitle', content: 'From One Beginning to Many Destinies' }, //2
 					{
 						type: 'text',
 						content:
 							'Since the launch of the project in 2021, Little Green Leaves has helped **137 children** connect with their own “dream families.”',
-					},
+					}, //3
 					{
 						type: 'text',
 						content:
 							'In the most recent round of sponsorship delivery in the second half of 2025, we witnessed another year filled with meaningful achievements.',
-					},
+					}, //4
 					{
 						type: 'text',
 						content:
 							'As of now, **56 new children** have received **one-on-one, long-term sponsorship**, opening a brand-new chapter in their lives.',
-					},
+					}, //5
 
-					{ type: 'subtitle', content: 'Holding Up 56 Dreams' },
+					{ type: 'subtitle', content: 'Holding Up 56 Dreams' }, //6
 					{
 						type: 'text',
 						content:
 							'Behind this powerful report card stand **43 newly joined dream builders**, whose selfless dedication made these connections possible.',
-					},
-					{ type: 'image', src: imgLighting1, alt: 'Little Green Leaves 2025 Dream Platform' },
+					}, //7
+					{ type: 'image', src: imgLighting1, alt: 'Little Green Leaves 2025 Dream Platform' }, //8
 					{
 						type: 'text',
 						content:
 							'They come from all across the country. Like sparks of light, they converged into a radiant glow, illuminating the road ahead for these children.',
-					},
+					}, //9
 
-					{ type: 'subtitle', content: 'Stories That Move Us Deeply' },
+					{ type: 'subtitle', content: 'Stories That Move Us Deeply' }, //10
 					{
 						type: 'text',
 						content: 'We are especially touched by the many moving moments along this journey.',
-					},
+					}, //11
 					{
 						type: 'text',
 						content:
 							'Some dream builders, after seeing the children they supported enter university, immediately chose to sponsor new children in need — ensuring that the dream journey never pauses.',
-					},
-					{ type: 'image', src: imgLighting2, alt: 'Little Green Leaves 2025 Dream Platform' },
+					}, //12
+					{ type: 'image', src: imgLighting2, alt: 'Little Green Leaves 2025 Dream Platform' }, //13
 					{
 						type: 'text',
 						content:
 							'Others not only sponsored children themselves, but also inspired and guided the children they supported to join the dream-building journey — a powerful testament to the strength of example.',
-					},
+					}, //14
 					{
 						type: 'text',
 						content:
 							'There are also dream builders who generously held the hands of **two children at once**, allowing two dreams to take flight side by side.',
-					},
+					}, //15
 					{
 						type: 'text',
 						content:
 							'Most remarkably, one dream builder — the deeply compassionate **Teacher Fu** — single-handedly supported **12 children**, building a solid foundation for their dreams and embodying the profound spirit of “loving all children as one’s own.”',
-					},
-					{ type: 'image', src: imgLighting3, alt: 'Little Green Leaves 2025 Dream Platform' },
-					{ type: 'image', src: imgLighting4, alt: 'Little Green Leaves 2025 Dream Platform' },
-					{ type: 'image', src: imgLighting5, alt: 'Little Green Leaves 2025 Dream Platform' },
+					}, //16
+					{ type: 'image', src: imgLighting3, alt: 'Little Green Leaves 2025 Dream Platform' }, //17
+					{ type: 'image', src: imgLighting4, alt: 'Little Green Leaves 2025 Dream Platform' }, //18
+					{ type: 'image', src: imgLighting5, alt: 'Little Green Leaves 2025 Dream Platform' }, //19
 
-					{ type: 'subtitle', content: 'More Than Financial Support' },
+					{ type: 'subtitle', content: 'More Than Financial Support' }, //20
 					{
 						type: 'text',
 						content: 'Every number represents a future that has been illuminated.',
-					},
+					}, //21
 					{
 						type: 'text',
 						content:
 							'For us, Little Green Leaves Dream Platform has never been merely about transferring sponsorship funds.',
-					},
+					}, //22
 					{
 						type: 'text',
 						content: 'We remain firmly committed to the core mission established at the very beginning of the project.',
-					},
+					}, //23
 
-					{ type: 'subtitle', content: 'Our Core Belief' },
+					{ type: 'subtitle', content: 'Our Core Belief' }, //24
 					{
 						type: 'text',
 						content:
 							'To help students escape poverty both materially and emotionally, to learn how to change their destiny, to cultivate a spirit of contribution and generosity, and to grow into people who are grateful, optimistic, and passionate about life.',
-					},
+					}, //25
 					{
 						type: 'text',
 						content:
 							'We strive to guide them toward a positive, confident, and upward-looking outlook on life, achieving true and lasting transformation.',
-					},
+					}, //26
 					{
 						type: 'text',
 						content:
 							'Helping a child break free from poverty **in their heart** is the most genuine form of poverty alleviation.',
-					},
+					}, //27
 
-					{ type: 'subtitle', content: 'Being Seen, Being Believed In' },
+					{ type: 'subtitle', content: 'Being Seen, Being Believed In' }, //28
 					{
 						type: 'text',
 						content:
 							'What we support is not only tuition and textbooks, but also the dignity of being seen, the confidence of “I can do it,” and the courage that comes from hope.',
-					},
+					}, //29
 					{
 						type: 'text',
 						content:
 							'Through long-term, one-on-one companionship and care, we want every child to know they are not alone, and that their dreams are worthy of protection.',
-					},
+					}, //30
 					{
 						type: 'text',
 						content:
 							'This inner richness becomes the strongest force driving them to overcome hardship and pursue their future — enabling true, inside-out transformation.',
-					},
+					}, //31
 
-					{ type: 'subtitle', content: 'Gratitude Along the Way, Hope Ahead' },
+					{ type: 'subtitle', content: 'Gratitude Along the Way, Hope Ahead' }, //32
 					{
 						type: 'text',
 						content: 'Our heartfelt thanks go to every dream builder.',
-					},
+					}, //33
 					{
 						type: 'text',
 						content: 'It is your trust and support that allow these young dreams to take flight with confidence.',
-					},
+					}, //34
 					{
 						type: 'text',
 						content:
 							'We also thank every friend who follows and supports Little Green Leaves — every share and every word of encouragement helps form a stronger current of love.',
-					},
+					}, //35
 
-					{ type: 'subtitle', content: 'Continuing the Journey' },
+					{ type: 'subtitle', content: 'Continuing the Journey' }, //36
 					{
 						type: 'text',
 						content: 'As the chapter of 2025 draws to a close, the story of love continues.',
-					},
+					}, //37
 					{
 						type: 'text',
 						content:
 							'May we keep walking together, as quiet yet steadfast “Little Green Leaves,” holding up a sky full of possibilities for more children who need support.',
-					},
+					}, //38
 					{
 						type: 'text',
 						content: 'Little Green Leaves Dream Platform — because every dream is worth pursuing.',
-					},
+					}, //39
 					{
 						type: 'text',
 						content: 'From one green leaf to a forest — thank you for being with us.',
-					},
+					}, //40
 				],
 			},
 		],
@@ -4691,6 +4708,8 @@ export default function TreeOfGrowthTimeline({
 	const { t } = useTranslation();
 	const localizedHeading = t('timeline.heading');
 	const localizedSubheading = t('timeline.subheading');
+	const localizedClosingTitle = t('timeline.closing.title');
+	const localizedClosingText = t('timeline.closing.text');
 	const localizedData = useMemo(() => {
 		return defaultData.map((item) => {
 			const yearKey = `timeline.${item.year}`;
@@ -4815,11 +4834,8 @@ export default function TreeOfGrowthTimeline({
 								/>
 							))}
 						</div>
-						<h3 className='text-2xl md:text-3xl font-bold text-emerald-900'>Together, we’ve grown a better world</h3>
-						<p className='text-emerald-900/80'>
-							From a single seed in 2016 to a thriving forest of impact in 2025 — thank you to everyone who nurtured
-							this growth.
-						</p>
+						<h3 className='text-2xl md:text-3xl font-bold text-emerald-900'>{localizedClosingTitle}</h3>
+						<p className='text-emerald-900/80'>{localizedClosingText}</p>
 					</div>
 				</motion.div>
 			</div>
