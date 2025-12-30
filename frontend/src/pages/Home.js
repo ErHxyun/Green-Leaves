@@ -119,7 +119,7 @@ function Home() {
 			<Box
 				sx={{
 					position: 'relative',
-					minHeight: '95vh',
+					minHeight: { xs: '75vh', md: '95vh' },
 					display: 'flex',
 					alignItems: 'center',
 					borderBottom: '2px solid #CCCCCC',
@@ -145,15 +145,15 @@ function Home() {
 					}}
 				/>
 				<Container maxWidth='lg' sx={{ position: 'relative', zIndex: 2 }}>
-					<Box sx={{ display: 'flex', justifyContent: 'flex-start' }}>
+					<Box sx={{ display: 'flex', justifyContent: { xs: 'center', md: 'flex-start' }, px: { xs: 1, sm: 2 } }}>
 						<Card
 							sx={{
-								maxWidth: 600,
-								minHeight: 300,
-								p: 4,
+								maxWidth: { xs: '100%', sm: 540, md: 600 },
+								minHeight: { xs: 0, md: 300 },
+								p: { xs: 3, md: 4 },
 								textAlign: 'left',
 								backgroundColor: 'rgba(255,255,255,0.95)',
-								borderRadius: 2,
+								borderRadius: { xs: 2, md: 3 },
 								boxShadow: '0 4px 16px rgba(0,0,0,0.2)',
 								display: 'flex',
 								flexDirection: 'column',
@@ -338,15 +338,24 @@ function Home() {
 					>
 						{t('testimonials.title')}
 					</Typography>
-					<Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 2 }}>
+					<Box
+						sx={{
+							display: 'flex',
+							justifyContent: 'center',
+							alignItems: 'center',
+							gap: { xs: 1.5, md: 2 },
+							flexWrap: 'wrap',
+						}}
+					>
 						<IconButton
 							onClick={handlePrevTestimonial}
 							sx={{
 								backgroundColor: '#34582B',
 								color: 'white',
 								'&:hover': { backgroundColor: '#5a7a1f' },
-								width: 48,
-								height: 48,
+								width: { xs: 40, sm: 44, md: 48 },
+								height: { xs: 40, sm: 44, md: 48 },
+								flexShrink: 0,
 							}}
 						>
 							<ArrowBackIosIcon />
@@ -355,9 +364,10 @@ function Home() {
 						{/* Testimonial Card */}
 						<Card
 							sx={{
-								minWidth: 800,
-								minHeight: 300,
-								p: 4,
+								width: '100%',
+								maxWidth: { xs: '100%', md: 900 },
+								minHeight: { xs: 260, md: 300 },
+								p: { xs: 2.5, md: 4 },
 								backgroundColor: '#ffffff',
 								borderRadius: 2,
 								boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
@@ -371,8 +381,12 @@ function Home() {
 									<Box
 										sx={{
 											display: 'grid',
-											gridTemplateColumns: 'repeat(3, 1fr)',
-											gap: 3,
+											gridTemplateColumns: {
+												xs: '1fr',
+												sm: 'repeat(2, 1fr)',
+												md: 'repeat(3, 1fr)',
+											},
+											gap: { xs: 2, md: 3 },
 											alignItems: 'stretch',
 										}}
 									>
@@ -381,7 +395,7 @@ function Home() {
 												key={idx}
 												sx={{
 													width: '100%',
-													height: 280,
+													height: { xs: 200, sm: 220, md: 260 },
 													backgroundColor: '#f0f0f0',
 													borderRadius: 1,
 													overflow: 'hidden',
@@ -422,8 +436,9 @@ function Home() {
 								backgroundColor: '#34582B',
 								color: 'white',
 								'&:hover': { backgroundColor: '#5a7a1f' },
-								width: 48,
-								height: 48,
+								width: { xs: 40, sm: 44, md: 48 },
+								height: { xs: 40, sm: 44, md: 48 },
+								flexShrink: 0,
 							}}
 						>
 							<ArrowForwardIosIcon />

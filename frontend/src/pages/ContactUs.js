@@ -14,7 +14,7 @@ export default function JoinUs() {
 	return (
 		<Box sx={{ minHeight: '100vh', backgroundColor: '#f5f7f1' }}>
 			<SiteHeader />
-			<Container maxWidth='md' sx={{ py: { xs: 6, md: 10 } }}>
+			<Container maxWidth='md' sx={{ py: { xs: 5, md: 10 }, px: { xs: 2, sm: 3 } }}>
 				<Stack spacing={4}>
 					<Box textAlign='center'>
 						<Typography variant='h4' sx={{ fontWeight: 'bold', color: '#2f4b2f', mb: 1 }}>
@@ -25,7 +25,7 @@ export default function JoinUs() {
 						</Typography>
 					</Box>
 
-					<Grid container spacing={3} justifyContent='center'>
+					<Grid container spacing={{ xs: 2.5, sm: 3 }} justifyContent='center'>
 						{[
 							{
 								title: t('contact.cards.wechat.title'),
@@ -41,7 +41,7 @@ export default function JoinUs() {
 							<Grid item xs={12} sm={6} key={item.title}>
 								<Card
 									sx={{
-										p: 3,
+										p: { xs: 2.5, sm: 3 },
 										textAlign: 'center',
 										backgroundColor: '#ffffff',
 										borderRadius: 2,
@@ -58,7 +58,7 @@ export default function JoinUs() {
 										alt={`${item.title} QR code`}
 										sx={{
 											width: '100%',
-											maxWidth: 280,
+											maxWidth: { xs: 220, sm: 260, md: 280 },
 											borderRadius: 1,
 											border: '1px solid #d6dec9',
 											boxShadow: '0 2px 8px rgba(0,0,0,0.08)',

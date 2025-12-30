@@ -1,11 +1,14 @@
-import React from 'react';
-import { Box, Container, Button, Typography } from '@mui/material';
+import React, { useState } from 'react';
+import { Box, Container, Button, Typography, IconButton, Drawer, Divider, Stack } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 import logo from '../pictures/logo.jpg';
 import { useTranslation } from 'react-i18next';
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 export default function SiteHeader() {
 	const { t, i18n } = useTranslation();
+	const [open, setOpen] = useState(false);
 	const toggleLanguage = () => {
 		const next = i18n.language === 'en' ? 'cn' : 'en';
 		i18n.changeLanguage(next);
@@ -13,6 +16,14 @@ export default function SiteHeader() {
 			window.localStorage.setItem('lng', next);
 		} catch {}
 	};
+
+	const closeMenu = () => setOpen(false);
+	const navItems = [
+		{ to: '/', label: t('nav.home') },
+		{ to: '/our-efforts', label: t('nav.ourEfforts') },
+		{ to: '/about', label: t('nav.about') },
+		{ to: '/contact', label: t('nav.contact') },
+	];
 	return (
 		<Box sx={{ backgroundColor: '#ffffff', borderBottom: '1px solid #ddd' }}>
 			<Container maxWidth='lg'>
@@ -67,8 +78,52 @@ export default function SiteHeader() {
 							{t('nav.langToggle')}
 						</Button>
 					</Box>
+
+					<IconButton
+						onClick={() => setOpen(true)}
+						sx={{ display: { xs: 'flex', md: 'none' }, ml: 'auto', color: '#34582B' }}
+						aria-label='Open menu'
+					>
+						<MenuIcon />
+					</IconButton>
 				</Box>
 			</Container>
+			<Drawer anchor='right' open={open} onClose={closeMenu} sx={{ display: { xs: 'block', md: 'none' } }}>
+				<Box sx={{ width: 280, p: 3, display: 'flex', flexDirection: 'column', gap: 3 }}>
+					<Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+						<Typography variant='h6' sx={{ color: '#34582B', fontWeight: 'bold' }}>
+							{t('app.title')}
+						</Typography>
+						<IconButton onClick={closeMenu} aria-label='Close menu' sx={{ color: '#34582B' }}>
+							<CloseIcon />
+						</IconButton>
+					</Box>
+					<Divider />
+					<Stack spacing={1.5}>
+						{navItems.map((item) => (
+							<Button
+								key={item.to}
+								component={RouterLink}
+								to={item.to}
+								onClick={closeMenu}
+								sx={{ justifyContent: 'flex-start', color: '#34582B', textTransform: 'none', fontSize: '16px' }}
+							>
+								{item.label}
+							</Button>
+						))}
+					</Stack>
+					<Divider sx={{ my: 1 }} />
+					<Button
+						onClick={() => {
+							toggleLanguage();
+							closeMenu();
+						}}
+						sx={{ alignSelf: 'flex-start', color: '#34582B', textTransform: 'none', fontSize: '16px' }}
+					>
+						{t('nav.langToggle')}
+					</Button>
+				</Box>
+			</Drawer>
 		</Box>
 	);
 }

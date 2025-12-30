@@ -11,7 +11,7 @@ export default function AboutUs() {
 	return (
 		<Box sx={{ backgroundColor: '#f5f7f1', minHeight: '100vh' }}>
 			<SiteHeader />
-			<Container maxWidth='lg' sx={{ py: { xs: 6, md: 10 } }}>
+			<Container maxWidth='lg' sx={{ py: { xs: 5, md: 10 }, px: { xs: 2, sm: 3 } }}>
 				<Stack spacing={10}>
 					<Box>
 						<Typography
@@ -23,17 +23,24 @@ export default function AboutUs() {
 						<Typography variant='subtitle1' sx={{ color: '#4f5d3d', mb: 4, lineHeight: 1.6 }}>
 							{t('about.intro')}
 						</Typography>
-						<Grid container spacing={6} alignItems='center'>
+						<Grid container spacing={{ xs: 4, md: 6 }} alignItems='center'>
 							<Grid item xs={12} md={5}>
 								<Box
 									component='img'
 									src={orgImage}
 									alt='Little Green Leaves team supporting students'
-									sx={{ width: '100%', borderRadius: 2, boxShadow: '0 8px 24px rgba(0,0,0,0.15)', objectFit: 'cover' }}
+									sx={{
+										width: '100%',
+										borderRadius: 2,
+										boxShadow: '0 8px 24px rgba(0,0,0,0.15)',
+										objectFit: 'cover',
+										maxHeight: { xs: 260, md: '100%' },
+										objectPosition: 'center',
+									}}
 								/>
 							</Grid>
 							<Grid item xs={12} md={7}>
-								<Stack spacing={2}>
+								<Stack spacing={{ xs: 1.5, md: 2 }}>
 									<Typography variant='h5' sx={{ color: '#2f4b2f', fontWeight: 'bold' }}>
 										{t('about.orgTitle')}
 									</Typography>
@@ -66,9 +73,9 @@ export default function AboutUs() {
 					<Divider sx={{ borderColor: '#ccd4c2' }} />
 
 					<Box>
-						<Grid container spacing={6} alignItems='center'>
+						<Grid container spacing={{ xs: 4, md: 6 }} alignItems='center'>
 							<Grid item xs={12} md={7}>
-								<Stack spacing={2}>
+								<Stack spacing={{ xs: 1.5, md: 2 }}>
 									<Typography variant='h4' sx={{ color: '#2f4b2f', fontWeight: 'bold' }}>
 										{t('about.leaderTitle')}
 									</Typography>
@@ -98,7 +105,14 @@ export default function AboutUs() {
 									component='img'
 									src={leaderImage}
 									alt='Portrait of our founder and leader'
-									sx={{ width: '100%', borderRadius: 2, boxShadow: '0 8px 24px rgba(0,0,0,0.15)', objectFit: 'cover' }}
+									sx={{
+										width: '100%',
+										borderRadius: 2,
+										boxShadow: '0 8px 24px rgba(0,0,0,0.15)',
+										objectFit: 'cover',
+										maxHeight: { xs: 260, md: '100%' },
+										objectPosition: 'center',
+									}}
 								/>
 							</Grid>
 						</Grid>

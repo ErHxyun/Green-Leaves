@@ -4858,23 +4858,23 @@ export default function TreeOfGrowthTimeline({
 								animate={{ scale: 1, opacity: 1, y: 0 }}
 								exit={{ scale: 0.94, opacity: 0, y: 16 }}
 								transition={{ type: 'spring', stiffness: 200, damping: 24 }}
-								className={`w-full ${modalMaxWidth} rounded-3xl border border-emerald-200/70 bg-white/95 p-12 md:p-20 shadow-2xl backdrop-blur-xl relative overflow-hidden flex flex-col max-h-[100vh] min-h-[70vh]`}
+								className={`w-full max-w-[92vw] sm:max-w-3xl md:max-w-5xl ${modalMaxWidth} rounded-3xl border border-emerald-200/70 bg-white/95 p-6 sm:p-8 md:p-12 shadow-2xl backdrop-blur-xl relative overflow-hidden flex flex-col max-h-[100vh] min-h-[60vh] md:min-h-[70vh]`}
 								onClick={(e) => e.stopPropagation()}
 							>
 								<div className='pointer-events-none absolute -top-24 -right-24 h-80 w-80 rounded-full bg-emerald-200/30 blur-3xl' />
-								<div className='flex items-start justify-between gap-4 relative'>
+								<div className='flex flex-col sm:flex-row sm:items-start justify-between gap-3 sm:gap-4 relative'>
 									<div>
-										<h4 className='text-2xl md:text-3xl font-extrabold tracking-tight text-emerald-900'>
+										<h4 className='text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight text-emerald-900'>
 											{active.event.title}
 										</h4>
-										<p className='mt-2 text-sm md:text-base text-emerald-800/80 font-medium'>
+										<p className='mt-1 sm:mt-2 text-sm md:text-base text-emerald-800/80 font-medium'>
 											Year {active.yearItem.year} • {active.yearItem.title}
 										</p>
 									</div>
 									<button
 										ref={initialFocusRef}
 										onClick={close}
-										className='rounded-full border border-emerald-300/70 bg-white/80 px-6 py-3 text-xs font-medium text-emerald-700 hover:bg-emerald-50 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-1 shadow-sm'
+										className='rounded-full border border-emerald-300/70 bg-white/80 px-4 sm:px-6 py-2.5 text-xs sm:text-sm font-medium text-emerald-700 hover:bg-emerald-50 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-1 shadow-sm self-start sm:self-auto'
 										aria-label='Close dialog'
 									>
 										Close
