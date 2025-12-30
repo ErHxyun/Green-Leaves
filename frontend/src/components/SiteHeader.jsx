@@ -35,7 +35,7 @@ export default function SiteHeader() {
 							alt='Little Green Leaves Logo'
 							sx={{ height: 40, width: 40, mr: 1, borderRadius: 1, objectFit: 'contain' }}
 						/>
-						<Typography variant='h5' sx={{ color: '#34582B', fontWeight: 'bold' }}>
+						<Typography variant='h6' sx={{ color: '#34582B', fontWeight: 'bold' }}>
 							{t('app.title')}
 						</Typography>
 					</Box>
