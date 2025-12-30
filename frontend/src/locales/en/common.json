@@ -1,4 +1,4 @@
-{
+﻿{
 	"app": {
 		"title": "Little Green Leaves"
 	},
@@ -24,7 +24,7 @@
 		"fundsDesc": "Total donations directed toward education initiatives"
 	},
 	"testimonials": {
-		"title": "What People Say"
+		"title": "What we do... What People Say"
 	},
 	"cta": {
 		"title": "Join the Little Green Leaves Movement",
@@ -35,18 +35,18 @@
 		"title": "About Little Green Leaves",
 		"intro": "Established in 2016, the Little Green Leaves Volunteers began with a simple yet profound wish: to ensure that left-behind children in rural areas are not just fed and clothed, but also understood and cherished.",
 		"orgTitle": "Our organization",
-		"orgP1": "In our early days, we mobilized communities to donate used books and clothing, establishing library corners in village schools and orphanages. As we grew—catalyzed by the PBIC competition and our resilience during the pandemic—we launched the \"Green Leaves Dream Platform\" initiative. This marked our evolution from providing material aid to nurturing the soul.",
+		"orgP1": "In our early days, we mobilized communities to donate used books and clothing, establishing library corners in village schools and orphanages. As we grew---catalyzed by the PBIC competition and our resilience during the pandemic---we launched the \"Green Leaves Dream Platform\" initiative. This marked our evolution from providing material aid to nurturing the soul.",
 		"orgP2": "Over the past decade, countless acts of kindness have converged here. What started as a student initiative has grown into a trusted platform of love. We have channeled nearly 800,000 RMB in charitable support, facilitating long-term, one-on-one sponsorships for over 140 impoverished and \"left-behind\" children. For us, these are not just numbers; they represent the young lives illuminated by hope. With a founding team rooted in Psychology, Little Green Leaves Volunteer understands that for left-behind children, emotional isolation is often harder to bear than material poverty. Our core mission is to protect their mental health and well-being.",
 		"virtualTitle": "Virtual Connections",
 		"virtualP1": "Through online lectures and interactions, we break the physical barriers of the mountains and broaden the children's horizons.",
 		"campTitle": "On-Site Camps",
 		"campP1": "During holidays, our volunteers travel to the mountains to host camps. Through real hugs and face-to-face interaction, we send a clear message to every child: You are never forgotten.",
-		"closing": "We are \"Green Leaves Volunteers\"—a symbol of growth and promise. Join us in protecting the dreams of children in the mountains.",
+		"closing": "We are \"Green Leaves Volunteers\" --- symbol of growth and promise. Join us in protecting the dreams of children in the mountains.",
 		"leaderTitle": "Meet our leader",
 		"leaderName": "Wang Yining",
 		"leaderRole": "Founder, Little Green Leaves Organization",
 		"leaderEdu": "B.A. in Psychology and Data Science, University of North Carolina at Chapel Hill (UNC)",
-		"leaderBio": "Inspired by a dream that began in 2016, Wang Yining founded Little Green Leaves. As a psychology student at the University of North Carolina at Chapel Hill (UNC), he integrates his academic training into philanthropy and advocates for a dual approach: supporting both material needs and emotional well-being. Over nearly a decade, he has led the team from book and clothing drives to a mature one-to-one sponsorship system—providing companionship and psychological care to help left-behind children in remote mountain areas build a bridge to a wider world."
+		"leaderBio": "Inspired by a dream that began in 2016, Wang Yining founded Little Green Leaves. As a psychology student at the University of North Carolina at Chapel Hill (UNC), he integrates his academic training into philanthropy and advocates for a dual approach: supporting both material needs and emotional well-being. Over nearly a decade, he has led the team from book and clothing drives to a mature one-to-one sponsorship system providing companionship and psychological care to help left-behind children in remote mountain areas build a bridge to a wider world."
 	},
 	"contact": {
 		"title": "Join Us",
@@ -66,7 +66,7 @@
 		"title": "Our Efforts"
 	},
 	"timeline": {
-		"heading": "Our Efforts: 2016–2025",
+		"heading": "Our Efforts: 2016 - 2025",
 		"subheading": "A decade of steady, sustainable growth powered by community and care.",
 		"2016": {
 			"title": "Planting the First Seed",
@@ -77,7 +77,7 @@
 					"blocks": {
 						"0": { "content": "Taking the First Step" },
 						"1": {
-							"content": "On May 1, 2016, Little Green Leaves held its first official event. I still remember how nervous we were during our first donation activity at the park — we didn’t dare lift our heads, worried that no one would donate, no one would approach, and unsure how to introduce ourselves. Most of all, we felt embarrassed and hesitant. Thankfully, with parents encouraging us from behind and teammates cheering one another on, we slowly gathered courage. The first step is always the hardest, but once we took it, we realized it wasn’t as scary as we imagined."
+							"content": "On May 1, 2016, Little Green Leaves held its first official event. I still remember how nervous we were during our first donation activity at the park 鈥?we didn鈥檛 dare lift our heads, worried that no one would donate, no one would approach, and unsure how to introduce ourselves. Most of all, we felt embarrassed and hesitant. Thankfully, with parents encouraging us from behind and teammates cheering one another on, we slowly gathered courage. The first step is always the hardest, but once we took it, we realized it wasn鈥檛 as scary as we imagined."
 						},
 						"2": { "caption": "Little Green Leaves' first park book donation event." },
 						"3": {
@@ -90,18 +90,18 @@
 						"6": { "caption": "Growing recognition for Little Green Leaves." },
 						"7": { "content": "Lessons Beyond the Classroom" },
 						"8": {
-							"content": "This offline event gave every member experiences that no classroom or textbook could offer. We began with nervousness, shyness, and self-doubt — yet were met with support, trust, and encouragement from the community. From being too scared to speak, to introducing our mission with confidence, every moment became a memory we will never forget."
+							"content": "This offline event gave every member experiences that no classroom or textbook could offer. We began with nervousness, shyness, and self-doubt 鈥?yet were met with support, trust, and encouragement from the community. From being too scared to speak, to introducing our mission with confidence, every moment became a memory we will never forget."
 						},
 						"9": { "caption": "Everyone learned lessons beyond the classroom." },
 						"10": {
-							"content": "Across just two days, we collected more than 1,000 donated books. Although everyone felt tired, we also experienced the joy of teamwork, the fulfillment of giving, and the true happiness that comes from helping others — an invaluable treasure."
+							"content": "Across just two days, we collected more than 1,000 donated books. Although everyone felt tired, we also experienced the joy of teamwork, the fulfillment of giving, and the true happiness that comes from helping others 鈥?an invaluable treasure."
 						},
 						"11": { "content": "A Boost of Confidence" },
 						"12": {
 							"content": "This very first event gave us a huge boost of confidence. We are deeply grateful to the parents who encouraged us, the teachers who supported us, and every kind-hearted donor who believed in us. Their trust helped us understand that what we were doing truly mattered."
 						},
 						"13": {
-							"content": "Little Green Leaves will continue working hard to be a bridge of love — to spread kindness, warmth, and hope wherever we go."
+							"content": "Little Green Leaves will continue working hard to be a bridge of love 鈥?to spread kindness, warmth, and hope wherever we go."
 						},
 						"14": { "caption": "A boost of confidence for Little Green Leaves." }
 					}
@@ -111,7 +111,7 @@
 					"blocks": {
 						"0": { "content": "Background & Preparation" },
 						"1": {
-							"content": "During the summer of 2016, as the holiday was coming to an end, “Little Green Leaves” (小绿叶志愿者平台) was introduced by the founder’s mother to a local educational charity called “Lotus Educational Assistance” (莲花助学) in Henan Province."
+							"content": "During the summer of 2016, as the holiday was coming to an end, 鈥淟ittle Green Leaves鈥?(灏忕豢鍙跺織鎰胯€呭钩鍙? was introduced by the founder鈥檚 mother to a local educational charity called 鈥淟otus Educational Assistance鈥?(鑾茶姳鍔╁) in Henan Province."
 						},
 						"2": { "caption": "Books labeled and ready to be shipped." },
 						"3": {
@@ -119,18 +119,18 @@
 						},
 						"4": { "caption": "Labeled for shipment. Time to go!" },
 						"5": {
-							"content": "Nearly 4,000 books and 10 bookshelves (all purchased with New Year’s money) were prepared and ready to ship."
+							"content": "Nearly 4,000 books and 10 bookshelves (all purchased with New Year鈥檚 money) were prepared and ready to ship."
 						},
 						"6": { "content": "Overcoming Challenges" },
 						"7": {
-							"content": "However, shipping became a problem — the books were heavy, the distance long, and the postage expensive. Since every cost came from the children’s own savings, Little Green Leaves (with a parent accompanying) visited every courier service in town to compare prices."
+							"content": "However, shipping became a problem 鈥?the books were heavy, the distance long, and the postage expensive. Since every cost came from the children鈥檚 own savings, Little Green Leaves (with a parent accompanying) visited every courier service in town to compare prices."
 						},
 						"8": {
 							"content": "Finally, SF Express and Deppon Express were chosen as options. When the SF Express manager heard about their charitable mission, he immediately offered a 40% discount on shipping."
 						},
 						"9": { "caption": "Books loaded and ready for shipment." },
 						"10": {
-							"content": "The kids were thrilled — and soon, the second batch of books and bookshelves set out on their journey filled with love and care. 📦💚"
+							"content": "The kids were thrilled 鈥?and soon, the second batch of books and bookshelves set out on their journey filled with love and care. 馃摝馃挌"
 						},
 						"11": { "content": "Journey to the Mountains" },
 						"12": {
@@ -138,17 +138,19 @@
 						},
 						"13": { "caption": "Little Green Leaves arrived at village school." },
 						"14": {
-							"content": "Upon arrival, they were warmly greeted by the principal and teachers, whose enthusiasm and kindness washed away all the fatigue from the journey. 😊"
+							"content": "Upon arrival, they were warmly greeted by the principal and teachers, whose enthusiasm and kindness washed away all the fatigue from the journey. 馃槉"
 						},
 						"15": {
-							"content": "Although the students were on summer vacation (so they didn’t meet them in person), seeing all the book boxes arrive safely brought deep joy and fulfillment."
+							"content": "Although the students were on summer vacation (so they didn鈥檛 meet them in person), seeing all the book boxes arrive safely brought deep joy and fulfillment."
 						},
 						"16": { "caption": "Books ready and sorted at village school." },
 						"17": {
-							"content": "The teachers explained that many of their students lived far away and had to stay in the dormitory, which was largely supported by donations. The school’s old library only had one small bookshelf with a few torn books — so these new donations arrived just in time."
+							"content": "The teachers explained that many of their students lived far away and had to stay in the dormitory, which was largely supported by donations. The school鈥檚 old library only had one small bookshelf with a few torn books 鈥?so these new donations arrived just in time."
 						},
 						"18": { "caption": "A cozy book corner set up for the students." },
-						"19": { "content": "📚 Now, the children could finally read freely and explore new worlds through books." },
+						"19": {
+							"content": "Now, the children could finally read freely and explore new worlds through books."
+						},
 						"20": { "caption": "Visiting a sponsored student at home." },
 						"21": {
 							"content": "After leaving the school, the group continued deeper into the mountains to visit students their family had personally sponsored for years."
@@ -162,14 +164,14 @@
 						},
 						"25": { "caption": "Visiting a sponsored student at school." },
 						"26": {
-							"content": "Even with few words, it was clear that the students were full of gratitude and determination — they knew that through effort, they could repay the kindness they had received.\n✨ Both girls were later admitted to their dream universities in 2017."
+							"content": "Even with few words, it was clear that the students were full of gratitude and determination 鈥?they knew that through effort, they could repay the kindness they had received.\n鉁?Both girls were later admitted to their dream universities in 2017."
 						},
 						"27": { "content": "Reflections" },
 						"28": {
 							"content": "The Little Green Leaves group deeply thanked Teacher Maomao Xiong for this opportunity."
 						},
 						"29": {
-							"content": "This trip to Lushan made them realize how fortunate they were — with access to good education and living conditions. They promised to cherish what they have, to keep doing their best, and to help more people in need in the future. 🌿❤️"
+							"content": "This trip to Lushan made them realize how fortunate they were 鈥?with access to good education and living conditions. They promised to cherish what they have, to keep doing their best, and to help more people in need in the future. 馃尶鉂わ笍"
 						}
 					}
 				},
@@ -181,18 +183,18 @@
 							"content": "During the summer of 2016, as vacation began, the Little Green Leaves volunteer team set an ambitious goal: to organize a large-scale community book donation campaign. With careful planning, we scheduled all activities for after 5 p.m. to avoid the heat while ensuring we could carry out our tasks efficiently. Our thoughtful preparation earned support and encouragement from our teachers."
 						},
 						"2": {
-							"content": "On the very first day, classmates arrived early at the donation site, filled with excitement. Everyone followed their assigned roles—some hung banners, some took notes, and others used loudspeakers to promote the event. Gone was the nervousness from our very first attempt; this time, everyone worked confidently and smoothly."
+							"content": "On the very first day, classmates arrived early at the donation site, filled with excitement. Everyone followed their assigned roles鈥攕ome hung banners, some took notes, and others used loudspeakers to promote the event. Gone was the nervousness from our very first attempt; this time, everyone worked confidently and smoothly."
 						},
 						"3": { "caption": "Classmates arrived early at the donation site." },
 						"4": { "content": "Engaging the Community" },
 						"5": {
-							"content": "Soon, people began stopping to watch, ask questions, and scan our donation QR code. Fueled by confidence, we seized every chance to share our mission—approaching elderly walkers, playful children, couples on evening strolls, taxi drivers, and even police officers. Although we sometimes encountered rejection or unkind responses, none of us gave up. We always responded with polite bows and sincere gratitude."
+							"content": "Soon, people began stopping to watch, ask questions, and scan our donation QR code. Fueled by confidence, we seized every chance to share our mission鈥攁pproaching elderly walkers, playful children, couples on evening strolls, taxi drivers, and even police officers. Although we sometimes encountered rejection or unkind responses, none of us gave up. We always responded with polite bows and sincere gratitude."
 						},
 						"6": {
-							"content": "We believed deeply in the meaning of what we were doing. Even if some didn’t understand us yet, we knew we simply needed to keep trying. Every difficult moment strengthened us and taught us courage."
+							"content": "We believed deeply in the meaning of what we were doing. Even if some didn鈥檛 understand us yet, we knew we simply needed to keep trying. Every difficult moment strengthened us and taught us courage."
 						},
 						"7": {
-							"content": "Gradually, more and more people recognized “Little Green Leaves.” Donations increased—from a few books to dozens. As we saw results, our once awkward introduction speech became much more fluent and confident."
+							"content": "Gradually, more and more people recognized 鈥淟ittle Green Leaves.鈥?Donations increased鈥攆rom a few books to dozens. As we saw results, our once awkward introduction speech became much more fluent and confident."
 						},
 						"8": { "caption": "Engaging with the community during the donation event." },
 						"9": { "content": "Moments That Touched Our Hearts" },
@@ -205,7 +207,7 @@
 						"12": { "caption": "Moments that touched our hearts during the donation event." },
 						"13": { "content": "Support From Our Teacher" },
 						"14": {
-							"content": "On the third day, we received an unexpected surprise—our homeroom teacher, Mr. Zhang, came personally to support us, giving us encouragement and strength. He even joined us on the frontline, introducing our project to passersby. A moved bystander offered to take photos, capturing this unforgettable moment."
+							"content": "On the third day, we received an unexpected surprise鈥攐ur homeroom teacher, Mr. Zhang, came personally to support us, giving us encouragement and strength. He even joined us on the frontline, introducing our project to passersby. A moved bystander offered to take photos, capturing this unforgettable moment."
 						},
 						"15": { "caption": "Support from our teacher during the donation event." },
 						"16": {
@@ -214,18 +216,18 @@
 						"17": { "content": "Becoming More Professional" },
 						"18": { "caption": "Becoming more professional during the donation event." },
 						"19": {
-							"content": "In later events, we became noticeably more professional—our mother even helped us customize T-shirts printed with the “Little Green Leaves” logo. Wearing matching uniforms attracted more attention and made people more willing to approach and learn about our project."
+							"content": "In later events, we became noticeably more professional鈥攐ur mother even helped us customize T-shirts printed with the 鈥淟ittle Green Leaves鈥?logo. Wearing matching uniforms attracted more attention and made people more willing to approach and learn about our project."
 						},
 						"20": { "content": "Results & Impact" },
 						"21": {
 							"content": "Over the course of the summer, we held 7 events and collected more than 3,000 books on-site. Another 700 books were donated afterward, and over 1,000 were mailed from around the country thanks to our online outreach. In total, we received more than 5,000 books in just one month."
 						},
 						"22": {
-							"content": "Beyond the books themselves, this experience taught us the courage to challenge ourselves and persevere through difficulties. We discovered that when we help others, we grow the most ourselves—truly experiencing the “action and reaction” of kindness."
+							"content": "Beyond the books themselves, this experience taught us the courage to challenge ourselves and persevere through difficulties. We discovered that when we help others, we grow the most ourselves鈥攖ruly experiencing the 鈥渁ction and reaction鈥?of kindness."
 						},
 						"23": { "content": "Gratitude" },
 						"24": {
-							"content": "We are sincerely grateful. Every act of generosity, every word of encouragement, and every helping hand helped “Little Green Leaves” grow stronger. Because of everyone’s support, we were able to achieve far more than we ever imagined."
+							"content": "We are sincerely grateful. Every act of generosity, every word of encouragement, and every helping hand helped 鈥淟ittle Green Leaves鈥?grow stronger. Because of everyone鈥檚 support, we were able to achieve far more than we ever imagined."
 						}
 					}
 				}
@@ -240,7 +242,7 @@
 					"blocks": {
 						"0": { "content": "Community Collaboration & Outreach" },
 						"1": {
-							"content": "In 2017, members of the Little Green Leaves Alliance not only organized donation events together but also carried out independent outreach at their own schools. Some even visited the residential communities where they lived, asking neighborhood staff and property management to help spread the word — and the results were remarkable."
+							"content": "In 2017, members of the Little Green Leaves Alliance not only organized donation events together but also carried out independent outreach at their own schools. Some even visited the residential communities where they lived, asking neighborhood staff and property management to help spread the word 鈥?and the results were remarkable."
 						},
 						"2": { "caption": "Fuding community donation activity." },
 						"3": { "content": "Warmth in Fuding Community" },
@@ -248,16 +250,16 @@
 							"content": "In the spring of 2017, Little Green Leaves and two alliance members visited the Fuding Manor Community in Sanhe City. The uncles and aunties there greeted us warmly. They not only brought books from their own homes but also helped us collect donations throughout the community."
 						},
 						"5": {
-							"content": "What moved us the most was that the caring aunties from the Fuding Manor Residents’ Committee contacted the Municipal Association for Science and Technology. Together, they donated several hundred brand-new science books! It felt like a burst of energy — a powerful boost that inspired us as we began a new year of volunteer work."
+							"content": "What moved us the most was that the caring aunties from the Fuding Manor Residents鈥?Committee contacted the Municipal Association for Science and Technology. Together, they donated several hundred brand-new science books! It felt like a burst of energy 鈥?a powerful boost that inspired us as we began a new year of volunteer work."
 						},
 						"6": { "caption": "Residents donating books." },
 						"7": { "content": "Heartfelt Gratitude" },
 						"8": {
-							"content": "Little Green Leaves would like to once again express our sincere gratitude to the kindhearted aunties of the Fuding Manor Residents’ Committee and the leaders of the Municipal Association for Science and Technology. Their support strengthened our confidence and motivated us to keep moving forward."
+							"content": "Little Green Leaves would like to once again express our sincere gratitude to the kindhearted aunties of the Fuding Manor Residents鈥?Committee and the leaders of the Municipal Association for Science and Technology. Their support strengthened our confidence and motivated us to keep moving forward."
 						},
 						"9": { "caption": "Little Green Leaves saying thank you to the community members." },
 						"10": {
-							"content": "We believe that as we continue working hard, a single green leaf can grow into a forest — no longer just a dream, but a future we are building step by step. Little Green Leaves is always on the road, spreading love and light wherever we go."
+							"content": "We believe that as we continue working hard, a single green leaf can grow into a forest 鈥?no longer just a dream, but a future we are building step by step. Little Green Leaves is always on the road, spreading love and light wherever we go."
 						}
 					}
 				},
@@ -266,7 +268,7 @@
 					"blocks": {
 						"0": { "content": "Online Efforts, Continuous Growth" },
 						"1": {
-							"content": "Although offline activities provided direct communication and valuable hands-on experience, online outreach played an equally important role in the growth of Little Green Leaves. In 2017, because I was preparing to study abroad, most of my summer was spent on standardized tests, essays, and application materials. I had almost no time to organize offline events. However, we never stopped moving forward. We continuously posted updates and donation requests on WeChat and QQ, and the response was overwhelming — caring people from all over the country mailed books to us from every direction."
+							"content": "Although offline activities provided direct communication and valuable hands-on experience, online outreach played an equally important role in the growth of Little Green Leaves. In 2017, because I was preparing to study abroad, most of my summer was spent on standardized tests, essays, and application materials. I had almost no time to organize offline events. However, we never stopped moving forward. We continuously posted updates and donation requests on WeChat and QQ, and the response was overwhelming 鈥?caring people from all over the country mailed books to us from every direction."
 						},
 						"2": { "caption": "Books mailed from all over China." },
 						"3": { "content": "Support for Orphans in Sichuan" },
@@ -274,7 +276,7 @@
 							"content": "At the end of 2017, we learned that Qianfoshi (Thousand Buddha Temple) in Zigong, Sichuan, was home to dozens of orphans in need of books. I immediately reached out to Uncle Sun Yan from SF Express. To my surprise, he rushed over without even eating lunch to check whether we needed help organizing and packing the books. When he arrived, he helped us sort, box, and prepare everything for shipment."
 						},
 						"5": {
-							"content": "Even more touching, he told us that Little Green Leaves no longer needed to pack shipments ourselves — whenever we needed to send love-filled books, he would arrange for the company’s staff to help with sorting and boxing. He also promised that this shipment would be delivered entirely free of charge."
+							"content": "Even more touching, he told us that Little Green Leaves no longer needed to pack shipments ourselves 鈥?whenever we needed to send love-filled books, he would arrange for the company鈥檚 staff to help with sorting and boxing. He also promised that this shipment would be delivered entirely free of charge."
 						},
 						"6": {
 							"content": "We were deeply moved. How could a small child like me deserve so much kindness and support? The truth is simple: people help because they carry goodness in their hearts. They saw meaning in what we were doing, and that is why they offered their help selflessly. Little Green Leaves will continue to work hard to pass on this warmth."
@@ -282,7 +284,7 @@
 						"7": { "caption": "Packing the Sichuan shipment with care." },
 						"8": { "content": "A Shipment Full of Love" },
 						"9": {
-							"content": "The third shipment — 2,000 donated books and more than 500 notebooks — set off carrying love, warmth, and blessings. Each box represented the kindness of countless people and the hope that these children would feel cared for and supported."
+							"content": "The third shipment 鈥?2,000 donated books and more than 500 notebooks 鈥?set off carrying love, warmth, and blessings. Each box represented the kindness of countless people and the hope that these children would feel cared for and supported."
 						},
 						"10": { "caption": "SF Express staff assisting with packing." }
 					}
@@ -291,30 +293,30 @@
 		},
 		"2018": {
 			"title": "First Leaves",
-			"summary": "Making a meaningful and visibke impact through focused efforts.",
+			"summary": "Making a meaningful and visible impact through focused efforts.",
 			"events": {
 				"2018-graduation-campus-donation": {
 					"title": "2018-Spring Graduation Donation Event at Our Alma Mater",
 					"blocks": {
 						"0": { "content": "A Meaningful Final Year" },
 						"1": {
-							"content": "For me, 2018 was marked by two major milestones: applying to U.S. high schools and preparing for the high school entrance exam. In March, I received an offer from my dream school. After that, I devoted myself fully to studying. Time was incredibly precious — yet our class committee made a bold decision: to organize a one-week book donation drive during lunchtime, just 20 minutes each day, right at the school gate."
+							"content": "For me, 2018 was marked by two major milestones: applying to U.S. high schools and preparing for the high school entrance exam. In March, I received an offer from my dream school. After that, I devoted myself fully to studying. Time was incredibly precious 鈥?yet our class committee made a bold decision: to organize a one-week book donation drive during lunchtime, just 20 minutes each day, right at the school gate."
 						},
 						"2": {
-							"content": "With so many students passing by every day, you can imagine the variety of looks and reactions… We faced curious stares with smiles, explained patiently despite misunderstandings, supported each other through moments of doubt or teasing, and embraced every bit of encouragement and participation that came our way. We were truly grateful for everyone who walked this path with us."
+							"content": "With so many students passing by every day, you can imagine the variety of looks and reactions鈥?We faced curious stares with smiles, explained patiently despite misunderstandings, supported each other through moments of doubt or teasing, and embraced every bit of encouragement and participation that came our way. We were truly grateful for everyone who walked this path with us."
 						},
 						"3": { "caption": "Book donation setup at the school gate." },
 						"4": { "content": "100 Minutes of Youth, a Lifetime of Memory" },
 						"5": {
-							"content": "Five days — 100 minutes in total. For us, every minute was extremely valuable. Yet in the long river of life, these 100 minutes may seem small and fleeting. Still, I believe every student who joined the donation drive gained an experience they had never had before."
+							"content": "Five days 鈥?100 minutes in total. For us, every minute was extremely valuable. Yet in the long river of life, these 100 minutes may seem small and fleeting. Still, I believe every student who joined the donation drive gained an experience they had never had before."
 						},
 						"6": {
-							"content": "Who says we teenagers are rebellious? These books are the warm currents beneath that so-called rebellion. Who says we lack compassion? These donations are our blessings as young people. Who says we don’t understand gratitude? These books carry the care and kindness we want to pass on to younger students."
+							"content": "Who says we teenagers are rebellious? These books are the warm currents beneath that so-called rebellion. Who says we lack compassion? These donations are our blessings as young people. Who says we don鈥檛 understand gratitude? These books carry the care and kindness we want to pass on to younger students."
 						},
 						"7": { "caption": "Organizing donated books together." },
 						"8": { "content": "A Bright Mark on Our Graduation Year" },
 						"9": {
-							"content": "These 100 minutes added a brilliant stroke of color to our graduation album — and painted a bold, unforgettable page in the story of our youth. This brief project became one of the most meaningful memories of our final year."
+							"content": "These 100 minutes added a brilliant stroke of color to our graduation album 鈥?and painted a bold, unforgettable page in the story of our youth. This brief project became one of the most meaningful memories of our final year."
 						}
 					}
 				},
@@ -323,7 +325,7 @@
 					"blocks": {
 						"0": { "content": "New Journey, New Partners" },
 						"1": {
-							"content": "When summer vacation began, Little Green Leaves finally had time to sort the books, categorize them, and pack boxes to deliver the existing donations to schools in need. By chance, we met Uncle Zhao from the “Century Pear Garden Charity Group.” He kindly connected us with Ms. Zhong Lixiang, the manager of Pacific Insurance in Kangbao County. She warmly helped us reach two primary schools in Zhangjiakou Kangbao County — and soon, our love-filled books and 10 bookshelves were ready to set off!"
+							"content": "When summer vacation began, Little Green Leaves finally had time to sort the books, categorize them, and pack boxes to deliver the existing donations to schools in need. By chance, we met Uncle Zhao from the 鈥淐entury Pear Garden Charity Group.鈥?He kindly connected us with Ms. Zhong Lixiang, the manager of Pacific Insurance in Kangbao County. She warmly helped us reach two primary schools in Zhangjiakou Kangbao County 鈥?and soon, our love-filled books and 10 bookshelves were ready to set off!"
 						},
 						"2": { "caption": "Preparing books and shelves for shipment." },
 						"3": { "content": "Arriving in Kangbao" },
@@ -331,242 +333,797 @@
 							"content": "On June 11th, accompanied by Uncle Zhao and his family from the Century Pear Garden Charity Group, Little Green Leaves arrived at Dengyoufang Primary School in Kangbao County. Leaders from the county, the education bureau, and the township attended and showed great support for our visit."
 						},
 						"5": {
-							"content": "Little Green Leaves shared our growth and journey from the past two years, receiving warm applause from all the teachers and students, as well as affirmation and encouragement from the leaders. Seeing their newly arranged library and the joyful smiles on the children’s faces made every effort of the past two years feel absolutely worthwhile."
+							"content": "Little Green Leaves shared our growth and journey from the past two years, receiving warm applause from all the teachers and students, as well as affirmation and encouragement from the leaders. Seeing their newly arranged library and the joyful smiles on the children鈥檚 faces made every effort of the past two years feel absolutely worthwhile."
 						},
 						"6": { "caption": "A joyful moment at Dengyoufang Primary School." },
 						"7": { "content": "Reflections on the Journey Back" },
 						"8": {
-							"content": "On the way home from Kangbao, I quietly recalled everything. Two years ago, all of this began simply because I gave a few books to a shy little boy — and his joyful expression touched my heart. Today, we have helped five village primary schools. Seeing so many children holding books with excitement, hearing their sincere words of thanks, and watching their eyes light up as they shared their thoughts — these moments are etched into my memory. They continue to motivate me and remind Little Green Leaves that we are always walking on the road of our dreams."
+							"content": "On the way home from Kangbao, I quietly recalled everything. Two years ago, all of this began simply because I gave a few books to a shy little boy 鈥?and his joyful expression touched my heart. Today, we have helped five village primary schools. Seeing so many children holding books with excitement, hearing their sincere words of thanks, and watching their eyes light up as they shared their thoughts 鈥?these moments are etched into my memory. They continue to motivate me and remind Little Green Leaves that we are always walking on the road of our dreams."
 						},
 						"9": { "caption": "A new reading corner ready for the children." },
-						"10": { "content": "A New Beginning — The Official WeChat Account" },
+						"10": { "content": "A New Beginning 鈥?The Official WeChat Account" },
 						"11": {
-							"content": "On January 1st, 2019 — the first day of the New Year — Little Green Leaves launched its official WeChat public account. This marked a fresh start from the heart, allowing us to continue spreading warmth and gratitude as we reflected on three years of growth. We also launched the “Little Overseas Students Sending Warmth” donation campaign for clothes and books, inviting everyone to join us in helping more people."
+							"content": "On January 1st, 2019 鈥?the first day of the New Year 鈥?Little Green Leaves launched its official WeChat public account. This marked a fresh start from the heart, allowing us to continue spreading warmth and gratitude as we reflected on three years of growth. We also launched the 鈥淟ittle Overseas Students Sending Warmth鈥?donation campaign for clothes and books, inviting everyone to join us in helping more people."
 						},
 						"12": {
-							"content": "Little Green Leaves growing into a forest — thank you for being part of this journey."
+							"content": "Little Green Leaves growing into a forest 鈥?thank you for being part of this journey."
 						},
 						"13": { "caption": "The profile page for Little Green Leaves official WeChat account." }
 					}
 				},
 				"2018-kangbao-xiaokangbao": {
-					"title": "Your Smile Is My Motivation — Supporting Little Kangbao",
+					"title": "Your Smile Is My Motivation 鈥?Supporting Little Kangbao",
 					"blocks": {
 						"0": { "content": "A Fate We Never Expected" },
 						"1": {
 							"content": "In June 2018, after completing the Kangbao County book donation event, I thought our connection with the region had reached a beautiful ending. Instead, it turned out to be just the beginning. As we were preparing to leave, the town leaders mentioned that there was a five-year-old boy in need of long-term support. His name was Li Kang."
 						},
 						"2": {
-							"content": "Through the introduction of Mayor Liu Yanfeng of Kangbao Town, we learned that little Li Kang lived in Daoyin Village. His father had passed away in a car accident, and his mother had remarried. He lived with his elderly grandparents, both struggling with health issues. It felt like destiny — a profound and unexpected connection linking Little Green Leaves with this little boy."
+							"content": "Through the introduction of Mayor Liu Yanfeng of Kangbao Town, we learned that little Li Kang lived in Daoyin Village. His father had passed away in a car accident, and his mother had remarried. He lived with his elderly grandparents, both struggling with health issues. It felt like destiny 鈥?a profound and unexpected connection linking Little Green Leaves with this little boy."
 						},
 						"3": {
-							"content": "Together with Uncle Zhao from the Century Pear Garden Charity Group, we went straight to his kindergarten to meet him. The moment I saw this quiet, shy child, I made a bold decision: to accompany him as he grows, and to let our lives become part of each other’s story."
+							"content": "Together with Uncle Zhao from the Century Pear Garden Charity Group, we went straight to his kindergarten to meet him. The moment I saw this quiet, shy child, I made a bold decision: to accompany him as he grows, and to let our lives become part of each other鈥檚 story."
 						},
 						"4": { "caption": "Our first time meeting with Little Kangbao." },
-						"5": { "content": "First Meeting — A Bond Begins" },
+						"5": { "content": "First Meeting 鈥?A Bond Begins" },
 						"6": {
-							"content": "You probably would’ve never imagined that the aunt hugging you so tightly that day would become your new mother — and the big boy crouching beside you would become your future brother!"
+							"content": "You probably would鈥檝e never imagined that the aunt hugging you so tightly that day would become your new mother 鈥?and the big boy crouching beside you would become your future brother!"
 						},
 						"7": { "caption": "A shy beginning to a lifelong bond." },
 						"8": {
 							"content": "Slowly, you began to relax. Your shy smile widened, revealing your tiny tiger teeth. You no longer resisted my hugs. When I picked you up and lifted you toward the sky, you laughed loudly like a little eagle spreading its wings for the first time. That moment melted my heart."
 						},
 						"9": {
-							"content": "Our time together was short, but something inside me shifted. Perhaps this feeling is what people call a “bond.” The moment you smiled, time seemed to freeze. I silently promised myself to guard that innocence and to grow alongside you."
+							"content": "Our time together was short, but something inside me shifted. Perhaps this feeling is what people call a 鈥渂ond.鈥?The moment you smiled, time seemed to freeze. I silently promised myself to guard that innocence and to grow alongside you."
 						},
-						"10": { "content": "Second Visit — A Birthday to Remember" },
+						"10": { "content": "Second Visit 鈥?A Birthday to Remember" },
 						"11": {
-							"content": "Before I left for school, I couldn’t stop thinking about you. When I returned, we celebrated your birthday together. You hid shyly in the corner when we arrived, but the moment you recognized me, your eyes lit up — you hadn’t forgotten me."
+							"content": "Before I left for school, I couldn鈥檛 stop thinking about you. When I returned, we celebrated your birthday together. You hid shyly in the corner when we arrived, but the moment you recognized me, your eyes lit up 鈥?you hadn鈥檛 forgotten me."
 						},
 						"12": {
-							"content": "I brought you a puzzle I used to play with as a kid. You grabbed it curiously and tried to piece it together before even listening to the instructions. You couldn’t solve it at first, but after I patiently explained, you proudly completed your very first puzzle. Your beaming smile was sweeter than honey."
+							"content": "I brought you a puzzle I used to play with as a kid. You grabbed it curiously and tried to piece it together before even listening to the instructions. You couldn鈥檛 solve it at first, but after I patiently explained, you proudly completed your very first puzzle. Your beaming smile was sweeter than honey."
 						},
 						"13": { "caption": "The smile that started it all." },
 						"14": {
-							"content": "When I heard your birthday was just a few days away, I immediately prepared a surprise. Seeing you dressed in brand-new clothes, glowing with joy, I suddenly felt the urge to take care of you — something I had never experienced before."
+							"content": "When I heard your birthday was just a few days away, I immediately prepared a surprise. Seeing you dressed in brand-new clothes, glowing with joy, I suddenly felt the urge to take care of you 鈥?something I had never experienced before."
 						},
 						"15": { "caption": "We were having a good time for Kangbao's birthday." },
-						"16": { "content": "Third Visit — Winter Reunion Across the Ocean" },
+						"16": { "content": "Third Visit 鈥?Winter Reunion Across the Ocean" },
 						"17": {
 							"content": "Four months passed. Even though I was studying abroad, the cold winter could not stop my steps. The moment I returned to China, I rushed to see you."
 						},
 						"18": {
-							"content": "I had grown thinner — but you had grown even cuter. The moment I stepped out of the car, you ran toward me, shouting “Gege!” (“Big brother!”). My heart melted instantly."
+							"content": "I had grown thinner 鈥?but you had grown even cuter. The moment I stepped out of the car, you ran toward me, shouting 鈥淕ege!鈥?(鈥淏ig brother!鈥?. My heart melted instantly."
 						},
 						"19": {
-							"content": "I gave you your first Christmas gift: a remote-control airplane. Your face lit up with disbelief and pure joy. Then came a huge box of building blocks — you were so excited you didn’t even notice you weren’t wearing shoes. You dumped the blocks onto the bed, laughing non-stop, showing me every little figurine you found."
+							"content": "I gave you your first Christmas gift: a remote-control airplane. Your face lit up with disbelief and pure joy. Then came a huge box of building blocks 鈥?you were so excited you didn鈥檛 even notice you weren鈥檛 wearing shoes. You dumped the blocks onto the bed, laughing non-stop, showing me every little figurine you found."
 						},
 						"20": { "caption": "Building blocks and endless laughter." },
 						"21": {
-							"content": "You played with full concentration — so focused and adorable that I couldn’t help but stare. When you showed me your “masterpiece,” I clapped proudly. You truly had creativity!"
+							"content": "You played with full concentration 鈥?so focused and adorable that I couldn鈥檛 help but stare. When you showed me your 鈥渕asterpiece,鈥?I clapped proudly. You truly had creativity!"
 						},
 						"22": {
-							"content": "Later, I gave you dozens of storybooks I had read growing up. Even though you couldn’t understand English yet, you insisted I read the English comic books aloud to you. We built Lego, read stories, played games — every moment with you felt precious."
+							"content": "Later, I gave you dozens of storybooks I had read growing up. Even though you couldn鈥檛 understand English yet, you insisted I read the English comic books aloud to you. We built Lego, read stories, played games 鈥?every moment with you felt precious."
 						},
 						"23": {
-							"content": "At dinner, surrounded by your loving grandparents, aunt, and your new family, you refused to eat vegetables — until everyone praised you, and then you surprisingly finished a whole bowl of them! You made everyone laugh until their stomachs hurt."
+							"content": "At dinner, surrounded by your loving grandparents, aunt, and your new family, you refused to eat vegetables 鈥?until everyone praised you, and then you surprisingly finished a whole bowl of them! You made everyone laugh until their stomachs hurt."
 						},
 						"24": { "caption": "Building blocks and endless laughter." },
 						"25": {
-							"content": "But time always passes too quickly. When we stood up to leave, your eyes filled with tears. “When will you come back again?” you asked softly. Mom comforted you: “哥哥 will visit during his next break.” Only then did you let us go."
+							"content": "But time always passes too quickly. When we stood up to leave, your eyes filled with tears. 鈥淲hen will you come back again?鈥?you asked softly. Mom comforted you: 鈥滃摜鍝?will visit during his next break.鈥?Only then did you let us go."
 						},
-						"26": { "content": "One Year Later — A Big Surprise" },
+						"26": { "content": "One Year Later 鈥?A Big Surprise" },
 						"27": {
-							"content": "A year after our first meeting, I returned again — the first stop of my summer vacation. Blue skies, white clouds, music, and the familiar roads accompanied me. When I arrived at your home, you jumped off the electric scooter and ran toward me shouting “哥哥！” with even more excitement than before."
+							"content": "A year after our first meeting, I returned again 鈥?the first stop of my summer vacation. Blue skies, white clouds, music, and the familiar roads accompanied me. When I arrived at your home, you jumped off the electric scooter and ran toward me shouting 鈥滃摜鍝ワ紒鈥?with even more excitement than before."
 						},
 						"28": {
-							"content": "You proudly carried your new backpack and wouldn’t let go of it. When I brought out new clothes, your eyes widened with excitement. You carefully picked your own outfits — coordinating colors like a little fashion expert."
+							"content": "You proudly carried your new backpack and wouldn鈥檛 let go of it. When I brought out new clothes, your eyes widened with excitement. You carefully picked your own outfits 鈥?coordinating colors like a little fashion expert."
 						},
 						"29": {
-							"content": "When you stood on the kang bed and appeared taller than me, I pinched your chubby cheeks — and you burst into uncontrollable laughter. You led me outside to show me how you could salute, how you could read new characters, and how you could run faster than before. You weren't the quiet little boy from last year anymore — you had grown confident, cheerful, and lively."
+							"content": "When you stood on the kang bed and appeared taller than me, I pinched your chubby cheeks 鈥?and you burst into uncontrollable laughter. You led me outside to show me how you could salute, how you could read new characters, and how you could run faster than before. You weren't the quiet little boy from last year anymore 鈥?you had grown confident, cheerful, and lively."
 						},
 						"30": {
-							"content": "Seeing your clothes go from size 120 to 130, watching you volunteer to help carry my bags, noticing how you now spoke bravely and smiled often… I could clearly see your growth over these 11 months."
+							"content": "Seeing your clothes go from size 120 to 130, watching you volunteer to help carry my bags, noticing how you now spoke bravely and smiled often鈥?I could clearly see your growth over these 11 months."
 						},
 						"31": { "content": "A Promise for Life" },
 						"32": {
-							"content": "Every visit, I leave you with a photo of the two of us — a small way to record our bond and your growth. And every time we say goodbye, I’m reminded of the promise we made:"
+							"content": "Every visit, I leave you with a photo of the two of us 鈥?a small way to record our bond and your growth. And every time we say goodbye, I鈥檓 reminded of the promise we made:"
 						},
 						"33": { "caption": "A heartfelt thank you from Kangbao." },
 						"34": {
-							"content": "“哥哥 will work hard in other countries in the world.  You will grow up healthy at home.  And together — we will both do our best.”"
-						},
-						"35": { "caption": "A heartfelt thank you from Kangbao." },
-						"36": {
-							"content": "Your smile is the source of my strength. Thank you for letting me be part of your life. Thank you for giving Little Green Leaves a deeper meaning."
+							"content": "I will work hard in other countries in the world.  You will grow up healthy at home.  And together 鈥?we will both do our best."
 						}
+					},
+					"35": { "caption": "A heartfelt thank you from Kangbao." },
+					"36": {
+						"content": "Your smile is the source of my strength. Thank you for letting me be part of your life. Thank you for giving Little Green Leaves a deeper meaning."
 					}
 				}
 			}
-		},
-		"2019": {
-			"title": "Canopy of Care",
-			"summary": "Expanded sponsorship model; introduced volunteer mentorship for youth.",
-			"events": {
-				"2019-kangbao-fourth-visit": {
-					"title": "2019-summmer kangbao-fourth-visit",
-					"blocks": {
-						"0": { "content": "Returning After One Year" },
-						"1": {
-							"content": "One year later, I returned for the fourth time. Walking into this place that felt both familiar and new, I noticed changes everywhere — cleaner streets, a more beautiful environment, more high-rise buildings, blue skies, white clouds, and a refreshing, gentle breeze. As I traveled through the town, I couldn’t help but reflect on how much he — and this place — had grown."
-						},
-						"2": {
-							"content": "We arrived in the evening. Despite the four-hour drive, Little Green Leaves felt no exhaustion at all — we came carrying flowers and gratitude. Ms. Liang Jingjing, Chairwoman of the Kangbao County Women’s Federation, was still waiting to welcome us warmly. I shared the growth journey of Little Green Leaves and learned in detail about the situation of left-behind children in the county."
-						},
-						"3": { "content": "Love Helps Growth — No Child Left Alone" },
-						"4": {
-							"content": "This visit was part of the Kangbao County Women’s Federation’s third round of the program “Love Helps Growth, No Child Left Alone,” which focuses on pairing and supporting left-behind children. Despite his busy schedule, County Mayor Li personally attended the event, listened carefully to the introductions from the “loving families,” and learned about the origin and development of Little Green Leaves. He expressed strong affirmation and encouragement."
-						},
-						"5": {
-							"content": "During the event, I was also honored to meet Ms. Fan Weihua, Chairwoman of Zhangjiakou Zhangheng Big Sister Domestic Services Co., Ltd., and Ms. Zhang Jing, Chairwoman of Hebei Hengtai Leather Goods Co., Ltd. Listening to their stories of helping children in need deeply moved me. I sincerely applaud these two compassionate leaders for their generosity and dedication."
-						},
-						"6": { "content": "Standing Beneath the Flag" },
-						"7": {
-							"content": "When I once again put on the red Young Pioneer scarf and watched the national flag rise slowly in the hands of the students, I felt deeply moved. My love for this country is not only rooted in family, food, and beautiful scenery — but also in the pride that comes from its strength. Behind us stands a powerful nation we can rely on, giving us confidence and peace of mind. I believe every international student shares this same feeling."
-						},
-						"8": {
-							"content": "Little Green Leaves shared its own growth story with the students and spoke to them about the power of dreams. I hope every child can discover their own dream — and let it become the driving force that pushes them forward."
-						},
-						"9": { "content": "A Meaningful Beginning" },
-						"10": {
-							"content": "I sincerely invited Chairwoman Liang to serve as an “Ambassador of Love” for the Little Green Leaves Volunteer Alliance. She happily accepted. This was the very first invitation we have ever extended — and we believe it marks a beautiful beginning."
-						},
-						"11": { "content": "Beyond Books — What Children Truly Need" },
-						"12": {
-							"content": "This program connected Little Green Leaves with 21 students from Beiguan Primary School in Kangbao County. Some were orphans; some were “quasi-orphans” with one parent absent; others came from impoverished families where parents had left home to work elsewhere. Little Green Leaves not only delivered blessings but also prepared beautiful new backpacks for each child."
-						},
-						"13": {
-							"content": "Standing among them, feeling their emotions and unspoken needs, I realized something more clearly than ever before: beyond books and clothing, what these children need most is companionship and emotional care. This experience helped me define a clearer direction and purpose."
-						},
-						"14": {
-							"content": "From this day forward, Little Green Leaves believes these children are no longer alone. The backpacks they carry hold not only books and knowledge, but also warmth, love, and the power of dreams."
-						},
-						"15": { "content": "Gratitude and Strength" },
-						"16": {
-							"content": "Little Green Leaves brought warmth, passed on care, and received strength from leaders, loving families, and students alike. I am deeply grateful for the opportunity to sow seeds of kindness — and thankful for the motivation that continues to push me forward on this journey."
-						}
+		}
+	},
+	"2019": {
+		"title": "Canopy of Care",
+		"summary": "Caring and loving, more than just books.",
+		"events": {
+			"2019-kangbao-fourth-visit": {
+				"title": "2019-summmer kangbao-fourth-visit",
+				"blocks": {
+					"0": { "content": "Returning After One Year" },
+					"1": {
+						"content": "One year later, I returned for the fourth time. Walking into this place that felt both familiar and new, I noticed changes everywhere 鈥?cleaner streets, a more beautiful environment, more high-rise buildings, blue skies, white clouds, and a refreshing, gentle breeze. As I traveled through the town, I couldn鈥檛 help but reflect on how much he 鈥?and this place 鈥?had grown."
+					},
+					"2": {
+						"content": "We arrived in the evening. Despite the four-hour drive, Little Green Leaves felt no exhaustion at all 鈥?we came carrying flowers and gratitude. Ms. Liang Jingjing, Chairwoman of the Kangbao County Women鈥檚 Federation, was still waiting to welcome us warmly. I shared the growth journey of Little Green Leaves and learned in detail about the situation of left-behind children in the county."
+					},
+					"3": { "content": "Love Helps Growth 鈥?No Child Left Alone" },
+					"4": {
+						"content": "This visit was part of the Kangbao County Women鈥檚 Federation鈥檚 third round of the program 鈥淟ove Helps Growth, No Child Left Alone,鈥?which focuses on pairing and supporting left-behind children. Despite his busy schedule, County Mayor Li personally attended the event, listened carefully to the introductions from the 鈥渓oving families,鈥?and learned about the origin and development of Little Green Leaves. He expressed strong affirmation and encouragement."
+					},
+					"5": {
+						"content": "During the event, I was also honored to meet Ms. Fan Weihua, Chairwoman of Zhangjiakou Zhangheng Big Sister Domestic Services Co., Ltd., and Ms. Zhang Jing, Chairwoman of Hebei Hengtai Leather Goods Co., Ltd. Listening to their stories of helping children in need deeply moved me. I sincerely applaud these two compassionate leaders for their generosity and dedication."
+					},
+					"6": { "content": "Standing Beneath the Flag" },
+					"7": {
+						"content": "When I once again put on the red Young Pioneer scarf and watched the national flag rise slowly in the hands of the students, I felt deeply moved. My love for this country is not only rooted in family, food, and beautiful scenery 鈥?but also in the pride that comes from its strength. Behind us stands a powerful nation we can rely on, giving us confidence and peace of mind. I believe every international student shares this same feeling."
+					},
+					"8": {
+						"content": "Little Green Leaves shared its own growth story with the students and spoke to them about the power of dreams. I hope every child can discover their own dream 鈥?and let it become the driving force that pushes them forward."
+					},
+					"9": { "content": "A Meaningful Beginning" },
+					"10": {
+						"content": "I sincerely invited Chairwoman Liang to serve as an 鈥淎mbassador of Love鈥?for the Little Green Leaves Volunteer Alliance. She happily accepted. This was the very first invitation we have ever extended 鈥?and we believe it marks a beautiful beginning."
+					},
+					"11": { "content": "Beyond Books 鈥?What Children Truly Need" },
+					"12": {
+						"content": "This program connected Little Green Leaves with 21 students from Beiguan Primary School in Kangbao County. Some were orphans; some were 鈥渜uasi-orphans鈥?with one parent absent; others came from impoverished families where parents had left home to work elsewhere. Little Green Leaves not only delivered blessings but also prepared beautiful new backpacks for each child."
+					},
+					"13": {
+						"content": "Standing among them, feeling their emotions and unspoken needs, I realized something more clearly than ever before: beyond books and clothing, what these children need most is companionship and emotional care. This experience helped me define a clearer direction and purpose."
+					},
+					"14": {
+						"content": "From this day forward, Little Green Leaves believes these children are no longer alone. The backpacks they carry hold not only books and knowledge, but also warmth, love, and the power of dreams."
+					},
+					"15": { "content": "Gratitude and Strength" },
+					"16": {
+						"content": "Little Green Leaves brought warmth, passed on care, and received strength from leaders, loving families, and students alike. I am deeply grateful for the opportunity to sow seeds of kindness 鈥?and thankful for the motivation that continues to push me forward on this journey."
 					}
-				},
-				"2019-Green Leaves and Kenya": {
-					"title": "Crossing Continents — Little Green Leaves in Kenya",
-					"blocks": {
-						"0": { "content": "A Place That Sparked Curiosity" },
-						"1": {
-							"content": "There is a place where a group of extraordinary children live. Their environment is harsh, yet they are filled with sunshine and optimism. I was deeply curious — I wanted to step into their world and truly feel their lives."
-						},
-						"2": { "caption": "Children in Kenya full of sunshine and optimism." },
-						"3": { "content": "Maasai Mara, Kenya" },
-						"4": {
-							"content": "Yes, you guessed it — this place is Maasai Mara, Kenya. Back in the same season of 2015, I ran across the vast savannah alongside wildlife, rose into the sky in a hot air balloon with the sun, and watched hippos migrate along the Mara River. It was a place where I gained friendship and wisdom — a place that left a lasting mark on my heart."
-						},
-						"5": { "caption": "The vast Maasai Mara landscape." },
-						"6": { "content": "People Who Inspired My Action" },
-						"7": {
-							"content": "There were also two remarkable people — a married couple and partners in mission. They made the bold decision to leave their positions at the United Nations — a choice that might seem a little crazy to many — and founded TAIV. I deeply admired them and wanted to understand their vision, to participate, and to walk alongside them."
-						},
-						"8": { "caption": "The founders of TAIV." },
-						"9": { "content": "Returning as an International Volunteer" },
-						"10": {
-							"content": "This time, I returned to Africa as an international volunteer. I came to learn more about Africa, to understand it more deeply, and to fulfill a long-held wish: to build a Chinese-language reading corner there, so African children could learn about China and Chinese culture."
-						},
-						"11": { "content": "True exchange begins with culture. True care comes from the heart." },
-						"12": { "content": "Little Green Leaves Has Arrived" },
-						"13": {
-							"content": "In this winter in Kenya, Little Green Leaves has arrived — bringing the warmth of spring, bringing the fresh green of new beginnings. We are here. We are here. We are here."
-						},
-						"14": { "caption": "Green Leaves in Kenya." }
+				}
+			},
+			"2019-Green Leaves and Kenya": {
+				"title": "Crossing Continents 鈥?Little Green Leaves in Kenya",
+				"blocks": {
+					"0": { "content": "A Place That Sparked Curiosity" },
+					"1": {
+						"content": "There is a place where a group of extraordinary children live. Their environment is harsh, yet they are filled with sunshine and optimism. I was deeply curious 鈥?I wanted to step into their world and truly feel their lives."
+					},
+					"2": { "caption": "Children in Kenya full of sunshine and optimism." },
+					"3": { "content": "Maasai Mara, Kenya" },
+					"4": {
+						"content": "Yes, you guessed it 鈥?this place is Maasai Mara, Kenya. Back in the same season of 2015, I ran across the vast savannah alongside wildlife, rose into the sky in a hot air balloon with the sun, and watched hippos migrate along the Mara River. It was a place where I gained friendship and wisdom 鈥?a place that left a lasting mark on my heart."
+					},
+					"5": { "caption": "The vast Maasai Mara landscape." },
+					"6": { "content": "People Who Inspired My Action" },
+					"7": {
+						"content": "There were also two remarkable people 鈥?a married couple and partners in mission. They made the bold decision to leave their positions at the United Nations 鈥?a choice that might seem a little crazy to many 鈥?and founded TAIV. I deeply admired them and wanted to understand their vision, to participate, and to walk alongside them."
+					},
+					"8": { "caption": "The founders of TAIV." },
+					"9": { "content": "Returning as an International Volunteer" },
+					"10": {
+						"content": "This time, I returned to Africa as an international volunteer. I came to learn more about Africa, to understand it more deeply, and to fulfill a long-held wish: to build a Chinese-language reading corner there, so African children could learn about China and Chinese culture."
+					},
+					"11": { "content": "True exchange begins with culture. True care comes from the heart." },
+					"12": { "content": "Little Green Leaves Has Arrived" },
+					"13": {
+						"content": "In this winter in Kenya, Little Green Leaves has arrived 鈥?bringing the warmth of spring, bringing the fresh green of new beginnings. We are here. We are here. We are here."
+					},
+					"14": { "caption": "Green Leaves in Kenya." }
+				}
+			},
+			"2019-kenya-masai-mara-un": {
+				"title": "Little Green Leaves’ African Journey — Maasai Mara & the United Nations",
+				"blocks": {
+					"0": { "content": "Back to the Savannah" },
+					"1": {
+						"content": "After completing our teaching experience at the orphanage, the volunteers regrouped and set out once again — heading toward the vast Maasai Mara savannah. It was a place that had once left me in awe, a place I could never forget."
+					},
+					"2": { "content": "Memories from 2015" },
+					"3": {
+						"content": "Back in 2015, driven by pure curiosity, I had experienced everything here — tracking the great migration, chasing lions across the plains, watching wildlife under pouring rain and blazing sun. In those moments, I truly felt the power and beauty of nature."
+					},
+					"4": { "caption": "The majestic wildlife of Maasai Mara." },
+					"5": { "content": "A Small Wish" },
+					"6": {
+						"content": "To be honest, I returned this time with a small wish: to meet the lion family in the rain once more. It was them who gave me a deeper understanding of parental love. I wasn’t sure if the lions we saw were the same ones — but even encountering them again felt like fate."
+					},
+					"7": { "content": "A Day Chasing Life" },
+					"8": {
+						"content": "Blessed by a bit of luck, we encountered even more animal friends throughout the day. After hours of tracking wildlife, we returned to the lodge at sunset. That evening, as we watched the Maasai people perform their passionate bonfire dance, I realized something had changed."
+					},
+					"9": { "caption": "Maasai wildlife encounters." },
+					"10": {
+						"content": "The scenery was still breathtaking, the animals still free and graceful — yet everything outside the vehicle window felt different. It was as if I were standing between two worlds. Though I couldn’t yet put the feeling into words, I knew this was the quiet transformation that comes from experience and exploration."
+					},
+					"11": { "caption": "A breathtaking sunset in Maasai Mara." },
+					"12": { "content": "From Wilderness to the City" },
+					"13": {
+						"content": "The final stop of our Kenya journey took us to what felt like the “opposite extreme” — Nairobi, often called the Paris of East Africa. Here, we experienced Kenya’s urban culture and, most importantly, had the honor of visiting two major United Nations headquarters: the United Nations Environment Programme (UNEP) and UN-Habitat."
+					},
+					"14": { "content": "Inside the United Nations" },
+					"15": {
+						"content": "At the UN compound in northern Nairobi, we sat under warm sunlight, listened to birdsong, and felt a sense of solemnity and respect. We observed every detail that made this place unique. Seeing the trees personally planted by former Chinese presidents Hu Jintao and Jiang Zemin instantly connected us to the powerful strength of our homeland."
+					},
+					"16": {
+						"content": "We also saw the educational supplies prepared by the United Nations for refugee children. The sight filled us with both awe and deep emotion. In that moment, we silently prayed for a world free of war and filled with peace — a truly world-class experience."
+					},
+					"17": { "content": "Sitting in the Seat of Responsibility" },
+					"18": {
+						"content": "By coincidence, our visit took place during a UN recess, and Little Green Leaves had the rare opportunity to act as representatives of China to the United Nations — with photos to prove it!"
+					},
+					"19": {
+						"content": "Having previously participated in Model United Nations, sitting in the actual UN conference seat sparked an immediate sense of mission and responsibility within me. The same chair felt entirely different here — perhaps this is how energy is passed on. I even delivered a short mock “speech,” and yes — even the Wi-Fi was reserved for UN delegates. A truly world-class experience."
+					},
+					"20": { "caption": "A memorable visit to the United Nations." },
+					"21": { "content": "A World-Class Aspiration" },
+					"22": {
+						"content": "Although our visit to the United Nations lasted only half a day, the impact was profound. In this world-class institution, we had a world-class experience — one that quietly reaffirmed my belief that I could become a world-class individual, pursue world-class dreams, and one day help make the world a better place."
+					},
+					"23": { "caption": "Unforgettable moments at the United Nations." }
+				}
+			},
+			"shared-smiles-shared-effort": {
+				"title": "Smiling Faces. Moving Forward Together",
+				"blocks": {
+					"0": { "content": "Different Lives, the Same Childhood" },
+					"1": {
+						"content": "We live on the same planet, in the same era — yet in different countries, different environments, and with vastly different life experiences. They are children just like their peers, yet they carry a special label: the vulnerable. Their names differ — left-behind children, orphans, refugees — but the weight they carry is deeply similar."
+					},
+					"2": { "content": "The Moment That Changed Me" },
+					"3": {
+						"content": "In 2016, when I was twelve years old, I first met a child from a poor family. He was three years younger than me. When I gave him a few books, his reaction deeply moved me. That moment led me to decide to help children in impoverished mountain areas build reading corners — because I believed books were what they needed most."
+					},
+					"4": {
+						"content": "Over three years, we raised more than 20,000 donated books through various efforts and supported five mountain village primary schools. Yet as I visited these schools and spent time with the children, I realized something unexpected."
+					},
+					"5": {
+						"content": "They were not as joyful as I had imagined. Some were introverted and avoided communication. Some lacked confidence and struggled to make friends. Others had poor hygiene or weak study habits. After speaking with teachers, I learned that most of them were left-behind children — raised mainly by grandparents while one or both parents worked far away. What they lacked most was not material support, but emotional care and warmth."
+					},
+					"6": { "content": "Africa: Joy Amid Scarcity" },
+					"7": {
+						"content": "In the summer of 2019, I had the opportunity to visit a welfare home in Africa that housed over 300 children. More than 100 of them were orphans; others had been taken in from the streets by their “daddy.” Their daily meals consisted only of boiled beans and rice. The water they drank was yellowish and murky, even after settling."
+					},
+					"8": {
+						"content": "Yet whenever someone visited, they greeted us with bright, optimistic smiles. The children were warm and eager to help with chores. They were curious and loved learning, constantly asking teachers questions. They had never left the compound and were deeply curious about the world beyond its walls. Whenever they saw me or other teachers, they asked for food and school supplies — not out of greed, but because resources were so scarce."
+					},
+					"9": {
+						"content": "I couldn’t help but wonder: how could children living in such harsh conditions remain so optimistic and motivated?"
+					},
+					"10": { "content": "Meeting Refugee Children" },
+					"11": {
+						"content": "At the start of my tenth-grade year, I joined a school-organized community program that brought me face-to-face with children in a refugee camp. Sometimes I taught them English. Sometimes we played games together. Other times, I wrote them letters filled with encouragement and care."
+					},
+					"12": {
+						"content": "Some children were quiet and reserved, but most were sincere, optimistic, and deeply respectful of others’ feelings. I remember one visit vividly. We entered a crude building called a “classroom.” The children’s eyes were wide with nervous curiosity. Though timid, they stood up and introduced themselves bravely at the teacher’s request, then carefully accepted the “letters of love” we had written."
+					},
+					"13": {
+						"content": "They read every word attentively. Later, they wrote their dreams on inflated balloons. In my group, one child dreamed of becoming a professor, another of becoming a math teacher. After writing, they hugged their balloons tightly, afraid they might be damaged. It was clear how much their dreams meant to them — and I truly believe they will work hard to achieve them."
+					},
+					"14": { "content": "Joy in the Simplest Moments" },
+					"15": {
+						"content": "They had very little for entertainment — just one old football. After the initial shyness faded, we began playing together. The “soccer field” was a small dirt courtyard, barely 50–60 square meters. One section of wall served as the goal; if the ball hit it, it counted as a score."
+					},
+					"16": {
+						"content": "I tried to let them score more goals, but they insisted on playing by the rules. Sometimes, they even looked out for my feelings. Every child’s face was filled with laughter, and we played joyfully together."
+					},
+					"17": { "content": "What They Truly Need" },
+					"18": {
+						"content": "Left-behind children have parents, yet lack emotional companionship. African orphans have no parents and face extreme material scarcity, yet remain optimistic. Refugee children have no country — and although they appear cheerful, the lack of security is visible in their eyes."
+					},
+					"19": {
+						"content": "What can I do for these children? This is the question I continue to study and reflect on. I hope to find the best way to support them — not only materially, but also emotionally and psychologically — giving them what they truly need most."
 					}
-				},
-				"2019-2": { "title": "Sponsorship Expansion" }
+				}
+			},
+			"kangbao-winter-warmth-part-1": {
+				"title": "Connected by Warmth in the Deepest Winter (Part I)",
+				"blocks": {
+					"0": { "content": "Arriving Through Snow" },
+					"1": {
+						"content": "Traveling through snow, the harsh winter of the Bashang Plateau revealed a unique beauty. While feeling the biting cold, we also witnessed the changes taking place in Kangbao. More than ninety newly built residential buildings for relocated families stood neatly along the roads. Covered in snow, the wide, straight streets seemed even broader. In the cold wind, hints of New Year celebrations quietly filled the air."
+					},
+					"2": { "content": "A Year of Connection, A Moment of Fulfillment" },
+					"3": {
+						"content": "One year ago, Little Green Leaves formed a meaningful bond with Kangbao. Through this connection, we met Ms. Liu Yanfeng, Deputy Mayor of Kangbao Town — a warm-hearted leader who generously helped connect Little Green Leaves with Dongguan Primary School and Qinglong Village Primary School. Today, ten Little Green Leaves Reading Corners were officially completed at the two schools."
+					},
+					"4": { "content": "A Warm Welcome at Dongguan Primary School" },
+					"5": {
+						"content": "Accompanied by their families, two members of the Little Green Leaves Volunteer Alliance arrived at Dongguan Primary School. The principal introduced the newly constructed teaching building and the bright, spacious classrooms the students had just moved into."
+					},
+					"6": { "caption": "Two members of Little Green Leaves arriving at Dongguan Primary School." },
+					"7": {
+						"content": "Leaders from the county, town, and education bureau joined the event, including Chairwoman Zhao Yongfang of the County Women’s Federation, Deputy Mayor Liu Yanfeng, Director Jiang Linke from the Education and Sports Bureau, Principal Zhou Yushan of Dongguan Primary School, and Principal Kou Zhongchang of Qinglong Village Primary School. More than 100 teachers and students from both schools participated, reflecting the strong support and attention from local leadership."
+					},
+					"8": { "content": "Standing Once Again as a Young Pioneer" },
+					"9": {
+						"content": "When I once again put on the familiar red Young Pioneer scarf, heard the powerful background music, and saw the students salute with precision, I felt as if I had returned to my own elementary school days. Touching the red scarf on my chest brought an instant sense of closeness with the students — and filled me with unexpected strength."
+					},
+					"10": { "caption": "Wearing the red scarf again brought unexpected strength." },
+					"11": { "content": "Sharing Dreams and Strength" },
+					"12": {
+						"content": "With gratitude in my heart, Little Green Leaves shared the importance of dreams and the experience of studying abroad. It was because of a dream that the Little Green Leaves Volunteer Alliance was founded — and because of that same dream that we continue to move forward, bringing warmth wherever we go."
+					},
+					"13": {
+						"content": "Studying abroad deepened my appreciation for my homeland — for family, food, and the sense of pride that comes from knowing a strong nation stands behind us. I told the younger students that although some of them may face challenges in learning or daily life, these hardships are trials meant to strengthen their will and independence. The message was warmly received, and I could see a change in the children’s eyes — confidence slowly beginning to shine."
+					},
+					"14": { "content": "More Than a Backpack" },
+					"15": {
+						"content": "During this Kangbao visit, Little Green Leaves also brought love-filled backpacks to more than twenty students from disadvantaged families. While they may not urgently need material assistance, we hoped this gesture would help us draw closer to their hearts — allowing them to feel cared for and reminding them that beauty exists everywhere in life."
+					},
+					"16": {
+						"content": "From this day forward, Little Green Leaves believes that these backpacks carry not only books and knowledge, but also warmth, love, and the power of dreams."
+					},
+					"17": { "content": "Building Reading Corners, One by One" },
+					"18": {
+						"content": "Accompanied by teachers, the two Little Green Leaves volunteers visited each classroom to place the reading corners and personally attach the “Little Green Leaves Reading Corner” labels. Each completed reading corner felt like a treasured accomplishment — a space built with care, effort, and hope."
+					},
+					"19": {
+						"content": "We believe these donated books will bring not only knowledge, but also warmth that reaches deep into the children’s hearts."
+					},
+					"20": { "caption": "Setting up the reading corners with care." },
+					"21": { "content": "Energy Passed On" },
+					"22": {
+						"content": "Dongguan Primary School specially organized a jump-rope performance, reflecting the school’s dedication to students’ physical and mental well-being. Watching the children’s energetic and positive spirit was deeply moving."
+					},
+					"23": {
+						"content": "Little Green Leaves delivered warmth, shared care, and received energy in return from leaders, teachers, and students alike. Each visit allows me to grow from a new perspective. I am deeply grateful for the opportunity to sow seeds of kindness — and thankful for the strength that continues to guide me forward."
+					}
+				}
+			},
+			"kangbao-winter-warmth-part-2": {
+				"title": "Connected by Warmth in the Deepest Winter (Part II)",
+				"blocks": {
+					"0": { "content": "A Different Atmosphere" },
+					"1": {
+						"content": "After the event at Dongguan Primary School, we traveled together with the students from Qinglong Village Primary School back to their campus. From the moment the activities began, it was clear that these children were different from those at Dongguan. Their movements were more restrained, and their eyes lacked the confidence we had seen earlier."
+					},
+					"2": { "caption": "Arriving at Qinglong Village Primary School." },
+					"3": { "content": "Understanding Their Reality" },
+					"4": {
+						"content": "After listening to the principal’s introduction, we learned that the school had just over 80 students, most of whom lived in even more difficult circumstances. Nearly all were left-behind children or orphans. I sat among them, speaking openly and gently about topics we all cared about."
+					},
+					"5": { "caption": "Listening to the the principal at Qinglong." },
+					"6": {
+						"content": "Some had lost their parents; others had parents working far away. As a result, they lived in rented collective dormitories near the school. When I asked about their relationship with teachers, their eyes instinctively shifted away. They liked their teachers, yet were also afraid of them — afraid to ask questions when they didn’t understand."
+					},
+					"7": { "caption": "Students at Qinglong Village Primary School." },
+					"8": { "content": "Planting Confidence" },
+					"9": {
+						"content": "Little Green Leaves shared personal experiences to help the children understand the importance of confidence. We believe that from this day forward, they will no longer feel inferior because they are left-behind children or because they lack parental companionship."
+					},
+					"10": { "content": "Books, Joy, and Belonging" },
+					"11": {
+						"content": "Standing in the completed reading corner at Qinglong Village Primary School, the principal personally helped attach the “Little Green Leaves Reading Corner” sign and asked about the meaning behind the Little Green Leaves logo. Watching the children immersed in reading filled us with indescribable happiness."
+					},
+					"12": { "caption": "The reading corner at Qinglong Village Primary School." },
+					"13": { "content": "A New Beginning for the Youngest Ones" },
+					"14": {
+						"content": "Principal Kou then showed us the newly built kindergarten. We prepared clay and educational toys for the younger children. Their classrooms and surroundings were beautifully decorated with care by their teachers. Watching the children learn and play freely in such a warm environment made us feel both joyful and a little envious."
+					},
+					"15": { "content": "Carrying Warmth Into the Future" },
+					"16": {
+						"content": "The festive decorations in the kindergarten classrooms were so full of warmth that I decided to borrow this image to mark the final act of kindness in 2019. Looking ahead to 2020 — and even further into the future — Little Green Leaves will continue walking this path."
+					},
+					"17": { "caption": "Festive decorations in the kindergarten classrooms." },
+					"18": {
+						"content": "As Romain Rolland once said, “The most beautiful music of the soul is kindness.” Little Green Leaves hopes to follow this music together with more people — allowing our small dreams to merge into the greater Chinese Dream. Let us continue chasing dreams and moving forward with warmth."
+					},
+					"19": { "content": "Little Green Leaves growing into a forest — thank you for being part of this journey." }
+				}
+			},
+			"2019-2": { "title": "Sponsorship Expansion" }
+		}
+	},
+	"2020": {
+		"title": "Weathering the Storm",
+		"summary": "How we adapted operations during COVID-19 to maintain love and aid delivery.",
+		"events": {
+			"kangbao-warmth-back-on-duty": {
+				"title": "2020 - Back on Duty with Warmth",
+				"blocks": {
+					"0": { "content": "Warmth Returns to Service" },
+					"1": {
+						"content": "Just after the holiday ended and Little Green Leaves returned to school, we received wonderful news from our warm-hearted deputy mayor in Kangbao Town. Fifteen boxes containing 684 pieces of donated clothing, mailed to Kangbao during the break, had officially been rehired and put back on duty."
+					},
+					"2": {
+						"content": "Under the careful coordination of Deputy Mayor Liu Yanfeng, these love-filled clothes were distributed to five villages and delivered directly to families and individuals in need. Once retired from daily use, these clothes returned with a new mission — and I believe they felt a deep sense of pride."
+					},
+
+					"3": { "content": "Smiles That Made Everything Worth It" },
+					"4": {
+						"content": "Seeing the photos of people holding the clothes with joyful smiles filled Little Green Leaves with overwhelming happiness — words simply weren’t enough to describe the feeling."
+					},
+					"5": { "caption": "Joyful recipients of donated clothes." },
+					"6": { "caption": "Joyful recipients of donated clothes." },
+					"7": { "caption": "Joyful recipients of donated clothes." },
+					"8": { "caption": "Joyful recipients of donated clothes." },
+
+					"9": { "content": "Every Effort Remembered" },
+					"10": {
+						"content": "Thinking back to every holiday spent carefully selecting, stacking, packing, and labeling each item — scene after scene replayed like a movie. In this moment, everything felt completely worth it."
+					},
+					"11": { "caption": "Packing donated clothes with care." },
+					"12": {
+						"content": "To all the kindhearted uncles and aunties who supported Little Green Leaves: we are delivering your love and your kindness. I am both a messenger and a recipient — every act of love flows through Little Green Leaves, and the very first person to be warmed is me."
+					},
+
+					"13": { "content": "A Channel of Love" },
+					"14": {
+						"content": "I am a messenger, but also a relay station — ensuring that every act of kindness reaches those in need as quickly and fully as possible."
+					},
+					"15": { "caption": "Delivering donated clothes to those in need." },
+					"16": {
+						"content": "The channel of love at Little Green Leaves will always remain open, waiting for you with a smile. Thank you for your trust — it strengthens our confidence. Thank you for your kindness — it fuels our persistence. Thank you for choosing to believe — it reminds us that the road of dreams is lined with beauty. Thank you for your love — it gives us the courage to keep moving forward with warmth."
+					}
+				}
+			},
+			"extraordinary-people-in-an-extraordinary-battle": {
+				"title": "Extraordinary People in this Extraordinary Battle against COVID-19",
+				"blocks": {
+					"0": { "content": "Strength Born from Unity" },
+					"1": {
+						"content": "As Ostrovsky once said, “A shared cause and a shared struggle give people the strength to endure everything.” During this time, I witnessed a powerful force rising from our homeland — a strength born not from one individual, but from countless ordinary people who quietly gave their all."
+					},
+					"2": { "caption": "Strength born from unity." },
+
+					"3": { "content": "A Sudden Storm" },
+					"4": {
+						"content": "A sudden outbreak disrupted the rhythm of everyday life. As confirmed cases continued to rise and the risk of transmission spread, everyone came to feel the gravity of this war against the pandemic."
+					},
+
+					"5": { "content": "All Hands on Deck" },
+					"6": {
+						"content": "In the face of this battle:\n\nThe Party and government implemented precise policies and went deep into the front lines.\nMedical workers charged ahead with scientific prevention and treatment.\nThe armed forces followed orders without fear of danger.\nPolice officers safeguarded public security amid the outbreak.\nVolunteers kept cities running.\nSanitation workers maintained clean streets.\nDelivery drivers brought fresh vegetables to residential buildings.\n\nFrom north to south, from east to west, the entire nation stood united.\nFrom the front lines in Wuhan to every corner of the country, people fought day and night."
+					},
+					"7": { "caption": "All hands on deck during the pandemic." },
+
+					"8": { "content": "Acts of Kindness, Big and Small" },
+					"9": {
+						"content": "Within this collective effort, we also saw countless acts of kindness — the goodwill of Little Green Leaves, the loving contributions of my father, and my mother’s thoughtful gesture of placing tissues in elevators to reduce contact for others."
+					},
+					"10": {
+						"content": "Scene by scene, moment by moment, act by act — all carried out by the most ordinary people."
+					},
+					"11": { "caption": "Acts of kindness, big and small." },
+
+					"12": { "content": "Ordinary People, Extraordinary Strength" },
+					"13": {
+						"content": "It was their small contributions that forged an unbreakable collective force.\nIt was their selflessness that created the miracle of Huoshenshan Hospital and the legendary speed of China.\nIt was their courage that produced breathtaking scenes of marching into danger through wind and snow.\nIt was their dedication that embodied the Chinese spirit — fearless in hardship, unstoppable in resolve.\nIt was their unity that carried love and support across regions, day and night.\nIt was their silent perseverance that strengthened our belief that we would not bow to adversity — that rainbows always follow storms."
+					},
+					"14": {
+						"content": "Their sweat, tears, and even blood showed us that winter would pass and spring was quietly approaching. They raced against time and risked their lives so that we could understand this truth: there is no such thing as effortless peace — it exists because someone else carries the burden for you."
+					},
+					"15": { "caption": "Father donating for the battle against COVID-19." },
+
+					"16": { "content": "One Heart, One Boat" },
+					"17": {
+						"content": "When countless ordinary people come together, it becomes solidarity.\nWhen countless extraordinary acts come together, it becomes shared survival.\nWhen countless moments weave together, it becomes unity."
+					},
+					"18": { "caption": "Mom helping reduce contact in elevators." },
+
+					"19": { "content": "Looking Toward Spring" },
+					"20": {
+						"content": "When spring flowers bloom, the battle will be won, and the pandemic will fade.\n\nBless our homeland.\nMay the years ahead be peaceful, and the nation secure."
+					}
+				}
+			},
+			"longing-and-hope": {
+				"title": "Longing",
+				"blocks": {
+					"0": { "content": "A Spring Break Unlike Any Other" },
+					"1": {
+						"content": "In the blink of an eye, a week of the long-awaited spring break had already passed. My emotions shifted from frustration before the break (not being able to go home), to fear (worrying about the pandemic), and eventually to a sense of calm and letting go. I had imagined many ways to spend spring break — visiting a city supermarket to satisfy my Chinese stomach, exploring nearby attractions to comfort my Chinese heart."
+					},
+					"2": {
+						"content": "But as COVID-19 spread relentlessly, closures and lockdowns followed everywhere. The excitement I once felt was suddenly extinguished, replaced by confusion and helplessness. Watching the number of confirmed cases rise, I felt genuinely afraid. More than once, I told my mom, “I want to go home — it feels safest there.”"
+					},
+					"3": {
+						"content": "Yet reality had to be faced. Once I calmed down, staying on campus did not seem so bad after all. The school was safe. Days passed quietly in the dormitory — waking naturally, arranging my own schedule, watching the sun rise in the early morning. On a campus meant for thousands, only about forty international students and seventy faculty and staff remained, leaving the grounds vast, empty, and silent."
+					},
+					"4": { "caption": "An empty campus during the pandemic." },
+
+					"5": { "content": "Lessons from the Classroom" },
+					"6": {
+						"content": "Looking back at the past two months of the semester, life had been full and intense. My first experience with AP Capstone was, as expected, mentally demanding — and even more challenging than the previous term. One project followed another."
+					},
+					"7": {
+						"content": "The first was a group project requiring three students to research and discuss a shared topic. Because I was unable to use a VPN during winter break, I lost contact with my teammates. When I returned to school and asked about the project, I was told the topic focused on “re-education camps” in Xinjiang, which they referred to as “concentration camps” and even compared to Nazi camps."
+					},
+					"8": {
+						"content": "I was stunned. Growing up, everything I had heard, seen, and experienced about my country was positive. Hearing such claims felt deeply unsettling — like someone suddenly criticizing your parents. My instinct was resistance and disbelief."
+					},
+					"9": {
+						"content": "I called my parents immediately. Sensing my anxiety, my mother reminded me that nothing in this world is perfect — not even parents, let alone a vast country. What matters is perspective, position, and whether we approach issues rationally and thoughtfully. Her words grounded me."
+					},
+					"10": {
+						"content": "I then communicated openly with my teammates, sharing my views respectfully. I thanked them for their interest in China, explained that my personal experience in Xinjiang differed greatly from what they imagined, and noted the political sensitivity of the topic. I suggested that Xinjiang and Nazi concentration camps were fundamentally different in nature — and invited them to visit China one day to see for themselves."
+					},
+					"11": {
+						"content": "To my relief, they agreed the topic was difficult to handle. Under my suggestion, we shifted our focus to China’s livestreaming industry. Over the following weeks, our group worked closely together, resolved challenges, produced a paper we were proud of, and successfully presented our research to classmates and teachers."
+					},
+
+					"12": { "content": "Hope in Parallel" },
+					"13": {
+						"content": "With two months remaining before AP Capstone ended, I suddenly realized how similar this project journey was to the emotional process of facing the pandemic — fear, acceptance, reflection, and eventually hope."
+					},
+					"14": {
+						"content": "I look forward to earning the results I hope for at the end of the AP Capstone semester."
+					},
+					"15": { "content": "I look forward to the global fight against COVID-19 achieving victory soon." },
+
+					"16": { "content": "Seeing the World Clearly" },
+					"17": {
+						"content": "Recently, I read a sentence about pandemic response: “China fought the first half, the world fights the second half, and parents of international students fight the whole game.”"
+					},
+					"18": {
+						"content": "I saw the immense sacrifices made by the Chinese people, the precise policies from the central government, the scientific dedication of medical workers, and the unity of the entire nation — from cities to rural areas — responding in silence and discipline. Every step reflected collective wisdom."
+					},
+					"19": {
+						"content": "China’s first half of the battle was nearing victory, yet the pandemic reminded us that we truly live in a global village. “The world is one family” became vividly real. The strategies of the world’s second half may differ, but I believe it can be fought well — perhaps even brilliantly — with China’s experience as a guide. This, to me, is the quiet confidence of a great nation."
+					},
+					"20": { "caption": "Unity in a global village." },
+					"21": { "content": "What I Long For" },
+					"22": { "content": "I long for the pandemic to end, so my parents no longer worry." },
+					"23": { "content": "I long for the pandemic to end, so I can return home safely in the summer." },
+					"24": { "content": "I long for the pandemic to end, so we may respect all life and be grateful to nature." },
+					"25": {
+						"content": "I long for the pandemic to end, so the winds are gentle, the rains timely, and the nation at peace."
+					},
+					"26": { "caption": "Wishing for peace and harmony." }
+				}
+			},
+			"pandemic-reflections": {
+				"title": "What the Pandemic Gave Me",
+				"blocks": {
+					"0": { "content": "Born Into Viruses, Learning to Respect Them" },
+					"1": { "caption": "Learning to respect viruses." },
+					"2": {
+						"content": "Born in June 2003 during the SARS outbreak, I seemed to have an instinctive fearlessness toward viruses. When COVID-19 first emerged in 2020, I felt calm and continued my daily studies and life, believing it posed little threat to me."
+					},
+					"3": {
+						"content": "That sense of calm changed the moment Wuhan was locked down and the entire country stayed home overnight. I realized the severity of the situation — this outbreak was far more aggressive than SARS. I followed the news closely: Academician Zhong Nanshan entering the epicenter at age eighty; thousands of medical workers rushing to the front lines; soldiers deploying; and emergency hospitals rising from the ground at astonishing speed."
+					},
+					"4": {
+						"content": "From these moments, I witnessed China’s unity, speed, strength, and spirit. My pride as a Chinese citizen grew stronger than ever. Though I continued studying abroad, my concern for my family and homeland never diminished."
+					},
+
+					"5": { "content": "Fear, Uncertainty, and Self-Care" },
+					"6": {
+						"content": "Just as the domestic situation improved, the pandemic spread rapidly across the globe. Fear set in. Spring break plans were canceled, campuses closed, and all classes moved online. Every plan I had was disrupted."
+					},
+					"7": {
+						"content": "During quarantine on campus, my emotions fluctuated intensely — especially after catching a cold while already dealing with chronic pharyngitis. Although I knew it was unrelated to COVID-19, unease lingered. I took medicine daily and checked my temperature until I fully recovered. That moment taught me something important: learning to worry about and care for my own health."
+					},
+
+					"8": { "content": "Finding Joy in Simple Satisfaction" },
+					"9": {
+						"content": "One day, I opened my drawer to find that all my Chinese-flavored snacks from home were gone. Just when I thought my Chinese appetite would go unsatisfied, I discovered two cans of luncheon meat and a Haidilao hotpot kit. I jumped with excitement — a small treasure hidden in a drawer."
+					},
+					"10": {
+						"content": "That simple, unexpected joy — the satisfaction of something easily found — was also a gift the pandemic gave me."
+					},
+
+					"11": { "content": "Learning to Cook, Learning to Live" },
+					"12": {
+						"content": "Since returning home wasn’t possible, I chose acceptance over frustration. Cooking was something I had never done before — not even watched closely at home. Yet during isolation, I began learning to cook, starting with fried rice, then tomato and egg stir-fry, onion and egg, Kung Pao chicken, and eventually steak."
+					},
+					"13": {
+						"content": "I couldn’t believe these dishes came from my own hands. Cooking was complicated — washing vegetables, cutting meat, enduring oil splashing on my hands — and in the process, I truly felt my mother’s daily effort. But tasting my own food brought a completely different sense of fulfillment."
+					},
+					"14": { "caption": "Learning to cook during the pandemic." },
+
+					"15": {
+						"content": "I experienced what “easy to say, hard to do” really means. I learned that practice builds skill, and effort brings joy. Even though cooking started as a necessity, choosing to love life sincerely — that, too, was something the pandemic gave me."
+					},
+					"16": { "content": "The Taste of Effort" },
+					"17": {
+						"content": "The first time I cooked Kung Pao chicken, it took nearly two hours from preparation to completion. When my mom asked how it tasted, I joked that it must be better than hers — because it carried the taste of effort, patience, experience, and a faint trace of something that felt like home."
+					},
+					"18": { "caption": "A home-cooked meal during the pandemic." },
+
+					"19": {
+						"content": "I learned to make stir-fried flatbread, even though my knife skills were far from perfect. I tried steak from scratch, carefully studying recipes online before starting. Each success brought not just satisfaction to my stomach, but a quiet sense of personal achievement."
+					},
+					"20": { "content": "Labor, Gratitude, and Growth" },
+					"21": {
+						"content": "On International Workers’ Day, I realized that labor truly is honorable. I don’t know whether I’ll be able to return home safely during the summer, but what I can do is live responsibly, study well, and avoid causing trouble for others."
+					},
+					"22": {
+						"content": "As both a witness and participant of SARS and COVID-19, my understanding of viruses has evolved with age. I have learned to respect science and revere nature. These lessons will flow through my blood, settle in my heart, and stay quietly within my subconscious — accompanying me as I continue moving forward."
+					}
+				}
+			},
+			"2020-africa-pbic-challenge": {
+				"title": "Nurturing an African Bond with Love — PBIC 2020 Public Benefit International Challenge for Youth",
+				"blocks": {
+					"0": { "content": "A New Beginning: Entering the Challenge" },
+					"1": {
+						"content": "Little Green Leaves was about to take on a new challenge — our very first competition. In 2020, we formed a new team and officially decided to participate in the PBIC (Public Benefit International Challenge for Youth), marking a brand-new way of delivering care and compassion."
+					},
+					"2": { "caption": "Entering the PBIC Challenge in 2020." },
+					"3": {
+						"content": "This was our first time entering an international social innovation competition, and also our first attempt to share love and responsibility through a structured, project-based approach. It was both exciting and challenging."
+					},
+					"4": { "content": "A New Year’s Wish for Africa" },
+					"5": {
+						"content": "Little Green Leaves’ first New Year wish of 2020 was clear: to continue caring for Africa, to renew our bond with the continent, and to help children in orphanages build a proper library."
+					},
+					"6": { "content": "Turning Vision into Action" },
+					"7": {
+						"content": "In May 2020, the opportunity finally arrived. After months of preparation, on May 17, 2020, Little Green Leaves officially registered for the PBIC as a team. Our three team members made a shared decision to take part in the Global Youth Social Innovation Challenge."
+					},
+					"8": { "caption": "Registering the team for PBIC." },
+					"9": {
+						"content": "Building on existing reading corners, our goal expanded beyond creating a library. We aimed to support more girls through additional approaches — helping them acquire knowledge, develop skills, and gain more possibilities for future employment."
+					},
+					"10": {
+						"content": "Through this project, we hoped to empower female students in African orphanages by broadening their perspectives through education and strengthening their abilities through training — enabling them to challenge gender inequality and reduce the unfair treatment and harm faced by women in their communities."
+					},
+					"11": { "caption": "Project planning." },
+					"12": { "content": "Seeds of Growth and Love" },
+					"13": {
+						"content": "Today marks Xiaoman — a traditional Chinese solar term symbolizing the ripening of seeds and rivers nearing fullness. It felt like the perfect moment to hope for the fulfillment of Little Green Leaves’ wishes."
+					},
+					"14": {
+						"content": "And today is also May 20th — a day associated with love. On this special day, we are reminded not only to receive love, but also to share it intentionally and sincerely."
+					}
+				}
+			},
+			"two-years-later-kangbao": {
+				"title": "Two Years Later — Watching You Grow",
+				"blocks": {
+					"0": { "content": "A Pause After the Challenge" },
+					"1": {
+						"content": "After the intense and exhilarating PBIC final pitch, Little Green Leaves decided to give ourselves a short break. During this special pause within an unusual year, we returned to a familiar place — Kangbao — to visit the younger brother and sister we had missed so much."
+					},
+					"2": { "caption": "Visiting Kangbao after two years." },
+					"3": { "content": "The Same Road, A Different Season" },
+					"4": {
+						"content": "The last time I came to Kangbao, it was a bitterly cold winter with heavy snow drifting through the air. This time, the same road revealed a completely different landscape. Golden fields of blooming rapeseed flowers rushed past the car window. We stopped to feel the cool breeze and take in the beauty before us."
+					},
+					"5": { "caption": "Blooming rapeseed flowers in Kangbao." },
+					"6": { "content": "First Impressions, Then and Now" },
+					"7": {
+						"content": "My first visit to Kangbao was in the summer of 2018. That was when I first met little brother Li Kang and little sister Ge Yanan. At the time, Li Kang was in kindergarten and Yanan was in third grade. They left me with the impression of being shy, timid, and hesitant to speak in front of unfamiliar people."
+					},
+					"8": { "caption": "Yanan in 2018." },
+					"9": { "content": "Growth Over Two Years" },
+					"10": {
+						"content": "Over the past two years, I have visited them every school break. Slowly, the once introverted Li Kang has grown into a bright and optimistic boy. He has become more considerate as well — when he sees my mom carrying heavy bags, he hugs her and says, “Mom, you’ve worked so hard.”"
+					},
+					"11": {
+						"content": "Yanan has also grown more open and confident. She now studies independently without her grandmother worrying, and I am truly happy for her. This autumn, she will enter sixth grade — and even little Li Kang is about to become a primary school student."
+					},
+					"12": { "caption": "Yanan in 2021." },
+					"13": {
+						"content": "When he put on the new backpack I bought for him, he couldn’t stop saying how cool it was. His excitement was impossible to miss."
+					},
+					"14": { "content": "Small Joys, Big Pride" },
+					"15": {
+						"content": "Trying on new clothes is one of Li Kang’s greatest joys. Matching outfits and creating his own combinations gives him a strong sense of accomplishment. The outfit he wore that day was entirely his own choice — don’t underestimate him."
+					},
+					"16": {
+						"content": "Every time I visit, I take him to play on the village’s outdoor exercise equipment. He is always overjoyed. This time, carrying his brand-new basketball, we walked to the village court. We didn’t actually play much — instead, I listened to him enthusiastically boast about how strong he had become."
+					},
+					"17": { "content": "Moments Worth Remembering" },
+					"18": {
+						"content": "As always, we took a photo together before I left. The little guy has definitely grown taller."
+					},
+					"19": {
+						"content": "When it was time to say goodbye, Li Kang ran out of the house and hugged me tightly. “Brother, you must come again in the winter. Goodbye, brother,” he said. In that moment, my heart completely melted."
+					},
+					"20": { "caption": "Cute Li Kang." },
+					"21": { "content": "Seeing Her Transformation" },
+					"22": {
+						"content": "When we arrived at Yanan’s home, she was temporarily away picking up a package. Her grandmother said she would be back soon. When the doorbell rang, a cheerful, confident girl appeared. She looked surprised to see me — she hadn’t known I was coming."
+					},
+					"23": {
+						"content": "Through our conversation, I learned that she is now doing well both academically and in life. Her teachers like her, and she is no longer the little girl who hid behind her grandmother, afraid to speak. She now has her own ideas, goals, and a strong sense of self-discipline."
+					},
+					"24": {
+						"content": "Yanan has grown taller and more mature. She studies diligently, asks thoughtful questions when she doesn’t understand something, and learns with focus and confidence."
+					},
+					"25": { "content": "Looking Ahead" },
+					"26": {
+						"content": "I hope that both brother and sister continue to grow up healthy, carefree, and full of joy. I am certain that the next time I see Li Kang and Ge Yanan, I will be even more amazed — amazed by their growth, their progress, and the people they are becoming."
+					},
+					"27": { "caption": "Kids are growing up!" }
+				}
+			},
+			"pbic-2020-champions": {
+				"title": "We Are the Champions!",
+				"blocks": {
+					"0": { "content": "The Moment We Won" },
+					"1": {
+						"content": "On August 15, 2020, the Public Benefit International Challenge for Youth (PBIC 2020) officially came to a close in Beijing. After more than four months of dedication and hard work — spanning the preliminary round, semifinals, finals, star ranking round, and the grand finale — the journey reached its peak."
+					},
+					"2": {
+						"content": "On the final stage, passionate young teams gave it their all and shone brightly. In the end, Little Green Leaves (Green Leaves Volunteers) claimed first place. Yes — we are the champions!"
+					},
+					"3": { "caption": "Little Green Leaves — PBIC 2020 Champions!" },
+					"4": { "content": "A Decisive Victory" },
+					"5": {
+						"content": "We won with an absolute score advantage — a result that affirmed not only our project, but also the persistence, teamwork, and belief behind it."
+					},
+					"6": { "caption": "The moment we won PBIC 2020!" },
+					"7": { "content": "The Team Behind the Win" },
+					"8": {
+						"content": "Although I was unable to attend the competition in person due to school commitments, Little Green Leaves never stopped working together. Even moments before stepping onto the final stage, we were still communicating, refining details, and preparing as a team."
+					},
+					"9": {
+						"content": "This victory belongs to the entire Little Green Leaves team — every moment of preparation, every discussion, and every challenge we faced together is reflected in this result."
+					},
+					"10": { "content": "Gratitude Above All" },
+					"11": {
+						"content": "Most importantly, I want to thank my two incredible teammates; my parents, who supported me wholeheartedly behind the scenes; and our dedicated mentors, Teacher Huang and Teacher Liu from Zebra Map, who continuously guided and challenged us."
+					},
+					"12": { "caption": "The team behind our PBIC 2020 victory." },
+					"13": {
+						"content": "And to every supporter who has selflessly stood behind the Little Green Leaves mission — thank you. This championship belongs to all of you."
+					},
+					"14": { "caption": "PBIC 2020 medal." },
+					"15": { "caption": "PBIC 2020 certificate." },
+					"16": { "content": "About PBIC" },
+					"17": {
+						"content": "The Public Benefit International Challenge for Youth (PBIC) was jointly initiated in 2017 by the China-Africa Business Council and the China Social Assistance Foundation, with guidance and support from United Nations agencies and the Organization of African First Ladies for Development."
+					},
+					"18": {
+						"content": "Grounded in the United Nations Sustainable Development Goals (SDGs), PBIC has attracted over 800 students from more than 130 schools worldwide across its first three editions, reaching an audience of nearly one million."
+					},
+					"19": {
+						"content": "Participating teams receive official certificates from the PBIC Organizing Committee. Finalist teams are awarded jointly signed certificates and medals by UN representatives in China, professors from leading U.S. universities, and leaders of China’s top public welfare foundations. Outstanding teams may also receive special awards such as Project Design, Advocacy & Communication, and Campus Pioneer honors."
+					}
+				}
 			}
-		},
-		"2020": {
-			"title": "Weathering the Storm",
-			"summary": "How we adapted operations during COVID-19 to maintain love and aid delivery.",
-			"events": {
-				"2020-1": { "title": "2020 - Back on Duty with Warmth" },
-				"2020-2": { "title": "Relief Logistics Hub" }
-			}
-		},
-		"2021": {
-			"title": "New Growth Rings",
-			"summary": "Launched digital donation platform and transparency dashboard.",
-			"events": {
-				"2021-1": { "title": "Donation Platform" },
-				"2021-2": { "title": "Impact Dashboard" }
-			}
-		},
-		"2022": {
-			"title": "Branching Out",
-			"summary": "Cross-border partnerships; added maternal health and micro‑enterprise tracks.",
-			"events": {
-				"2022-1": { "title": "Maternal Health Pilot" },
-				"2022-2": { "title": "Micro-Enterprise Track" }
-			}
-		},
-		"2023": {
-			"title": "Deep Roots",
-			"summary": "Impact audits show sustained outcomes in education, water access, and incomes.",
-			"events": {
-				"2023-1": { "title": "Third-Party Audit" },
-				"2023-2": { "title": "Income Impact Study" }
-			}
-		},
-		"2024": {
-			"title": "Forest of Allies",
-			"summary": "Corporate matching and local stewardship councils accelerate scale.",
-			"events": {
-				"2024-1": { "title": "Stewardship Councils" },
-				"2024-2": { "title": "Corporate Matching Wave" }
-			}
-		},
-		"2025": {
-			"title": "A Greener World, Together",
-			"summary": "Culmination of the 10‑year journey — milestones in health, water, education, and livelihoods.",
-			"events": {
-				"2025-1": { "title": "Decade Celebration Summit" },
-				"2025-2": { "title": "Sustainability Charter" }
-			}
+		}
+	},
+	"2021": {
+		"title": "New Growth Rings",
+		"summary": "Launched digital donation platform and transparency dashboard.",
+		"events": {
+			"2021-1": { "title": "Donation Platform" },
+			"2021-2": { "title": "Impact Dashboard" }
+		}
+	},
+	"2022": {
+		"title": "Branching Out",
+		"summary": "Cross-border partnerships; added maternal health and micro鈥慹nterprise tracks.",
+		"events": {
+			"2022-1": { "title": "Maternal Health Pilot" },
+			"2022-2": { "title": "Micro-Enterprise Track" }
+		}
+	},
+	"2023": {
+		"title": "Deep Roots",
+		"summary": "Impact audits show sustained outcomes in education, water access, and incomes.",
+		"events": {
+			"2023-1": { "title": "Third-Party Audit" },
+			"2023-2": { "title": "Income Impact Study" }
+		}
+	},
+	"2024": {
+		"title": "Forest of Allies",
+		"summary": "Corporate matching and local stewardship councils accelerate scale.",
+		"events": {
+			"2024-1": { "title": "Stewardship Councils" },
+			"2024-2": { "title": "Corporate Matching Wave" }
+		}
+	},
+	"2025": {
+		"title": "A Greener World, Together",
+		"summary": "Culmination of the 10鈥憏ear journey 鈥?milestones in health, water, education, and livelihoods.",
+		"events": {
+			"2025-1": { "title": "Decade Celebration Summit" },
+			"2025-2": { "title": "Sustainability Charter" }
 		}
 	}
 }

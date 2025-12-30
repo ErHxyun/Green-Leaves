@@ -9,11 +9,16 @@ import background1 from '../pictures/backgroundImage/background1.jpg';
 import background2 from '../pictures/backgroundImage/background2.jpg';
 import background3 from '../pictures/backgroundImage/background3.jpg';
 import background4 from '../pictures/backgroundImage/background4.jpg';
-import childImage1 from '../pictures/childrenImage/childImage1.jpg';
-import childImage2 from '../pictures/childrenImage/childImage2.jpg';
-import childImage3 from '../pictures/childrenImage/childImage3.jpg';
-import childImage4 from '../pictures/childrenImage/childImage4.jpg';
-import childImage5 from '../pictures/childrenImage/childImage5.jpg';
+import say1 from '../pictures/childrenImage/say1.png';
+import say2 from '../pictures/childrenImage/say2.png';
+import say3 from '../pictures/childrenImage/say3.png';
+import say4 from '../pictures/childrenImage/say4.png';
+import say5 from '../pictures/childrenImage/say5.png';
+import say6 from '../pictures/childrenImage/say6.png';
+import say7 from '../pictures/childrenImage/say7.png';
+import say8 from '../pictures/childrenImage/say8.png';
+import say9 from '../pictures/childrenImage/say9.png';
+
 // ...existing code...
 import SiteHeader from '../components/SiteHeader';
 import SiteFooter from '../components/SiteFooter';
@@ -36,38 +41,39 @@ function Home() {
 	const testimonials = [
 		{
 			id: 1,
-			name: 'Li Wei',
-			location: 'Rural China',
-			text: "Little Green Leaves helped me get the education I dreamed of. Now I'm studying engineering at university and want to give back to my community.",
-			image: childImage1,
+			image: say1,
 		},
 		{
 			id: 2,
-			name: 'Amara Ochieng',
-			location: 'Kenya',
-			text: "Thanks to the mobile library program, our village children now have access to hundreds of books. It's transformed our community's approach to learning.",
-			image: childImage2,
+			image: say2,
 		},
 		{
 			id: 3,
-			name: 'Zhang Ming',
-			location: 'China',
-			text: "The scholarship program allowed me to continue my studies when my family couldn't afford it. I'm now a teacher helping other children in need.",
-			image: childImage3,
+			image: say3,
 		},
 		{
 			id: 4,
-			name: 'Grace Wanjiku',
-			location: 'Kenya',
-			text: 'Little Green Leaves built a school in our village. Seeing my daughter learn to read and write fills my heart with joy and hope for her future.',
-			image: childImage4,
+			image: say4,
 		},
 		{
 			id: 5,
-			name: 'Chen Xiaoli',
-			location: 'China',
-			text: 'The educational support I received changed my life completely. From a rural village to university graduate - this is the power of education.',
-			image: childImage5,
+			image: say5,
+		},
+		{
+			id: 6,
+			image: say6,
+		},
+		{
+			id: 7,
+			image: say7,
+		},
+		{
+			id: 8,
+			image: say8,
+		},
+		{
+			id: 9,
+			image: say9,
 		},
 	];
 
@@ -358,38 +364,39 @@ function Home() {
 								border: '1px solid #e0e0e0',
 							}}
 						>
-							<Box sx={{ display: 'flex', gap: 3, alignItems: 'flex-start' }}>
-								<Box
-									sx={{
-										width: 200,
-										height: 300,
-										backgroundColor: '#c0c0c0',
-										borderRadius: 1,
-										display: 'flex',
-										alignItems: 'center',
-										justifyContent: 'center',
-										flexShrink: 0,
-										overflow: 'hidden',
-									}}
-								>
-									<img
-										src={testimonials[currentTestimonial].image}
-										alt={testimonials[currentTestimonial].name}
-										style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }}
-									/>
-								</Box>
-								<Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-									<Typography variant='h6' sx={{ color: '#34582B', fontWeight: 'bold', mb: 2 }}>
-										{testimonials[currentTestimonial].name}
-									</Typography>
-									<Typography variant='subtitle1' sx={{ color: '#666', mb: 3, fontStyle: 'italic' }}>
-										{testimonials[currentTestimonial].location}
-									</Typography>
-									<Typography variant='body1' sx={{ color: '#333', lineHeight: 1.6, fontSize: '16px' }}>
-										"{testimonials[currentTestimonial].text}"
-									</Typography>
-								</Box>
-							</Box>
+							{(() => {
+								const len = testimonials.length;
+								const indices = [currentTestimonial, (currentTestimonial + 1) % len, (currentTestimonial + 2) % len];
+								return (
+									<Box
+										sx={{
+											display: 'grid',
+											gridTemplateColumns: 'repeat(3, 1fr)',
+											gap: 3,
+											alignItems: 'stretch',
+										}}
+									>
+										{indices.map((idx) => (
+											<Box
+												key={idx}
+												sx={{
+													width: '100%',
+													height: 280,
+													backgroundColor: '#f0f0f0',
+													borderRadius: 1,
+													overflow: 'hidden',
+												}}
+											>
+												<img
+													src={testimonials[idx].image}
+													alt={testimonials[idx].name}
+													style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }}
+												/>
+											</Box>
+										))}
+									</Box>
+								);
+							})()}
 							{/* Dots indicator */}
 							<Box sx={{ display: 'flex', justifyContent: 'center', mt: 3, gap: 1 }}>
 								{testimonials.map((_, index) => (
