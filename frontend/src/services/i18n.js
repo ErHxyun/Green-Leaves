@@ -12,7 +12,7 @@ const savedLng = typeof window !== 'undefined' ? window.localStorage.getItem('ln
 
 void i18n.use(initReactI18next).init({
 	resources,
-	lng: savedLng || 'en',
+	lng: savedLng || 'cn',
 	fallbackLng: 'en',
 	supportedLngs: ['en', 'cn'],
 	nonExplicitSupportedLngs: true,
