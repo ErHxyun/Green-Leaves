@@ -246,7 +246,7 @@ function Home() {
 								}}
 							>
 								<Typography variant='h4' sx={{ color: '#34582B', fontWeight: 'bold', mb: 1 }}>
-									132
+									140
 								</Typography>
 								<Typography variant='h6' sx={{ color: '#333', fontWeight: 'bold', mb: 1 }}>
 									{t('impact.children')}
@@ -275,7 +275,7 @@ function Home() {
 								}}
 							>
 								<Typography variant='h4' sx={{ color: '#34582B', fontWeight: 'bold', mb: 1 }}>
-									3
+									5
 								</Typography>
 								<Typography variant='h6' sx={{ color: '#333', fontWeight: 'bold', mb: 1 }}>
 									{t('impact.continents')}
@@ -304,7 +304,7 @@ function Home() {
 								}}
 							>
 								<Typography variant='h4' sx={{ color: '#34582B', fontWeight: 'bold', mb: 1 }}>
-									$88,000+
+									￥800,000+
 								</Typography>
 								<Typography variant='h6' sx={{ color: '#333', fontWeight: 'bold', mb: 1 }}>
 									{t('impact.funds')}
