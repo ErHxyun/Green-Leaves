@@ -5,6 +5,7 @@ import SiteFooter from '../components/SiteFooter';
 import orgImage from '../pictures/About_Us.jpg';
 import leaderImage from '../pictures/leader.jpg';
 import { useTranslation } from 'react-i18next';
+import developerImage from '../pictures/developer.jpg';
 
 export default function AboutUs() {
 	const { t } = useTranslation();
@@ -105,6 +106,54 @@ export default function AboutUs() {
 									component='img'
 									src={leaderImage}
 									alt='Portrait of our founder and leader'
+									sx={{
+										width: '100%',
+										borderRadius: 2,
+										boxShadow: '0 8px 24px rgba(0,0,0,0.15)',
+										objectFit: 'cover',
+										maxHeight: { xs: 260, md: '100%' },
+										objectPosition: 'center',
+									}}
+								/>
+							</Grid>
+						</Grid>
+					</Box>
+
+					<Divider sx={{ borderColor: '#ccd4c2' }} />
+
+					<Box>
+						<Grid container spacing={{ xs: 4, md: 6 }} alignItems='center'>
+							<Grid item xs={12} md={7}>
+								<Stack spacing={{ xs: 1.5, md: 2 }}>
+									<Typography variant='h4' sx={{ color: '#2f4b2f', fontWeight: 'bold' }}>
+										{t('about.devTitle')}
+									</Typography>
+									<Typography variant='subtitle1' sx={{ color: '#2f4b2f', fontWeight: 'bold' }}>
+										<Link
+											href='https://www.linkedin.com/in/xiyunhu-unc/'
+											target='_blank'
+											rel='noopener noreferrer'
+											sx={{ color: '#2f4b2f', textDecorationColor: '#2f4b2f' }}
+										>
+											{t('about.devName')}
+										</Link>
+									</Typography>
+									<Typography variant='body2' sx={{ color: '#2f4b2f', fontStyle: 'italic' }}>
+										{t('about.devRole')}
+									</Typography>
+									<Typography variant='body2' sx={{ color: '#2f4b2f', mb: 1 }}>
+										{t('about.devEdu')}
+									</Typography>
+									<Typography variant='body1' sx={{ color: '#2f2f2f', lineHeight: 1.8 }}>
+										{t('about.devBio')}
+									</Typography>
+								</Stack>
+							</Grid>
+							<Grid item xs={12} md={5}>
+								<Box
+									component='img'
+									src={developerImage}
+									alt='Portrait of our developer'
 									sx={{
 										width: '100%',
 										borderRadius: 2,
