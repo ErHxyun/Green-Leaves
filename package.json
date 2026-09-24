@@ -1,0 +1,16 @@
+{
+  "name": "little-green-leaves",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "node scripts/run-package.cjs all ci",
+    "db:local": "node scripts/run-package.cjs backend run db:local",
+    "migrate": "node scripts/run-package.cjs backend run migrate",
+    "seed": "node scripts/run-package.cjs backend run seed",
+    "extract": "node scripts/run-package.cjs backend run extract",
+    "start:backend": "node scripts/run-package.cjs backend start",
+    "start:frontend": "node scripts/run-package.cjs frontend start",
+    "test": "node scripts/run-package.cjs all test",
+    "build": "node scripts/run-package.cjs frontend run build"
+  }
+}

@@ -1,3 +1,4 @@
+import {usePageMedia} from '../services/usePageMedia';
 import React, { useState } from 'react';
 import { Box, Container, Button, Typography, IconButton, Drawer, Divider, Stack } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
@@ -8,6 +9,7 @@ import CloseIcon from '@mui/icons-material/Close';
 
 export default function SiteHeader() {
 	const { t, i18n } = useTranslation();
+ const brand=usePageMedia('logo',[{src:logo,alt:'Little Green Leaves Logo'}])[0];
 	const [open, setOpen] = useState(false);
 	const toggleLanguage = () => {
 		const next = i18n.language === 'en' ? 'cn' : 'en';
@@ -31,8 +33,8 @@ export default function SiteHeader() {
 					<Box component={RouterLink} to='/' sx={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
 						<Box
 							component='img'
-							src={logo}
-							alt='Little Green Leaves Logo'
+							src={brand.src}
+							alt={brand.alt}
 							sx={{ height: 40, width: 40, mr: 1, borderRadius: 1, objectFit: 'contain' }}
 						/>
 						<Typography variant='h6' sx={{ color: '#34582B', fontWeight: 'bold' }}>

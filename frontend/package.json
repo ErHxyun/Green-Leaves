@@ -3,6 +3,7 @@
 	"name": "frontend",
 	"version": "0.1.0",
 	"private": true,
+	"proxy": "http://localhost:8080",
 	"dependencies": {
 		"i18next": "^23.10.1",
 		"react-i18next": "^14.1.2",
@@ -41,6 +42,13 @@
 			"react-app/jest"
 		]
 	},
+	"jest": {
+  "moduleNameMapper": {
+    "^react-router-dom$": "<rootDir>/node_modules/react-router-dom/dist/index.js",
+    "^react-router/dom$": "<rootDir>/node_modules/react-router/dist/development/dom-export.js",
+    "^lucide-react$": "<rootDir>/node_modules/lucide-react/dist/cjs/lucide-react.js"
+  }
+},
 	"browserslist": {
 		"production": [
 			">0.2%",

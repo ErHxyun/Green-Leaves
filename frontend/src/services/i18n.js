@@ -17,6 +17,7 @@ void i18n.use(initReactI18next).init({
 	supportedLngs: ['en', 'cn'],
 	nonExplicitSupportedLngs: true,
 	interpolation: { escapeValue: false },
+	react: { bindI18n: 'languageChanged loaded' },
 });
 
 export default i18n;

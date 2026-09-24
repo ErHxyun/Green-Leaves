@@ -1,0 +1,36 @@
+{
+  "name": "green-leaves-content",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "dev": "node --env-file-if-exists=.env --watch src/server.js",
+    "extract": "node scripts/extract.js",
+    "migrate": "node --env-file-if-exists=.env scripts/migrate.js",
+    "seed": "node --env-file-if-exists=.env scripts/seed.js",
+    "test": "node --env-file-if-exists=.env --test --test-concurrency=1 test/*.test.js",
+    "db:local": "node scripts/local-db.js"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.28.0",
+    "ajv": "^8.17.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "multer": "^2.4.0",
+    "pg": "^8.16.0",
+    "saxes": "^6.0.0",
+    "sharp": "^0.35.4",
+    "yauzl": "^3.4.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "embedded-postgres": "18.4.0-beta.17",
+    "playwright-core": "^1.63.0",
+    "supertest": "^7.1.0"
+  }
+}

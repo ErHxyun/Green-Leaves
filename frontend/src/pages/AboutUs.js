@@ -1,3 +1,4 @@
+import {usePageMedia} from '../services/usePageMedia';
 import React from 'react';
 import { Box, Container, Grid, Stack, Typography, Divider, Link } from '@mui/material';
 import SiteHeader from '../components/SiteHeader';
@@ -9,6 +10,9 @@ import developerImage from '../pictures/developer.jpg';
 
 export default function AboutUs() {
 	const { t } = useTranslation();
+ const org=usePageMedia('aboutOrg',[{src:orgImage,alt:'Little Green Leaves team supporting students'}])[0];
+ const leader=usePageMedia('aboutLeader',[{src:leaderImage,alt:'Portrait of our founder and leader'}])[0];
+ const developer=usePageMedia('aboutDeveloper',[{src:developerImage,alt:'Portrait of our developer'}])[0];
 	return (
 		<Box sx={{ backgroundColor: '#f5f7f1', minHeight: '100vh' }}>
 			<SiteHeader />
@@ -28,8 +32,8 @@ export default function AboutUs() {
 							<Grid item xs={12} md={5}>
 								<Box
 									component='img'
-									src={orgImage}
-									alt='Little Green Leaves team supporting students'
+									src={org.src}
+									alt={org.alt}
 									sx={{
 										width: '100%',
 										borderRadius: 2,
@@ -104,8 +108,8 @@ export default function AboutUs() {
 							<Grid item xs={12} md={5}>
 								<Box
 									component='img'
-									src={leaderImage}
-									alt='Portrait of our founder and leader'
+									src={leader.src}
+									alt={leader.alt}
 									sx={{
 										width: '100%',
 										borderRadius: 2,
@@ -152,8 +156,8 @@ export default function AboutUs() {
 							<Grid item xs={12} md={5}>
 								<Box
 									component='img'
-									src={developerImage}
-									alt='Portrait of our developer'
+									src={developer.src}
+									alt={developer.alt}
 									sx={{
 										width: '100%',
 										borderRadius: 2,

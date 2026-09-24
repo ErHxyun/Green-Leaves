@@ -2,6 +2,7 @@ import React, { useState, useCallback, useEffect, useRef, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion';
 import { Leaf, HeartHandshake, Droplets, HandCoins, Users } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useTimelineContent } from '../services/useTimelineContent';
 
 const publicImage = (p) => `${process.env.PUBLIC_URL}/pictures/${p}`;
 
@@ -4707,7 +4708,8 @@ export default function TreeOfGrowthTimeline({
 	subheading = 'A decade of steady, sustainable growth powered by community and care.',
 	modalMaxWidth = 'max-w-6xl', // widened default
 }) {
-	const { t } = useTranslation();
+	const { t, i18n } = useTranslation();
+	const remote = useTimelineContent(i18n.language, data === defaultData);
 	const localizedHeading = t('timeline.heading');
 	const localizedSubheading = t('timeline.subheading');
 	const localizedClosingTitle = t('timeline.closing.title');
@@ -4757,7 +4759,15 @@ export default function TreeOfGrowthTimeline({
 			};
 		});
 	}, [t]);
+	const icons = { Leaf, HeartHandshake, Droplets, HandCoins, Users };
+	const visibleData = data !== defaultData ? data : remote.data === null ? localizedData : remote.data.map(item => ({...item, icon: icons[item.icon] || Leaf}));
 	const [active, setActive] = useState(null); // { yearItem, event }
+	useEffect(() => {
+        const slug = new URLSearchParams(window.location.search).get('event');
+        const years = remote.data || [];
+        const yearItem = years.find(y => y.events.some(e => e.slug === slug));
+        setActive(yearItem ? {yearItem, event: yearItem.events.find(e => e.slug === slug)} : null);
+    }, [i18n.language, remote.data]);
 	const close = useCallback(() => setActive(null), []);
 	const escHandler = useCallback(
 		(e) => {
@@ -4790,13 +4800,18 @@ export default function TreeOfGrowthTimeline({
 					<h2 className='text-3xl md:text-5xl font-extrabold tracking-tight text-emerald-900'>{localizedHeading}</h2>
 					<p className='mt-4 text-emerald-900/80 md:text-lg'>{localizedSubheading}</p>
 				</motion.div>
-				<div className='relative'>
+				{data === defaultData && remote.status !== 'ready' && (
+                    <p role='status' className='mb-6 text-center text-sm text-emerald-900/80'>
+                        {t({loading:'ui.loading',error:'ui.unavailable',empty:'ui.empty'}[remote.status])}
+                    </p>
+                )}
+                <div className='relative'>
 					<div
 						aria-hidden
 						className='pointer-events-none absolute left-1/2 top-0 -ml-0.5 h-full w-1 rounded-full bg-gradient-to-b from-emerald-800 via-emerald-600 to-emerald-400 shadow-[0_0_20px_rgba(16,185,129,0.25)]'
 					/>
 					<div className='relative mx-auto grid gap-10 md:gap-16'>
-						{(data === defaultData ? localizedData : data).map((item, idx) => {
+						{visibleData.map((item, idx) => {
 							const side = idx % 2 === 0 ? 'left' : 'right';
 							return (
 								<div key={item.year} className='relative md:min-h-[7rem]'>
@@ -4875,9 +4890,9 @@ export default function TreeOfGrowthTimeline({
 										ref={initialFocusRef}
 										onClick={close}
 										className='rounded-full border border-emerald-300/70 bg-white/80 px-4 sm:px-6 py-2.5 text-xs sm:text-sm font-medium text-emerald-700 hover:bg-emerald-50 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-1 shadow-sm self-start sm:self-auto'
-										aria-label='Close dialog'
+										aria-label={t('ui.close')}
 									>
-										Close
+										{t('ui.close')}
 									</button>
 								</div>
 								<div className='mt-6 text-sm md:text-base leading-relaxed text-emerald-900 max-w-4xl flex-1 overflow-y-auto pr-2 space-y-6'>
@@ -4885,14 +4900,14 @@ export default function TreeOfGrowthTimeline({
 										active.event.detailBlocks.map((block, i) => {
 											if (block.type === 'subtitle') {
 												return (
-													<h5 key={i} className='text-lg md:text-xl font-semibold text-emerald-800 tracking-tight'>
+													<h5 key={block.id || i} className='text-lg md:text-xl font-semibold text-emerald-800 tracking-tight'>
 														{block.content}
 													</h5>
 												);
 											}
 											if (block.type === 'text') {
 												return (
-													<p key={i} className='whitespace-pre-line'>
+													<p key={block.id || i} className='whitespace-pre-line'>
 														{block.content}
 													</p>
 												);
@@ -4900,7 +4915,7 @@ export default function TreeOfGrowthTimeline({
 											if (block.type === 'image') {
 												return (
 													<figure
-														key={i}
+														key={block.id || i}
 														className='rounded-xl overflow-hidden border border-emerald-100 bg-white/70 shadow-sm backdrop-blur'
 													>
 														<img

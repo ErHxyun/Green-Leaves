@@ -1,0 +1,11 @@
+.git
+**/node_modules
+**/.env
+**/.env.*
+**/.local-db
+**/generated
+**/coverage
+frontend/build
+work
+
+backend/uploads/

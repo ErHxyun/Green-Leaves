@@ -1,3 +1,4 @@
+import {usePageMedia} from '../services/usePageMedia';
 import React from 'react';
 import { Box, Container, Grid, Stack, Typography, Card } from '@mui/material';
 import SiteHeader from '../components/SiteHeader';
@@ -11,6 +12,8 @@ const CONTACT_QR_SRC = contactQr;
 
 export default function JoinUs() {
 	const { t } = useTranslation();
+ const wechat=usePageMedia('wechatQr',[{src:WECHAT_QR_SRC,alt:'WeChat QR code'}])[0];
+ const contact=usePageMedia('contactQr',[{src:CONTACT_QR_SRC,alt:'Contact QR code'}])[0];
 	return (
 		<Box sx={{ minHeight: '100vh', backgroundColor: '#f5f7f1' }}>
 			<SiteHeader />
@@ -29,12 +32,12 @@ export default function JoinUs() {
 						{[
 							{
 								title: t('contact.cards.wechat.title'),
-								src: WECHAT_QR_SRC,
+								src: wechat.src, alt: wechat.alt,
 								description: t('contact.cards.wechat.desc'),
 							},
 							{
 								title: t('contact.cards.contact.title'),
-								src: CONTACT_QR_SRC,
+								src: contact.src, alt: contact.alt,
 								description: t('contact.cards.contact.desc'),
 							},
 						].map((item) => (
@@ -55,7 +58,7 @@ export default function JoinUs() {
 									<Box
 										component='img'
 										src={item.src}
-										alt={`${item.title} QR code`}
+										alt={item.alt}
 										sx={{
 											width: '100%',
 											maxWidth: { xs: 220, sm: 260, md: 280 },

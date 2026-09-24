@@ -1,3 +1,5 @@
+import WebsiteChat from '../components/WebsiteChat';
+import {usePageMedia} from '../services/usePageMedia';
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, Button, Container, Grid, Card, IconButton } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
@@ -35,10 +37,10 @@ function Home() {
 	const [fadeOpacity, setFadeOpacity] = useState(1);
 
 	// Background images array
-	const backgroundImages = [background1, background2, background3, background4];
+	const backgroundImages = usePageMedia('homeHero',[background1,background2,background3,background4].map(src=>({src}))).map(i=>i.src);
 
 	// Sample testimonial data
-	const testimonials = [
+	const legacyTestimonials = [
 		{
 			id: 1,
 			image: say1,
@@ -76,6 +78,8 @@ function Home() {
 			image: say9,
 		},
 	];
+
+ const testimonials=usePageMedia('testimonials',legacyTestimonials.map(i=>({id:i.id,src:i.image,alt:''}))).map(i=>({...i,image:i.src,name:i.alt}));
 
 	// Navigation functions
 	const handleNextTestimonial = () => {
@@ -135,7 +139,7 @@ function Home() {
 						width: '100%',
 						height: '100%',
 						zIndex: 1,
-						backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(${backgroundImages[currentBackground]})`,
+						backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(${backgroundImages[currentBackground % backgroundImages.length]})`,
 						backgroundSize: 'cover',
 						backgroundPosition: 'center',
 						backgroundRepeat: 'no-repeat',
@@ -246,7 +250,7 @@ function Home() {
 								}}
 							>
 								<Typography variant='h4' sx={{ color: '#34582B', fontWeight: 'bold', mb: 1 }}>
-									140
+									{t('impact.childrenValue', { defaultValue: '140' })}
 								</Typography>
 								<Typography variant='h6' sx={{ color: '#333', fontWeight: 'bold', mb: 1 }}>
 									{t('impact.children')}
@@ -275,7 +279,7 @@ function Home() {
 								}}
 							>
 								<Typography variant='h4' sx={{ color: '#34582B', fontWeight: 'bold', mb: 1 }}>
-									5
+									{t('impact.regionsValue', { defaultValue: '5' })}
 								</Typography>
 								<Typography variant='h6' sx={{ color: '#333', fontWeight: 'bold', mb: 1 }}>
 									{t('impact.continents')}
@@ -304,7 +308,7 @@ function Home() {
 								}}
 							>
 								<Typography variant='h4' sx={{ color: '#34582B', fontWeight: 'bold', mb: 1 }}>
-									￥800,000+
+									{t('impact.fundsValue', { defaultValue: '￥800,000+' })}
 								</Typography>
 								<Typography variant='h6' sx={{ color: '#333', fontWeight: 'bold', mb: 1 }}>
 									{t('impact.funds')}
@@ -376,7 +380,7 @@ function Home() {
 						>
 							{(() => {
 								const len = testimonials.length;
-								const indices = [currentTestimonial, (currentTestimonial + 1) % len, (currentTestimonial + 2) % len];
+								const indices = [currentTestimonial % len, (currentTestimonial + 1) % len, (currentTestimonial + 2) % len];
 								return (
 									<Box
 										sx={{
@@ -502,6 +506,7 @@ function Home() {
 			</Box>
 
 			<SiteFooter />
+            <WebsiteChat />
 		</Box>
 	);
 }
