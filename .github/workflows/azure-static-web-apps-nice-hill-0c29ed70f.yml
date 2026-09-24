@@ -21,7 +21,7 @@ jobs:
           lfs: false
       - name: Build And Deploy
         env:
-          REACT_APP_CONTENT_API_URL: ${{ vars.CONTENT_API_BASE_URL }}
+          REACT_APP_CONTENT_API_URL: ${{ vars.CONTENT_API_BASE_URL || 'https://api.little-green-leaves.world' }}
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:

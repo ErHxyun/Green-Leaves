@@ -27,12 +27,12 @@ test('privacy and unsupported numeric facts are flagged without rewriting facts'
 test('OpenRouter uses strict schema routing and validates output',async()=>{
  const {OpenRouterProvider}=await import('../src/ai.js');
  let sent;
- const p=new OpenRouterProvider({apiKey:'test',fetchImpl:async(url,options)=>{
+ const p=new OpenRouterProvider({apiKey:'test',model:'deepseek/deepseek-v4-flash',fetchImpl:async(url,options)=>{
   assert.equal(url,'https://openrouter.ai/api/v1/chat/completions');sent=JSON.parse(options.body);
   return {ok:true,json:async()=>({choices:[{finish_reason:'stop',message:{content:JSON.stringify(payload)}}]})};
  }});
  const result=await p.generate('2025 donated 10 books');
- assert.equal(sent.model,'deepseek/deepseek-v3.2');
+ assert.equal(sent.model,'deepseek/deepseek-v4-flash');
  assert.equal(sent.provider.require_parameters,true);assert.equal(sent.provider.data_collection,'deny');
  assert.equal(sent.response_format.json_schema.strict,true);assert.equal(sent.reasoning.enabled,false);
  assert.equal(sent.tools,undefined);assert.equal(result.blocks[0].translations.en.content,payload.blocks[0].translations.en.content);

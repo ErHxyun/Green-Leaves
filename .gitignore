@@ -13,3 +13,6 @@ work/
 .pgdata/
 
 backend/uploads/
+
+private/
+backups/

@@ -5,10 +5,19 @@ import {mkdir,writeFile,unlink} from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {HttpError} from './validation.js';
+sharp.concurrency(1);
+sharp.cache({memory:32,files:0,items:20});
 export const defaultUploadDir=process.env.UPLOAD_DIR||fileURLToPath(new URL('../uploads/',import.meta.url));
 const parse=multer({storage:multer.memoryStorage(),limits:{fileSize:10*1024*1024,files:1,fields:0,parts:1}}).single('image');
 export function uploadImage(pool,directory){
- return [(req,res,next)=>parse(req,res,e=>next(e?new HttpError(e.code==='LIMIT_FILE_SIZE'?413:400,e.code==='LIMIT_FILE_SIZE'?'图片不能超过 10 MB。':'请一次上传一张 JPG、PNG 或 WebP 图片。'):undefined)),
+ let processing=false;
+ return [(req,res,next)=>{
+  if(processing)return next(new HttpError(429,'Image processing is busy; retry shortly.'));
+  processing=true;
+  const release=()=>{processing=false;};
+  res.once('finish',release);res.once('close',release);
+  next();
+ },(req,res,next)=>parse(req,res,e=>next(e?new HttpError(e.code==='LIMIT_FILE_SIZE'?413:400,e.code==='LIMIT_FILE_SIZE'?'图片不能超过 10 MB。':'请一次上传一张 JPG、PNG 或 WebP 图片。'):undefined)),
  async(req,res)=>{
   if(!req.file)throw new HttpError(400,'请先选择图片。');
   let output;

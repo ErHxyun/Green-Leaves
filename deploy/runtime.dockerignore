@@ -1,0 +1,5 @@
+private/
+backups/
+uploads/
+runtime.tar.gz
+**/node_modules/

@@ -1,0 +1,55 @@
+name: green-leaves
+services:
+  postgres:
+    image: postgres:18-alpine
+    restart: unless-stopped
+    env_file: ../private/postgres.env
+    command: ["postgres","-c","shared_buffers=32MB","-c","max_connections=25","-c","work_mem=2MB"]
+    mem_limit: 192m
+    memswap_limit: 384m
+    volumes:
+      - postgres_data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL","pg_isready -U greenleaves -d greenleaves"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+    logging: &logs
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}
+  backend:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    restart: unless-stopped
+    env_file: ../private/backend.env
+    mem_limit: 448m
+    memswap_limit: 768m
+    volumes:
+      - ../uploads:/app/backend/uploads
+    ports:
+      - "127.0.0.1:8080:8080"
+    depends_on:
+      postgres: {condition: service_healthy}
+    healthcheck:
+      test: ["CMD","node","-e","fetch('http://localhost:8080/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 8s
+      retries: 5
+    logging: *logs
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    mem_limit: 96m
+    memswap_limit: 192m
+    ports: ["80:80","443:443"]
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on: [backend]
+    logging: *logs
+volumes:
+  postgres_data:
+  caddy_data:
+  caddy_config:
