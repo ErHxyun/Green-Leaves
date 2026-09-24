@@ -1,0 +1,616 @@
+{
+  "id": "lushan-2026",
+  "slug": "ten-years-of-hope-lushan-2026",
+  "year_id": "year-2026",
+  "event_date": "2026-07-25 / 2026-07-26",
+  "sort_order": 4,
+  "translations": {
+    "cn": {
+      "title": "十年微光，汇聚希望--2026小绿叶“鲁山行”"
+    },
+    "en": {
+      "title": "Ten Years of Small Lights, Gathering Hope — The 2026 Little Green Leaves Visit to Lushan"
+    }
+  },
+  "warnings": [
+    "日期按正文为2026年7月25日至26日，助学金发放仪式为7月26日上午；未使用末尾评论日期作为活动日期。",
+    "保留12人、50余名、每人1200元、十年累计50余人、60余万元、十余个乡镇等原文口径；不推算精确总额，不与其他文章的全项目统计混用。",
+    "picture-6.jpg 与 picture-7.jpg SHA-256相同，正文只使用picture-6.jpg，原文件均保留。",
+    "原文Image占位多于6张不同配图，按照片内容排列，不重复填充缺少的图片。",
+    "末尾4 Comments及评论者姓名、地点、日期、No more data、暂无评论为公众号界面和评论，未导入正文。",
+    "图片含可识别儿童及现场人员，发布前需确认图片使用授权。",
+    "英文为待审核翻译；机构名称采用描述性译法，Wang Yining、Xiatang、Binhe等按中文转写，未核验官方英文名称。"
+  ],
+  "blocks": [
+    {
+      "id": "lushan-2026-block-01",
+      "type": "text",
+      "sort_order": 0,
+      "translations": {
+        "cn": {
+          "content": "盛夏七月，因为一份延续十年的约定，我们再次踏上前往鲁山的路。"
+        },
+        "en": {
+          "content": "In the height of July, a promise sustained for ten years brought us back on the road to Lushan."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-02",
+      "type": "text",
+      "sort_order": 1,
+      "translations": {
+        "cn": {
+          "content": "2026年7月25日至26日，“小绿叶筑梦团队”一行12人从河北廊坊等地出发，来到河南省鲁山县下汤镇，开展2026年“小绿叶筑梦”鲁山助学行动。"
+        },
+        "en": {
+          "content": "On July 25–26, 2026, a group of 12 members of the Little Green Leaves Dream-Building team traveled from Langfang, Hebei, and other places to Xiatang Town in Lushan County, Henan, for the 2026 Little Green Leaves Dream-Building educational support visit to Lushan."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-03",
+      "type": "text",
+      "sort_order": 2,
+      "translations": {
+        "cn": {
+          "content": "7月26日上午，助学金发放仪式在下汤镇滨河社区举行。来自鲁山县多个乡镇的50余名困境学生获得了2026年下半年助学金，每人1200元，同时收到了书包、文具和图书等学习用品。"
+        },
+        "en": {
+          "content": "On the morning of July 26, an educational grant distribution ceremony took place in Binhe Community, Xiatang Town. More than 50 students facing hardship from several towns and townships in Lushan County received grants for the second half of 2026, with 1,200 yuan for each student, along with schoolbags, stationery, books, and other learning supplies."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-04",
+      "type": "image",
+      "sort_order": 3,
+      "file": "picture-1.jpg",
+      "translations": {
+        "cn": {
+          "alt": "2026年小绿叶鲁山行参与者集体合影",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Group photograph of participants in the 2026 Little Green Leaves visit to Lushan",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-05",
+      "type": "subtitle",
+      "sort_order": 4,
+      "translations": {
+        "cn": {
+          "content": "跨越千里，再赴十年之约"
+        },
+        "en": {
+          "content": "Across a Thousand Miles, Returning to a Ten-Year Promise"
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-06",
+      "type": "text",
+      "sort_order": 5,
+      "translations": {
+        "cn": {
+          "content": "从燕赵大地到伏牛山区，这条跨越千里的爱心之路，我们已经走了整整十年。"
+        },
+        "en": {
+          "content": "From the land of Yan and Zhao to the Funiu Mountains, we have traveled this long road of care for a full ten years."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-07",
+      "type": "text",
+      "sort_order": 6,
+      "translations": {
+        "cn": {
+          "content": "十年前，“小绿叶”与鲁山结缘。此后，无论严寒酷暑，团队成员和当地爱心人士始终坚持入户走访，了解孩子们的学习与生活情况，把来自社会各界的关心送到真正需要帮助的家庭。"
+        },
+        "en": {
+          "content": "Ten years ago, Little Green Leaves first formed a connection with Lushan. Since then, through bitter cold and summer heat, team members and caring local residents have continued visiting homes to understand children’s studies and daily lives, bringing support from across society to families who truly need it."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-08",
+      "type": "text",
+      "sort_order": 7,
+      "translations": {
+        "cn": {
+          "content": "十年来，“小绿叶筑梦团队”已在鲁山县累计帮助困境学生50余人，投入助学资金60余万元，足迹遍及全县十余个乡镇。"
+        },
+        "en": {
+          "content": "Over the past ten years, the Little Green Leaves Dream-Building team has helped more than 50 students facing hardship in Lushan County and provided over 600,000 yuan in educational support, reaching more than ten towns and townships across the county."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-09",
+      "type": "text",
+      "sort_order": 8,
+      "translations": {
+        "cn": {
+          "content": "数字记录的是时间，而数字背后，是一个个孩子继续读书的机会，是一户户家庭重新燃起的希望，也是无数爱心人士长久而坚定的守望。"
+        },
+        "en": {
+          "content": "The numbers record the passage of time. Behind them are opportunities for children to continue their education, renewed hope for families, and the lasting, steadfast care of countless supporters."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-10",
+      "type": "image",
+      "sort_order": 9,
+      "file": "picture-2.jpg",
+      "translations": {
+        "cn": {
+          "alt": "鲁山行助学活动会场",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Venue of the educational support event in Lushan",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-11",
+      "type": "subtitle",
+      "sort_order": 10,
+      "translations": {
+        "cn": {
+          "content": "不只是资助，更是一次面对面的陪伴"
+        },
+        "en": {
+          "content": "More Than Financial Support: Companionship Face to Face"
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-12",
+      "type": "text",
+      "sort_order": 11,
+      "translations": {
+        "cn": {
+          "content": "活动现场，鲁山县关工委、下汤镇有关负责同志，受助学生及家长、“小绿叶”志愿者共同参加了助学金发放仪式。"
+        },
+        "en": {
+          "content": "Representatives of the Lushan County Committee for the Wellbeing of the Next Generation and relevant officials from Xiatang Town joined the supported students, their parents, and Little Green Leaves volunteers at the grant distribution ceremony."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-13",
+      "type": "text",
+      "sort_order": 12,
+      "translations": {
+        "cn": {
+          "content": "“小绿叶筑梦团队”创始人王弋宁结合自己的成长经历，与在场的孩子们分享了关于读书、理想与成长的思考。"
+        },
+        "en": {
+          "content": "Wang Yining, founder of the Little Green Leaves Dream-Building team, drew on his own experiences growing up to share reflections on education, aspirations, and personal growth with the children."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-14",
+      "type": "text",
+      "sort_order": 13,
+      "translations": {
+        "cn": {
+          "content": "他告诉孩子们，读书能够打开更广阔的世界，暂时的困难并不能决定一个人的未来。面对成长道路上的压力与挫折，要学会坚持，也要珍惜每一次学习和改变命运的机会。"
+        },
+        "en": {
+          "content": "He told the children that education can open up a wider world and that temporary difficulties do not determine a person’s future. When facing pressures and setbacks while growing up, they should learn to persevere and value every opportunity to learn and change their lives."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-15",
+      "type": "text",
+      "sort_order": 14,
+      "translations": {
+        "cn": {
+          "content": "真正能够陪伴一个人走得更远的，不只是知识与成绩，还有善良、责任、勇气，以及在困难面前不轻易放弃的力量。"
+        },
+        "en": {
+          "content": "What helps a person go further is not only knowledge and academic results, but also kindness, responsibility, courage, and the strength not to give up easily in the face of difficulties."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-16",
+      "type": "text",
+      "sort_order": 15,
+      "translations": {
+        "cn": {
+          "content": "希望每一名受到帮助的同学，都能在未来找到自己热爱的方向，成长为有理想、有担当、能够温暖他人的人。"
+        },
+        "en": {
+          "content": "We hope every student receiving support will find a path they love and grow into someone with aspirations, a sense of responsibility, and the ability to bring warmth to others."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-17",
+      "type": "image",
+      "sort_order": 16,
+      "file": "picture-3.jpg",
+      "translations": {
+        "cn": {
+          "alt": "活动现场发言画面",
+          "caption": ""
+        },
+        "en": {
+          "alt": "A speaker addressing the event",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-18",
+      "type": "subtitle",
+      "sort_order": 17,
+      "translations": {
+        "cn": {
+          "content": "每一份善意，都值得被认真传递"
+        },
+        "en": {
+          "content": "Every Act of Kindness Deserves to Be Passed On with Care"
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-19",
+      "type": "text",
+      "sort_order": 18,
+      "translations": {
+        "cn": {
+          "content": "此次活动中，50余名困境学生分别获得了1200元助学金。“小绿叶”还为孩子们准备了书包、图书、文具等学习用品，希望这些礼物能够陪伴他们开启新的学期。"
+        },
+        "en": {
+          "content": "During this event, more than 50 students facing hardship each received a grant of 1,200 yuan. Little Green Leaves also prepared schoolbags, books, stationery, and other learning supplies, hoping these gifts would accompany them into the new school term."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-20",
+      "type": "text",
+      "sort_order": 19,
+      "translations": {
+        "cn": {
+          "content": "一名受助学生代表和家人向团队赠送锦旗，表达对“小绿叶”长期帮助与陪伴的感谢。"
+        },
+        "en": {
+          "content": "A student representative receiving support and their family presented the team with a commemorative banner to express their gratitude for Little Green Leaves’ long-term help and companionship."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-21",
+      "type": "image",
+      "sort_order": 20,
+      "file": "picture-4.jpg",
+      "translations": {
+        "cn": {
+          "alt": "受助学生代表和家人赠送锦旗合影",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Photograph of a student representative and family presenting a commemorative banner",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-22",
+      "type": "text",
+      "sort_order": 21,
+      "translations": {
+        "cn": {
+          "content": "这份感谢让我们感动，也让我们更加清楚地认识到：公益从来不是单向的给予。"
+        },
+        "en": {
+          "content": "Their thanks moved us and reminded us more clearly that charitable work is never simply giving in one direction."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-23",
+      "type": "text",
+      "sort_order": 22,
+      "translations": {
+        "cn": {
+          "content": "在陪伴孩子们成长的过程中，我们同样被他们面对生活的勇气、对知识的渴望和对未来的期待不断感染。每一次相见，都是一次彼此照亮；每一段同行，也都让“小绿叶”更加坚定地走下去。"
+        },
+        "en": {
+          "content": "As we accompany the children in their growth, we too are continually inspired by their courage in facing life, their thirst for knowledge, and their hopes for the future. Every meeting brings light to one another’s lives, and every journey together strengthens Little Green Leaves’ resolve to continue."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-24",
+      "type": "image",
+      "sort_order": 23,
+      "file": "picture-5.jpg",
+      "translations": {
+        "cn": {
+          "alt": "志愿者在会场分发学习用品",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Volunteers distributing learning supplies at the venue",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-25",
+      "type": "subtitle",
+      "sort_order": 24,
+      "translations": {
+        "cn": {
+          "content": "因为有人同行，微光才能汇聚"
+        },
+        "en": {
+          "content": "Small Lights Come Together Because We Walk Together"
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-26",
+      "type": "text",
+      "sort_order": 25,
+      "translations": {
+        "cn": {
+          "content": "仪式现场，鲁山县关工委向“小绿叶筑梦团队”赠送牌匾，对团队十年来持续开展助学行动表示感谢。"
+        },
+        "en": {
+          "content": "At the ceremony, the Lushan County Committee for the Wellbeing of the Next Generation presented a plaque to the Little Green Leaves Dream-Building team in appreciation of its continuing educational support over the past ten years."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-27",
+      "type": "text",
+      "sort_order": 26,
+      "translations": {
+        "cn": {
+          "content": "“小绿叶”也向多年来协助团队走访困境学生、反馈家庭情况、推动助学工作落地的当地爱心人士颁发了“爱心大使”荣誉证书。"
+        },
+        "en": {
+          "content": "Little Green Leaves also awarded “Ambassador of Kindness” certificates to local supporters who, over the years, have helped the team visit students facing hardship, report on family circumstances, and put educational support into practice."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-28",
+      "type": "text",
+      "sort_order": 27,
+      "translations": {
+        "cn": {
+          "content": "十年来，正是因为有鲁山县关工委、下汤镇有关部门、学校老师、爱心人士和志愿者的共同参与，我们才能更加准确地了解孩子们的实际需要，让每一份爱心真正抵达。"
+        },
+        "en": {
+          "content": "Over these ten years, the joint participation of the Lushan County Committee for the Wellbeing of the Next Generation, relevant departments in Xiatang Town, teachers, caring supporters, and volunteers has helped us understand children’s actual needs more accurately and ensure that every contribution reaches them."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-29",
+      "type": "text",
+      "sort_order": 28,
+      "translations": {
+        "cn": {
+          "content": "一棵树的成长离不开阳光、雨露和土地；一个孩子的成长，同样需要家庭、学校与社会共同守护。"
+        },
+        "en": {
+          "content": "A tree cannot grow without sunlight, rain, and soil. Likewise, a child’s growth needs the shared care of families, schools, and society."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-30",
+      "type": "text",
+      "sort_order": 29,
+      "translations": {
+        "cn": {
+          "content": "“小绿叶”之所以能够坚持十年，从来不是依靠某一个人的力量，而是因为越来越多的人愿意伸出手，让一片片小小的绿叶汇聚成荫。"
+        },
+        "en": {
+          "content": "Little Green Leaves has continued for ten years not through the strength of any one person, but because more and more people have been willing to lend a hand, allowing small green leaves to come together into a canopy of shade."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-31",
+      "type": "image",
+      "sort_order": 30,
+      "file": "picture-6.jpg",
+      "translations": {
+        "cn": {
+          "alt": "小绿叶志愿者在活动现场合影",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Little Green Leaves volunteers posing together at the event",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-32",
+      "type": "subtitle",
+      "sort_order": 31,
+      "translations": {
+        "cn": {
+          "content": "十年不是终点，而是新的开始"
+        },
+        "en": {
+          "content": "Ten Years Mark a New Beginning"
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-33",
+      "type": "text",
+      "sort_order": 32,
+      "translations": {
+        "cn": {
+          "content": "活动结束后，我们再次与孩子们告别。"
+        },
+        "en": {
+          "content": "After the event, we once again said goodbye to the children."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-34",
+      "type": "text",
+      "sort_order": 33,
+      "translations": {
+        "cn": {
+          "content": "有些孩子已经从当年腼腆的小学生成长为高中生、大学生，也有新的孩子第一次来到“小绿叶”的助学活动现场。时间改变了他们的模样，却没有改变我们最初的愿望——希望每一个认真生活、努力读书的孩子，都不会因为暂时的困难而失去看见更大世界的机会。"
+        },
+        "en": {
+          "content": "Some children who were once shy primary school pupils have grown into high school or university students, while others were attending a Little Green Leaves educational support event for the first time. Time has changed their appearance, but not our original wish: that no child who lives earnestly and studies hard should lose the chance to discover a wider world because of temporary difficulties."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-35",
+      "type": "text",
+      "sort_order": 34,
+      "translations": {
+        "cn": {
+          "content": "十年微光，汇聚希望。"
+        },
+        "en": {
+          "content": "Ten years of small lights, coming together in hope."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-36",
+      "type": "text",
+      "sort_order": 35,
+      "translations": {
+        "cn": {
+          "content": "未来，“小绿叶”将继续做好学生走访、助学陪伴和公益资源连接工作，关注孩子们长期的学习与成长，用一次次真实的行动，守护每一个值得被看见的梦想。"
+        },
+        "en": {
+          "content": "In the future, Little Green Leaves will continue visiting students, providing educational support and companionship, and connecting charitable resources. We will focus on children’s long-term learning and growth, protecting every dream that deserves to be seen through concrete actions, time after time."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-37",
+      "type": "text",
+      "sort_order": 36,
+      "translations": {
+        "cn": {
+          "content": "愿今天收到的善意，成为孩子们继续前行的力量；也愿他们有一天能够带着这份温暖，去照亮更多的人。"
+        },
+        "en": {
+          "content": "May the kindness received today give the children strength to keep moving forward. May they one day carry this warmth with them and bring light to more people."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-38",
+      "type": "text",
+      "sort_order": 37,
+      "translations": {
+        "cn": {
+          "content": "山高路远，步履不停。"
+        },
+        "en": {
+          "content": "The mountains are high and the road is long, but we keep walking."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-39",
+      "type": "text",
+      "sort_order": 38,
+      "translations": {
+        "cn": {
+          "content": "下一段同行，我们依然在路上。"
+        },
+        "en": {
+          "content": "As the next stage of our shared journey begins, we remain on the road."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-40",
+      "type": "subtitle",
+      "sort_order": 39,
+      "translations": {
+        "cn": {
+          "content": "特别感谢："
+        },
+        "en": {
+          "content": "Special Thanks"
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-41",
+      "type": "text",
+      "sort_order": 40,
+      "translations": {
+        "cn": {
+          "content": "感谢鲁山县关心下一代工作委员会、下汤镇有关部门及滨河社区对本次活动的支持；感谢长期参与走访和联络工作的当地爱心人士；感谢每一位捐赠人、志愿者和关心“小绿叶”的朋友。"
+        },
+        "en": {
+          "content": "Thank you to the Lushan County Committee for the Wellbeing of the Next Generation, the relevant departments in Xiatang Town, and Binhe Community for supporting this event; to local supporters who have long helped with visits and coordination; and to every donor, volunteer, and friend who cares about Little Green Leaves."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-42",
+      "type": "text",
+      "sort_order": 41,
+      "translations": {
+        "cn": {
+          "content": "因为你们，微小的善意得以跨越千里，抵达一个又一个孩子身边。"
+        },
+        "en": {
+          "content": "Because of you, small acts of kindness can travel great distances and reach one child after another."
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-43",
+      "type": "subtitle",
+      "sort_order": 42,
+      "translations": {
+        "cn": {
+          "content": "“小绿叶筑梦”公益助学计划"
+        },
+        "en": {
+          "content": "The Little Green Leaves Dream-Building Charitable Educational Support Program"
+        }
+      }
+    },
+    {
+      "id": "lushan-2026-block-44",
+      "type": "text",
+      "sort_order": 43,
+      "translations": {
+        "cn": {
+          "content": "让每一片小小的绿叶，都有机会向阳生长。"
+        },
+        "en": {
+          "content": "Giving every small green leaf a chance to grow toward the sun."
+        }
+      }
+    }
+  ]
+}

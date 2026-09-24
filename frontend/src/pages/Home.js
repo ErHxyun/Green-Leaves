@@ -1,4 +1,3 @@
-import WebsiteChat from '../components/WebsiteChat';
 import {usePageMedia} from '../services/usePageMedia';
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, Button, Container, Grid, Card, IconButton } from '@mui/material';
@@ -250,7 +249,7 @@ function Home() {
 								}}
 							>
 								<Typography variant='h4' sx={{ color: '#34582B', fontWeight: 'bold', mb: 1 }}>
-									{t('impact.childrenValue', { defaultValue: '140' })}
+									{t('impact.childrenValue', { defaultValue: '200' })}
 								</Typography>
 								<Typography variant='h6' sx={{ color: '#333', fontWeight: 'bold', mb: 1 }}>
 									{t('impact.children')}
@@ -308,7 +307,7 @@ function Home() {
 								}}
 							>
 								<Typography variant='h4' sx={{ color: '#34582B', fontWeight: 'bold', mb: 1 }}>
-									{t('impact.fundsValue', { defaultValue: '￥800,000+' })}
+									{t('impact.fundsValue', { defaultValue: '￥1,000,000+' })}
 								</Typography>
 								<Typography variant='h6' sx={{ color: '#333', fontWeight: 'bold', mb: 1 }}>
 									{t('impact.funds')}
@@ -506,7 +505,7 @@ function Home() {
 			</Box>
 
 			<SiteFooter />
-            <WebsiteChat />
+
 		</Box>
 	);
 }

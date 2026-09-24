@@ -24,7 +24,7 @@ export default function WebsiteChat(){
  async function send(value=question){
   if(busy||!value.trim())return;
   const controller=new AbortController();abort.current=controller;setBusy(true);setError('');
-  const history=messages.filter(m=>m.role==='user').map(m=>m.text).slice(-4);
+  const history=messages.slice(-8).map(m=>({role:m.role,content:(m.text||m.answer||'').slice(0,m.role==='user'?600:4000)}));
   setMessages(m=>[...m.slice(-18),{role:'user',text:value}]);setQuestion('');
   try{
    const answer=await askWebsite(value,cn?'cn':'en',history,controller.signal);
@@ -43,17 +43,16 @@ export default function WebsiteChat(){
     <ChatAvatar brand={brand}/>
     <Box sx={{flex:1}}>
      <Typography id="website-chat-title" sx={{fontWeight:700,fontSize:16}}>{cn?'小绿叶':'Green Leaves'}</Typography>
-     <Typography variant="caption" sx={{opacity:.85}}>{cn?'官网 AI 助手 · 陪你了解我们的故事':'Website AI assistant · Our stories, together'}</Typography>
+     <Typography variant="caption" sx={{opacity:.85}}>{cn?'小绿叶AI助手':'Little Green Leaves AI Assistant'}</Typography>
     </Box>
-    <IconButton aria-label={cn?'关闭':'Close'} onClick={close} size="small" sx={{color:'white'}}><CloseIcon fontSize="small"/></IconButton>
    </Box>
    <Box ref={scroll} sx={{flex:1,minHeight:0,overflowY:'auto',overscrollBehavior:'contain',p:2,bgcolor:'#f5f8f5'}}>
-    <Typography sx={{textAlign:'center',fontSize:11,color:'#748378',mb:2}}>{cn?'回答依据官网已发布内容':'Answers use published website information'}</Typography>
+    <Typography sx={{textAlign:'center',fontSize:11,color:'#748378',mb:2}}>{cn?'聊公益、聊日常 · 机构信息以官网资料为准':'Everyday conversation · Organization facts use website sources'}</Typography>
     <Box role="log" aria-live="polite" aria-label={cn?'聊天记录':'Conversation'}>
      <Box sx={{display:'flex',gap:1,alignItems:'flex-start',mb:2}}>
       <ChatAvatar brand={brand} small/>
       <Box sx={{bgcolor:'white',border:'1px solid #e4ece5',borderRadius:'4px 16px 16px 16px',p:1.5,maxWidth:'85%'}}>
-       <Typography variant="body2" sx={{lineHeight:1.8}}>{cn?'你好呀，我是小绿叶 🌱 想了解我们的公益活动、成长故事，或找到联系方式？可以直接问我。':"Hi, I'm Green Leaves 🌱 Ask me about our activities, our story, or how to get in touch."}</Typography>
+       <Typography variant="body2" sx={{lineHeight:1.8}}>{cn?'你好呀，我是小绿叶AI助手 🌱 可以陪你聊聊日常、一起想公益点子，也能帮你了解小绿叶的故事和活动。今天想聊什么？':"Hi, I'm Little Green Leaves AI Assistant 🌱 We can chat, explore volunteering ideas, or learn about Little Green Leaves and our activities. What's on your mind?"}</Typography>
       </Box>
      </Box>
      {!messages.length&&<Box sx={{display:'flex',gap:1,flexDirection:'column',alignItems:'flex-start',ml:4.5,mb:2}}>
@@ -76,7 +75,7 @@ export default function WebsiteChat(){
        </Box>
       </Box>;
      })}
-     {busy&&<Box role="status" sx={{bgcolor:'white',borderRadius:'4px 16px 16px 16px',p:1.5,ml:4.5,width:'fit-content',color:'#5d7865',fontSize:13}}>{cn?'小绿叶正在查找资料 ···':'Looking that up ···'}</Box>}
+     {busy&&<Box role="status" sx={{bgcolor:'white',borderRadius:'4px 16px 16px 16px',p:1.5,ml:4.5,width:'fit-content',color:'#5d7865',fontSize:13}}>{cn?'小绿叶正在回复 ···':'Thinking ···'}</Box>}
     </Box>
     {error&&<Typography role="alert" sx={{p:1.5,mt:1,borderRadius:2,bgcolor:'#fff1ed',color:'#a33e27',fontSize:13}}>{error}</Typography>}
    </Box>
@@ -89,7 +88,7 @@ export default function WebsiteChat(){
      <IconButton type="submit" aria-label={cn?'发送':'Send'} disabled={busy||!question.trim()} sx={{bgcolor:'#216239',color:'white',borderRadius:3,'&:hover':{bgcolor:'#14532d'},'&.Mui-disabled':{bgcolor:'#eef3ee',color:'#adbeaf'}}}><SendRoundedIcon fontSize="small"/></IconButton>
     </Box>
     <Box sx={{display:'flex',justifyContent:'space-between',gap:1,mt:1}}>
-     <Typography sx={{fontSize:10,color:'#859187'}}>{cn?'AI 服务处理问题，请勿填写隐私信息':'AI processes questions. Avoid personal information.'}</Typography>
+     <Typography sx={{fontSize:10,color:'#859187'}}>{cn?'请勿发送您的隐私信息':'AI processes questions. Avoid personal information.'}</Typography>
      <Link href="/contact" sx={{fontSize:11,color:'#53785c',whiteSpace:'nowrap'}}>{cn?'联系小绿叶':'Contact us'}</Link>
     </Box>
    </Box>

@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Leaf, HeartHandshake, Droplets, HandCoins, Users } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useTimelineContent } from '../services/useTimelineContent';
+import EffortsStory from './EffortsStory';
 
 const publicImage = (p) => `${process.env.PUBLIC_URL}/pictures/${p}`;
 
@@ -4587,124 +4588,12 @@ const defaultData = [
 		],
 		icon: Leaf,
 	},
+	{year: 2026, title: 'A New Starting Point After Ten Years of Building Dreams', summary: '', events: [], icon: Leaf},
 ];
-
-const leafGradients = [
-	'from-emerald-200 to-emerald-400',
-	'from-green-200 to-green-400',
-	'from-lime-200 to-lime-400',
-	'from-emerald-300 to-emerald-500',
-	'from-green-300 to-green-500',
-	'from-lime-300 to-lime-500',
-	'from-emerald-400 to-emerald-600',
-	'from-green-400 to-green-600',
-	'from-lime-400 to-lime-600',
-	'from-emerald-500 to-emerald-700',
-];
-
-function classNames(...xs) {
-	return xs.filter(Boolean).join(' ');
-}
-
-function LeafBadge({ label, value }) {
-	return (
-		<div className='flex items-center gap-2 rounded-full px-3 py-1 shadow-sm bg-white/70 backdrop-blur border border-emerald-100'>
-			<Leaf className='h-4 w-4' />
-			<span className='text-xs font-medium text-emerald-900'>{label}:</span>
-			<span className='text-xs text-emerald-800'>{value}</span>
-		</div>
-	);
-}
-
-function LeafCard({ item, index, side, onSelectEvent }) {
-	const Icon = item.icon ?? Leaf;
-	const gradient = leafGradients[index % leafGradients.length];
-	return (
-		<motion.div
-			initial={{ opacity: 0, y: 24 }}
-			whileInView={{ opacity: 1, y: 0 }}
-			viewport={{ once: true, margin: '-100px' }}
-			transition={{ duration: 0.6, ease: 'easeOut' }}
-			className={classNames('relative w-full md:w-[calc(50%-2.5rem)]', side === 'left' ? 'md:mr-auto' : 'md:ml-auto')}
-			aria-label={`Milestone ${item.year}: ${item.title}`}
-		>
-			<div
-				className={classNames(
-					'hidden md:block absolute top-1/2 -translate-y-1/2 w-10 h-1 rounded',
-					side === 'left' ? 'right-[-2.5rem]' : 'left-[-2.5rem]',
-					'bg-gradient-to-r from-emerald-600/80 to-emerald-400/80'
-				)}
-			/>
-			<div
-				className={classNames(
-					'group relative overflow-hidden rounded-2xl border shadow-sm',
-					'bg-gradient-to-br text-emerald-950',
-					gradient
-				)}
-			>
-				<div className='pointer-events-none absolute inset-0 opacity-15 mix-blend-multiply'>
-					<svg viewBox='0 0 400 200' className='h-full w-full'>
-						<defs>
-							<linearGradient id={`leaf-lines-${item.year}`} x1='0' x2='1'>
-								<stop offset='0%' stopColor='#065f46' stopOpacity='0.15' />
-								<stop offset='100%' stopColor='#065f46' stopOpacity='0' />
-							</linearGradient>
-						</defs>
-						<path
-							d='M10,100 C90,10 310,10 390,100'
-							stroke={`url(#leaf-lines-${item.year})`}
-							strokeWidth='2'
-							fill='none'
-						/>
-						<path
-							d='M10,100 C90,190 310,190 390,100'
-							stroke={`url(#leaf-lines-${item.year})`}
-							strokeWidth='2'
-							fill='none'
-						/>
-					</svg>
-				</div>
-				<div className='relative p-5 md:p-6'>
-					<div className='flex items-center gap-3'>
-						<div className='flex h-10 w-10 items-center justify-center rounded-full bg-white/80 shadow'>
-							<Icon className='h-5 w-5 text-emerald-700' />
-						</div>
-						<div className='flex items-baseline gap-3'>
-							<span className='text-2xl font-extrabold tracking-tight drop-shadow-sm'>{item.year}</span>
-							<h3 className='text-lg md:text-xl font-semibold'>{item.title}</h3>
-						</div>
-					</div>
-					<p className='mt-3 text-sm md:text-base leading-relaxed text-emerald-900/90'>{item.summary}</p>
-					{item.metrics?.length > 0 && (
-						<div className='mt-4 flex flex-wrap gap-2'>
-							{item.metrics.map((m) => (
-								<LeafBadge key={m.label} label={m.label} value={m.value} />
-							))}
-						</div>
-					)}
-					{item.events?.length > 0 && (
-						<div className='mt-5 flex flex-wrap gap-2'>
-							{item.events.map((ev) => (
-								<button
-									key={ev.id}
-									onClick={() => onSelectEvent(item, ev)}
-									className='px-3 py-1.5 rounded-full bg-white/80 hover:bg-white shadow-sm text-[11px] md:text-xs font-medium text-emerald-800 transition focus:outline-none focus:ring-2 focus:ring-emerald-500/60 flex items-center gap-1'
-								>
-									<Leaf className='h-3 w-3 opacity-70' /> {ev.title}
-								</button>
-							))}
-						</div>
-					)}
-				</div>
-				<div className='h-2 w-full bg-gradient-to-r from-white/20 via-white/40 to-white/10' />
-			</div>
-		</motion.div>
-	);
-}
 
 export default function TreeOfGrowthTimeline({
 	data = defaultData,
-	heading = 'Our Efforts: 2016–2025',
+	heading = 'Our Efforts: 2016–2026',
 	subheading = 'A decade of steady, sustainable growth powered by community and care.',
 	modalMaxWidth = 'max-w-6xl', // widened default
 }) {
@@ -4787,75 +4676,10 @@ export default function TreeOfGrowthTimeline({
 	}, [active]);
 	const onSelectEvent = (yearItem, event) => setActive({ yearItem, event });
 	return (
-		<section className='relative bg-emerald-50/60 py-32 md:py-40'>
-			<div className='pointer-events-none absolute inset-0 bg-gradient-to-b from-yellow-50/60 via-transparent to-transparent' />
-			<div className='container mx-auto px-4 md:px-8'>
-				<motion.div
-					initial={{ opacity: 0, y: 12 }}
-					whileInView={{ opacity: 1, y: 0 }}
-					viewport={{ once: true }}
-					transition={{ duration: 0.6 }}
-					className='mx-auto mb-12 max-w-3xl text-center'
-				>
-					<h2 className='text-3xl md:text-5xl font-extrabold tracking-tight text-emerald-900'>{localizedHeading}</h2>
-					<p className='mt-4 text-emerald-900/80 md:text-lg'>{localizedSubheading}</p>
-				</motion.div>
-				{data === defaultData && remote.status !== 'ready' && (
-                    <p role='status' className='mb-6 text-center text-sm text-emerald-900/80'>
-                        {t({loading:'ui.loading',error:'ui.unavailable',empty:'ui.empty'}[remote.status])}
-                    </p>
-                )}
-                <div className='relative'>
-					<div
-						aria-hidden
-						className='pointer-events-none absolute left-1/2 top-0 -ml-0.5 h-full w-1 rounded-full bg-gradient-to-b from-emerald-800 via-emerald-600 to-emerald-400 shadow-[0_0_20px_rgba(16,185,129,0.25)]'
-					/>
-					<div className='relative mx-auto grid gap-10 md:gap-16'>
-						{visibleData.map((item, idx) => {
-							const side = idx % 2 === 0 ? 'left' : 'right';
-							return (
-								<div key={item.year} className='relative md:min-h-[7rem]'>
-									<motion.div
-										initial={{ scale: 0, opacity: 0 }}
-										whileInView={{ scale: 1, opacity: 1 }}
-										viewport={{ once: true, margin: '-80px' }}
-										transition={{ duration: 0.4, ease: 'backOut' }}
-										className='absolute left-1/2 top-10 md:top-1/2 -translate-x-1/2 md:-translate-y-1/2 h-4 w-4 rounded-full bg-emerald-700 ring-4 ring-emerald-200'
-									/>
-									<div
-										className={classNames(
-											'md:flex md:items-center md:gap-10',
-											side === 'left' ? 'md:flex-row-reverse' : ''
-										)}
-									>
-										<LeafCard item={item} index={idx} side={side} onSelectEvent={onSelectEvent} />
-									</div>
-								</div>
-							);
-						})}
-					</div>
-				</div>
-				<motion.div
-					initial={{ opacity: 0, scale: 0.98 }}
-					whileInView={{ opacity: 1, scale: 1 }}
-					viewport={{ once: true }}
-					transition={{ duration: 0.6 }}
-					className='mt-16 rounded-3xl border bg-white/60 backdrop-blur px-6 py-10 text-center shadow-sm'
-				>
-					<div className='mx-auto flex max-w-2xl flex-col items-center gap-4'>
-						<div className='flex -space-x-2'>
-							{[...Array(8)].map((_, i) => (
-								<div
-									key={i}
-									className='h-8 w-8 rounded-full bg-gradient-to-br from-emerald-300 to-emerald-500 ring-2 ring-white'
-								/>
-							))}
-						</div>
-						<h3 className='text-2xl md:text-3xl font-bold text-emerald-900'>{localizedClosingTitle}</h3>
-						<p className='text-emerald-900/80'>{localizedClosingText}</p>
-					</div>
-				</motion.div>
-			</div>
+        <section>
+            <EffortsStory years={visibleData} heading={localizedHeading} subheading={localizedSubheading}
+                status={data === defaultData && remote.status !== 'ready' ? remote.status : null}
+                onSelectEvent={onSelectEvent} closingTitle={localizedClosingTitle} closingText={localizedClosingText} />
 			<AnimatePresence>
 				{active && (
 					<motion.div

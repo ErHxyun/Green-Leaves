@@ -1,0 +1,298 @@
+{
+  "id": "light-2026",
+  "slug": "children-lit-with-kindness-2026",
+  "year_id": "year-2026",
+  "event_date": "2026-02-12 / 2026-02-14",
+  "sort_order": 1,
+  "translations": {
+    "cn": {
+      "title": "孩子们被温柔照亮"
+    },
+    "en": {
+      "title": "Children Gently Lit Up by Kindness"
+    }
+  },
+  "warnings": [
+    "活动日期按来源保留为2026年2月12日至14日；不推断各环节具体发生日期。",
+    "英文为待审核翻译；160个孩子及博士、大学毕业等信息按原文保留，未新增姓名或地点细节。",
+    "picture-2、picture-4、picture-5 含可识别儿童照片，发布前需确认图片使用授权。",
+    "仅移除粘贴产生的反斜杠、Markdown加粗标记和多余空白；原文段落及事实完整保留。"
+  ],
+  "blocks": [
+    {
+      "id": "light-2026-block-01",
+      "type": "subtitle",
+      "sort_order": 0,
+      "translations": {
+        "cn": {
+          "content": "小绿叶筑梦冬令营"
+        },
+        "en": {
+          "content": "Little Green Leaves Dream-Building Winter Camp"
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-02",
+      "type": "text",
+      "sort_order": 1,
+      "translations": {
+        "cn": {
+          "content": "2026年2月12日-14日"
+        },
+        "en": {
+          "content": "February 12–14, 2026"
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-03",
+      "type": "text",
+      "sort_order": 2,
+      "translations": {
+        "cn": {
+          "content": "这个冬天，春节前\n因为一场相遇，变得格外温暖。\n小绿叶筑梦和莲花助学河南义工团队，\n用陪伴与守护，为孩子们带来了一场\n充满幸福、温暖与爱的冬令营。\n在这里，没有孤单，没有不安，\n只有被照顾、被看见、被重视的幸福感。"
+        },
+        "en": {
+          "content": "This winter, before the Spring Festival,\na gathering brought extraordinary warmth.\nLittle Green Leaves Dream-Building and the Henan volunteer team of Lotus Educational Assistance\ncreated a winter camp filled with happiness, warmth, and love,\noffering the children companionship and care.\nHere, there was no loneliness or unease,\nonly the happiness of being cared for, seen, and valued."
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-04",
+      "type": "subtitle",
+      "sort_order": 3,
+      "translations": {
+        "cn": {
+          "content": "被温暖照顾，是最踏实的幸福"
+        },
+        "en": {
+          "content": "Being Warmly Cared For Brings the Deepest Sense of Security"
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-05",
+      "type": "text",
+      "sort_order": 4,
+      "translations": {
+        "cn": {
+          "content": "第一天在义工们细心陪伴下，孩子们洗澡、换上干净的衣服，\n轻轻擦去脸上的疲惫，整理好凌乱的头发。\n那一刻，孩子们眼里闪着光，当他们得知接下来这个特别的环节时，兴奋地跳起来，恰好有的孩子生日，义工老师就给孩子们安排了特殊的生日聚会，张张笑脸后的感恩，原来被人好好疼惜，是这样温暖的感觉。"
+        },
+        "en": {
+          "content": "On the first day, with the volunteers’ attentive companionship, the children bathed and changed into clean clothes,\nwashing away the weariness from their faces and tidying their hair.\nTheir eyes lit up. When they learned about the special activity coming next, they jumped with excitement. Some children were celebrating their birthdays, so the volunteers arranged a special birthday party. Behind each smiling face was gratitude: this was the warmth of being truly cherished."
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-06",
+      "type": "image",
+      "sort_order": 5,
+      "file": "picture-1.jpg",
+      "translations": {
+        "cn": {
+          "alt": "点着蜡烛的生日蛋糕",
+          "caption": ""
+        },
+        "en": {
+          "alt": "A birthday cake with lit candles",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-07",
+      "type": "image",
+      "sort_order": 6,
+      "file": "picture-2.jpg",
+      "translations": {
+        "cn": {
+          "alt": "孩子们戴生日帽庆祝生日的照片拼图",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Collage of children wearing birthday hats and celebrating",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-08",
+      "type": "subtitle",
+      "sort_order": 7,
+      "translations": {
+        "cn": {
+          "content": "人间烟火气，最暖少年心"
+        },
+        "en": {
+          "content": "The Comfort of a Shared Meal Warms Young Hearts"
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-09",
+      "type": "text",
+      "sort_order": 8,
+      "translations": {
+        "cn": {
+          "content": "热气腾腾的美食，一桌桌丰盛的饭菜，是义工们用心准备的爱与心意。有干锅鹅、烧烤还有各种当地的美食，孩子们围坐在一起，吃得香甜，笑得开怀，简单的一餐饭，却吃出了家一般的安心与幸福。"
+        },
+        "en": {
+          "content": "Steaming dishes and tables full of food expressed the love and care the volunteers had put into preparing them. There was dry-pot goose, barbecue, and a variety of local specialties. The children sat together, enjoying the food and laughing freely. A simple meal brought the comfort and happiness of home."
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-10",
+      "type": "image",
+      "sort_order": 9,
+      "file": "picture-3.jpg",
+      "translations": {
+        "cn": {
+          "alt": "冬令营准备的饭菜和餐桌照片拼图",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Collage of dishes and dining tables prepared for the winter camp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-11",
+      "type": "subtitle",
+      "sort_order": 10,
+      "translations": {
+        "cn": {
+          "content": "游戏与欢笑，治愈所有小孤单"
+        },
+        "en": {
+          "content": "Games and Laughter Ease Little Feelings of Loneliness"
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-12",
+      "type": "text",
+      "sort_order": 11,
+      "translations": {
+        "cn": {
+          "content": "唱歌、游戏、表演节目、尽情玩耍，冬令营里，到处都是清脆的笑声。孩子们卸下拘谨，放开自己，在快乐里奔跑，在陪伴中治愈，原来快乐，可以如此简单又纯粹，看他们抱着努力后得到的奖品，满满的成就感。"
+        },
+        "en": {
+          "content": "Singing, games, performances, and carefree play filled the winter camp with bright laughter. The children let go of their shyness and opened up, running with joy and finding comfort in companionship. Happiness could be so simple and pure. Holding the prizes they had earned through their efforts, they were full of a sense of achievement."
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-13",
+      "type": "image",
+      "sort_order": 12,
+      "file": "picture-4.jpg",
+      "translations": {
+        "cn": {
+          "alt": "孩子们拿着活动奖品合影",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Children posing together with activity prizes",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-14",
+      "type": "subtitle",
+      "sort_order": 13,
+      "translations": {
+        "cn": {
+          "content": "心怀感恩，传承温暖与力量"
+        },
+        "en": {
+          "content": "Carrying Gratitude, Passing on Warmth and Strength"
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-15",
+      "type": "text",
+      "sort_order": 14,
+      "translations": {
+        "cn": {
+          "content": "祭拜祖先，学习礼仪，懂得敬畏与感恩。\n义工们用行动告诉孩子：\n要记得来路，要心怀善良，\n要做一个温暖、有担当的人。"
+        },
+        "en": {
+          "content": "Honoring ancestors, learning etiquette, and developing reverence and gratitude.\nThrough their actions, the volunteers told the children:\nremember where you come from, keep kindness in your heart,\nand become someone who is caring and responsible."
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-16",
+      "type": "subtitle",
+      "sort_order": 15,
+      "translations": {
+        "cn": {
+          "content": "爱的传承，让未来更有光"
+        },
+        "en": {
+          "content": "Passing on Love for a Brighter Future"
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-17",
+      "type": "text",
+      "sort_order": 16,
+      "translations": {
+        "cn": {
+          "content": "最动人的，是一场跨越时光的相遇。\n曾经受资助\n如今已博士毕业、大学毕业的哥哥姐姐\n回到这里，分享成长，解答困惑，传递力量。\n他们告诉孩子们：\n你值得被爱，你可以闪闪发光，未来一定充满希望。"
+        },
+        "en": {
+          "content": "The most moving moment was a meeting that bridged the years.\nOlder brothers and sisters who had once received support,\nand who had now earned doctoral or university degrees,\nreturned to share their journeys, answer questions, and offer encouragement.\nThey told the children:\nyou deserve to be loved, you can shine brightly, and your future is full of hope."
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-18",
+      "type": "text",
+      "sort_order": 17,
+      "translations": {
+        "cn": {
+          "content": "从被帮助，到帮助别人，\n这份温暖，正在一代又一代传递。\n这场冬令营，很短，\n但留在孩子们心里的温暖，很长。\n我们看到的，不只是笑容，\n更是被爱照亮的眼睛，被幸福填满的童年。"
+        },
+        "en": {
+          "content": "From receiving help to helping others,\nthis warmth is being passed from one generation to the next.\nThe winter camp was brief,\nbut the warmth it left in the children’s hearts will endure.\nWe saw more than smiles:\nwe saw eyes lit up by love and childhoods filled with happiness."
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-19",
+      "type": "image",
+      "sort_order": 18,
+      "file": "picture-5.jpg",
+      "translations": {
+        "cn": {
+          "alt": "冬令营参与者在小绿叶筑梦伴我成长横幅后合影",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Winter camp participants posing behind a Little Green Leaves Dream-Building banner",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "light-2026-block-20",
+      "type": "text",
+      "sort_order": 19,
+      "translations": {
+        "cn": {
+          "content": "十年公益，小绿叶筑梦\n已帮助160个孩子遇见一对一筑梦家庭，\n让每一个孤单的童年，都有温暖依靠。\n未来的日子里，\n我们依旧会带着初心，\n用陪伴守护成长，用温暖点亮童年，\n让每一个孩子，都能在爱里勇敢前行，\n被世界温柔以待，被幸福紧紧拥抱。\n愿每一颗小小的心，\n永远温暖，永远明亮，永远被爱包围"
+        },
+        "en": {
+          "content": "Through ten years of charitable work, Little Green Leaves Dream-Building\nhas helped 160 children connect with dream-building families through one-to-one sponsorship,\noffering warmth and support to lonely childhoods.\nIn the days ahead,\nwe will remain true to our original purpose,\nsupporting growth through companionship and bringing warmth to childhood,\nso that every child can move forward courageously in love,\nbe treated gently by the world, and be embraced by happiness.\nMay every little heart\nalways be warm, always be bright, and always be surrounded by love."
+        }
+      }
+    }
+  ]
+}

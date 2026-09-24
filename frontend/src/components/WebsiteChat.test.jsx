@@ -19,3 +19,26 @@ test('shows quota error and keeps contact link usable',async()=>{
  await waitFor(()=>expect(screen.getByRole('alert')).toHaveTextContent('额度'));
  expect(screen.getByRole('link',{name:'联系小绿叶'})).toHaveAttribute('href','/contact');
 });
+
+test('uses a single minimize control and sends both sides of the conversation',async()=>{
+ askWebsite.mockReset();
+ askWebsite.mockResolvedValue({answer:'你好！今天想聊什么？',sources:[]});
+ render(<WebsiteChat/>);
+ fireEvent.click(screen.getByRole('button',{name:'问问小绿叶'}));
+ expect(screen.queryByRole('button',{name:'关闭',exact:true})).not.toBeInTheDocument();
+ const input=screen.getByRole('textbox',{name:'聊天消息'});
+ fireEvent.change(input,{target:{value:'你好'}});
+ fireEvent.click(screen.getByRole('button',{name:'发送'}));
+ await screen.findByText('你好！今天想聊什么？');
+ await waitFor(()=>expect(input).not.toBeDisabled());
+ fireEvent.change(input,{target:{value:'给我一个志愿服务点子'}});
+ fireEvent.click(screen.getByRole('button',{name:'发送'}));
+ expect(askWebsite.mock.calls[1][2]).toEqual([{role:'user',content:'你好'},{role:'assistant',content:'你好！今天想聊什么？'}]);
+ await waitFor(()=>expect(input).not.toBeDisabled());
+ fireEvent.click(screen.getByRole('button',{name:'收起聊天'}));
+ expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+ fireEvent.click(screen.getByRole('button',{name:'问问小绿叶'}));
+ expect(screen.getByText('给我一个志愿服务点子')).toBeInTheDocument();
+ fireEvent.keyDown(screen.getByRole('dialog'),{key:'Escape'});
+ expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+});

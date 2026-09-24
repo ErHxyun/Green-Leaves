@@ -24,9 +24,9 @@
     "cta": "Learn More"
   },
   "impact": {
-    "childrenValue": "140",
+    "childrenValue": "200",
     "regionsValue": "5",
-    "fundsValue": "￥800,000+",
+    "fundsValue": "￥1,000,000+",
     "title": "Our Impact",
     "children": "Children Supported",
     "childrenDesc": "Students receiving educational support across rural communities",
@@ -83,7 +83,8 @@
     "title": "Our Efforts"
   },
   "timeline": {
-    "heading": "Our Efforts: 2016 - 2025",
+    "2026": {"title": "A New Starting Point After Ten Years of Building Dreams", "summary": ""},
+    "heading": "Our Efforts: 2016–2026",
     "subheading": "A decade of steady, sustainable growth powered by community and care.",
     "closing": {
       "title": "Together, we’ve grown a better world",

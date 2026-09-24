@@ -1,0 +1,237 @@
+{
+  "id": "love-2026",
+  "slug": "kindness-brings-hope-2026",
+  "year_id": "year-2026",
+  "event_date": null,
+  "sort_order": 2,
+  "translations": {
+    "cn": {
+      "title": "爱心点亮 生命曙光"
+    },
+    "en": {
+      "title": "Kindness Brings the Dawn of Hope"
+    }
+  },
+  "warnings": [
+    "未提供文章发布日期；“十天前”“前些天”“昨日”“昨晚”“今日”均按原文保留，event_date 为 null。评论中的 Apr 14/15 不作为活动日期。",
+    "本篇累计帮助166名孩子，前两篇写160名；保留各篇原文，不擅自统一统计口径。",
+    "封面写2.5万元，正文及交接牌写25682元；保留来源不同精度，不据图片改写正文。",
+    "正文含儿童被领养、家庭残障、丧亲和脑瘤手术等敏感经历，发布前须核对公开授权及匿名化范围。",
+    "picture-2、picture-4、picture-5 为医院场景，须检查患者、床位和旁人隐私；picture-3 含聊天姓名及捐款记录，须审核脱敏。",
+    "粘贴末尾9 Comments至暂无评论为公众号评论和界面内容，未作为文章正文导入，未录入评论者信息。",
+    "来源有7个Image占位，候选2026-love目录有5张图片，按内容匹配插入，不重复补足。",
+    "英文为待审核翻译；河南鲁山、史大姐、2021/2025、13小时、25682元和166名等事实按来源保留。"
+  ],
+  "blocks": [
+    {
+      "id": "love-2026-block-01",
+      "type": "image",
+      "sort_order": 0,
+      "file": "picture-1.jpg",
+      "translations": {
+        "cn": {
+          "alt": "“13小时 2.5万元，爱心点亮 生命曙光”文章封面",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Article cover reading “13 hours, 25,000 yuan: kindness brings the dawn of hope”",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "love-2026-block-02",
+      "type": "text",
+      "sort_order": 1,
+      "translations": {
+        "cn": {
+          "content": "十年公益路，一对一筑梦。当河南鲁山的孩子遭遇家庭变故与疾病重击，小绿叶筑梦团队与义工第一时间伸出援手，用速度与温度为生命抢时间。"
+        },
+        "en": {
+          "content": "Ten years of charitable work, building dreams through one-to-one support. When a child in Lushan, Henan, faced upheaval in her family and serious illness, the Little Green Leaves Dream-Building team and volunteers immediately reached out, responding with urgency and warmth to buy time for her life."
+        }
+      }
+    },
+    {
+      "id": "love-2026-block-03",
+      "type": "subtitle",
+      "sort_order": 2,
+      "translations": {
+        "cn": {
+          "content": "缘起：被命运叩击的小小身影"
+        },
+        "en": {
+          "content": "How It Began: A Young Child Facing Life’s Hardships"
+        }
+      }
+    },
+    {
+      "id": "love-2026-block-04",
+      "type": "text",
+      "sort_order": 3,
+      "translations": {
+        "cn": {
+          "content": "2025年，我们开启对河南鲁山这名孩子的一对一资助。她本是被领养的孩子，命运却接连抛出沉重考题——爸爸智力残疾，十天前不幸离世；爷爷曾患脑出血，身体孱弱，常年需要照料；祸不单行，孩子前些天确诊脑瘤，昨日紧急接受手术治疗。奶奶东拼西凑借来手术费，仍在为后续费用忧心。这个本就脆弱的家庭，此刻正站在生死关口。"
+        },
+        "en": {
+          "content": "In 2025, we began providing one-to-one support to this child in Lushan, Henan. She had been adopted, and life brought one heavy challenge after another: her father, who had an intellectual disability, sadly passed away ten days ago; her grandfather had suffered a cerebral hemorrhage, remained frail, and needed long-term care. Then, a few days ago, the child was diagnosed with a brain tumor and underwent emergency surgery yesterday. Her grandmother borrowed money wherever she could to pay for the operation and remained worried about the costs to come. This already vulnerable family was facing a life-and-death crisis."
+        }
+      }
+    },
+    {
+      "id": "love-2026-block-05",
+      "type": "image",
+      "sort_order": 4,
+      "file": "picture-2.jpg",
+      "translations": {
+        "cn": {
+          "alt": "病床上的孩子，面部以图案遮挡",
+          "caption": ""
+        },
+        "en": {
+          "alt": "A child in a hospital bed, with a graphic covering the face",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "love-2026-block-06",
+      "type": "subtitle",
+      "sort_order": 5,
+      "translations": {
+        "cn": {
+          "content": "驰援：13小时，25682元爱心集结"
+        },
+        "en": {
+          "content": "Rapid Support: 25,682 Yuan Raised in 13 Hours"
+        }
+      }
+    },
+    {
+      "id": "love-2026-block-07",
+      "type": "text",
+      "sort_order": 6,
+      "translations": {
+        "cn": {
+          "content": "河南义工史大姐第一时间反馈情况，小绿叶筑梦团队连夜行动。从昨晚9点多到今日上午10点，13个小时内，小绿叶筑梦公益团队凝聚爱心力量，成功筹集善款25682元。"
+        },
+        "en": {
+          "content": "Ms. Shi, a volunteer in Henan, promptly reported the situation, and the Little Green Leaves Dream-Building team took action overnight. From after 9 p.m. last night to 10 a.m. today, within 13 hours, the team brought people together and raised 25,682 yuan in donations."
+        }
+      }
+    },
+    {
+      "id": "love-2026-block-08",
+      "type": "image",
+      "sort_order": 7,
+      "file": "picture-3.jpg",
+      "translations": {
+        "cn": {
+          "alt": "捐款沟通与筹款记录截图拼图",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Collage of donation messages and fundraising records",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "love-2026-block-09",
+      "type": "text",
+      "sort_order": 8,
+      "translations": {
+        "cn": {
+          "content": "款项已由河南义工亲手送达医院，每一笔捐款都承载着陌生人的善意，每一分温暖都在为孩子筑牢生命防线。"
+        },
+        "en": {
+          "content": "Volunteers in Henan have personally delivered the funds to the hospital. Every donation carries the kindness of strangers, and every gesture of warmth helps strengthen the child’s lifeline."
+        }
+      }
+    },
+    {
+      "id": "love-2026-block-10",
+      "type": "image",
+      "sort_order": 9,
+      "file": "picture-4.jpg",
+      "translations": {
+        "cn": {
+          "alt": "义工在医院病床旁探望",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Volunteers visiting at a hospital bedside",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "love-2026-block-11",
+      "type": "image",
+      "sort_order": 10,
+      "file": "picture-5.jpg",
+      "translations": {
+        "cn": {
+          "alt": "医院内善款交接，牌上写有捐款25682元",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Donation handover at the hospital, with a sign showing 25,682 yuan",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "love-2026-block-12",
+      "type": "subtitle",
+      "sort_order": 11,
+      "translations": {
+        "cn": {
+          "content": "坚守：十年公益，一对一筑梦不缺席"
+        },
+        "en": {
+          "content": "Staying Committed: Ten Years of Service and Steadfast One-to-One Support"
+        }
+      }
+    },
+    {
+      "id": "love-2026-block-13",
+      "type": "text",
+      "sort_order": 12,
+      "translations": {
+        "cn": {
+          "content": "自2021年开展一对一筑梦项目以来，小绿叶筑梦已累计帮助166名贫困孩子。我们坚信，每一份微小的善意，都能成为改变命运的力量；每一次及时的援手，都能为困境中的孩子点亮希望之光。"
+        },
+        "en": {
+          "content": "Since launching the one-to-one Dream-Building program in 2021, Little Green Leaves Dream-Building has helped a total of 166 children living in poverty. We firmly believe that every small act of kindness can help change a life, and every timely helping hand can light a spark of hope for a child facing hardship."
+        }
+      }
+    },
+    {
+      "id": "love-2026-block-14",
+      "type": "subtitle",
+      "sort_order": 13,
+      "translations": {
+        "cn": {
+          "content": "🤝 致谢：感恩同行，静待花开"
+        },
+        "en": {
+          "content": "🤝 Thanks: Grateful for Your Companionship, Looking Forward with Hope"
+        }
+      }
+    },
+    {
+      "id": "love-2026-block-15",
+      "type": "text",
+      "sort_order": 14,
+      "translations": {
+        "cn": {
+          "content": "感谢所有爱心人士的慷慨解囊，感谢河南义工史大姐的高效对接，感谢团队每一位成员的无私奉献！"
+        },
+        "en": {
+          "content": "Thank you to everyone who donated generously, to Ms. Shi in Henan for coordinating the response efficiently, and to every member of the team for their selfless contributions!"
+        }
+      }
+    }
+  ]
+}

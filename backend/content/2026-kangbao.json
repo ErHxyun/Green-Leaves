@@ -1,0 +1,458 @@
+{
+  "id": "kangbao-2026",
+  "slug": "warm-companionship-kangbao-2026",
+  "year_id": "year-2026",
+  "event_date": "2026-07-19",
+  "sort_order": 3,
+  "translations": {
+    "cn": {
+      "title": "暖心相伴，筑梦成长--2026“小绿叶筑梦”康保行"
+    },
+    "en": {
+      "title": "Warm Companionship, Building Dreams and Growing Together — The 2026 Little Green Leaves Dream-Building Visit to Kangbao"
+    }
+  },
+  "warnings": [
+    "活动日期2026年7月19日、张家口市康保县顺安小学及王弋宁姓名均按用户原文保留。",
+    "英文为待审核翻译；Wang Yining 和 Shun’an Primary School 为按中文转写的名称，未核验官方英文称谓。",
+    "正文“持续十年的守护”为用户原文，未据其他文章的一对一项目起始年份擅自改写。",
+    "图片中的现有花朵遮挡保持不变；发布前确认儿童照片使用授权和未遮挡人物的隐私范围。",
+    "仅清除空标题、Markdown加粗标记和粘贴反斜杠，保留全部正文；按画面内容排列六张图片。"
+  ],
+  "blocks": [
+    {
+      "id": "kangbao-2026-block-01",
+      "type": "image",
+      "sort_order": 0,
+      "file": "picture-1.jpg",
+      "translations": {
+        "cn": {
+          "alt": "“暖心相伴 筑梦成长”文章封面",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Article cover reading “Warm Companionship, Building Dreams and Growing Together”",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-02",
+      "type": "text",
+      "sort_order": 1,
+      "translations": {
+        "cn": {
+          "content": "盛夏七月，又一次熟悉而温暖的相聚如约而至。7月19日，2026“小绿叶筑梦”康保行活动在张家口市康保县顺安小学举行。小绿叶筑梦团队、康保县妇联领导、筑梦人代表、学校老师和孩子们相聚一堂，在分享、陪伴与祝福中，共同写下这个夏天温暖的一页。"
+        },
+        "en": {
+          "content": "In the height of July, another familiar and warm reunion arrived as promised. On July 19, the 2026 Little Green Leaves Dream-Building visit to Kangbao took place at Shun’an Primary School in Kangbao County, Zhangjiakou. The Little Green Leaves Dream-Building team, leaders of the Kangbao County Women’s Federation, sponsor representatives, teachers, and children gathered to share, offer companionship, and exchange good wishes, creating a warm memory of this summer."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-03",
+      "type": "subtitle",
+      "sort_order": 2,
+      "translations": {
+        "cn": {
+          "content": "十年筑梦暖心相伴，守护童心向阳成长。"
+        },
+        "en": {
+          "content": "Ten Years of Building Dreams with Warm Companionship, Helping Young Hearts Grow Toward the Sun."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-04",
+      "type": "text",
+      "sort_order": 3,
+      "translations": {
+        "cn": {
+          "content": "十年，不只是时间的累积，更是一次次惦念、一次次出发，以及一场又一场跨越距离的相见。"
+        },
+        "en": {
+          "content": "Ten years mean more than the passage of time. They mean keeping one another in mind, setting out again and again, and meeting across distances time after time."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-05",
+      "type": "subtitle",
+      "sort_order": 4,
+      "translations": {
+        "cn": {
+          "content": "十年相伴，再赴康保"
+        },
+        "en": {
+          "content": "Ten Years of Companionship, Returning to Kangbao"
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-06",
+      "type": "text",
+      "sort_order": 5,
+      "translations": {
+        "cn": {
+          "content": "活动现场，孩子们早早来到会场，认真聆听老师和嘉宾的分享。熟悉的“小绿叶筑梦”标志再次出现在校园里，也让这场跨越多年的陪伴有了新的延续。"
+        },
+        "en": {
+          "content": "The children arrived early and listened attentively to the teachers and guests. The familiar Little Green Leaves Dream-Building logo appeared on campus once more, marking another chapter in this companionship spanning many years."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-07",
+      "type": "image",
+      "sort_order": 6,
+      "file": "picture-2.jpg",
+      "translations": {
+        "cn": {
+          "alt": "孩子们坐在会场中，面部以花朵图案遮挡",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Children seated in the venue, with flower graphics covering their faces",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-08",
+      "type": "text",
+      "sort_order": 7,
+      "translations": {
+        "cn": {
+          "content": "从最初的一次相遇，到如今持续十年的守护，“筑梦”早已不只是一场活动的名字，更成为小绿叶与孩子们之间长久的约定。"
+        },
+        "en": {
+          "content": "From the first meeting to ten years of continued care, “Dream-Building” has become far more than the name of an event. It is a lasting promise between Little Green Leaves and the children."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-09",
+      "type": "text",
+      "sort_order": 8,
+      "translations": {
+        "cn": {
+          "content": "我们期待给予孩子们的，不仅是物质上的支持，更是一份被看见、被关心、被认真对待的成长力量。"
+        },
+        "en": {
+          "content": "We hope to offer children not only material support, but also the strength to grow that comes from being seen, cared for, and taken seriously."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-10",
+      "type": "subtitle",
+      "sort_order": 9,
+      "translations": {
+        "cn": {
+          "content": "把更大的世界，带到孩子们身边"
+        },
+        "en": {
+          "content": "Bringing a Wider World Closer to the Children"
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-11",
+      "type": "text",
+      "sort_order": 10,
+      "translations": {
+        "cn": {
+          "content": "活动中，小绿叶创始人王弋宁结合自己的成长、求学与公益经历，与孩子们分享了关于选择、坚持和探索的思考。"
+        },
+        "en": {
+          "content": "During the event, Little Green Leaves founder Wang Yining shared reflections on choices, perseverance, and exploration with the children, drawing on personal experiences of growing up, studying, and charitable work."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-12",
+      "type": "image",
+      "sort_order": 11,
+      "file": "picture-3.jpg",
+      "translations": {
+        "cn": {
+          "alt": "2026年小绿叶筑梦康保行会场分享活动",
+          "caption": ""
+        },
+        "en": {
+          "alt": "A sharing session at the 2026 Little Green Leaves Dream-Building visit to Kangbao",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-13",
+      "type": "text",
+      "sort_order": 12,
+      "translations": {
+        "cn": {
+          "content": "成长并不意味着一开始就要拥有所有答案。保持好奇，认真学习，勇敢尝试，每一次微小的积累，都可能在未来成为通往更广阔世界的一步。"
+        },
+        "en": {
+          "content": "Growing up does not mean having all the answers from the start. Stay curious, study earnestly, and be brave enough to try. Every small step of learning may one day become a step toward a wider world."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-14",
+      "type": "text",
+      "sort_order": 13,
+      "translations": {
+        "cn": {
+          "content": "我们希望通过这样的面对面交流，让孩子们感受到：无论此刻身处哪里，每个人都拥有想象未来、寻找热爱和创造可能的权利。"
+        },
+        "en": {
+          "content": "Through these face-to-face conversations, we hope children will feel that wherever they are now, everyone has the right to imagine a future, discover what they love, and create possibilities."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-15",
+      "type": "text",
+      "sort_order": 14,
+      "translations": {
+        "cn": {
+          "content": "远方并不是遥不可及的目的地，而是从今天的一次阅读、一次尝试和一个小小的梦想开始。"
+        },
+        "en": {
+          "content": "The wider world is not an unreachable destination. It begins with something read today, an attempt at something new, and a small dream."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-16",
+      "type": "subtitle",
+      "sort_order": 15,
+      "translations": {
+        "cn": {
+          "content": "一份礼物，也是一份看见"
+        },
+        "en": {
+          "content": "A Gift That Says: You Are Seen"
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-17",
+      "type": "text",
+      "sort_order": 16,
+      "translations": {
+        "cn": {
+          "content": "此次康保行中，小绿叶为孩子们准备了定制书包、图书、笔记本以及精心包装的筑梦礼包。"
+        },
+        "en": {
+          "content": "For this visit to Kangbao, Little Green Leaves prepared customized schoolbags, books, notebooks, and carefully wrapped Dream-Building gift packages for the children."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-18",
+      "type": "image",
+      "sort_order": 17,
+      "file": "picture-4.jpg",
+      "translations": {
+        "cn": {
+          "alt": "为孩子们准备的书包",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Schoolbags prepared for the children",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-19",
+      "type": "image",
+      "sort_order": 18,
+      "file": "picture-5.jpg",
+      "translations": {
+        "cn": {
+          "alt": "筑梦礼包、图书和笔记本",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Dream-Building gift packages, books, and notebooks",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-20",
+      "type": "text",
+      "sort_order": 19,
+      "translations": {
+        "cn": {
+          "content": "一只新书包，可以装下课本和文具，也可以装下对新学期的期待；一本书，可以陪伴一个安静的午后，也可能为孩子打开一扇通往更大世界的窗。"
+        },
+        "en": {
+          "content": "A new schoolbag can hold textbooks and stationery, as well as hopes for a new school term. A book can accompany a quiet afternoon and may open a window onto a wider world."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-21",
+      "type": "text",
+      "sort_order": 20,
+      "translations": {
+        "cn": {
+          "content": "礼物的价值并不只在于物品本身，更在于它所传递的信息——"
+        },
+        "en": {
+          "content": "The value of a gift lies not only in the object itself, but also in the message it carries—"
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-22",
+      "type": "subtitle",
+      "sort_order": 21,
+      "translations": {
+        "cn": {
+          "content": "有人记得你的成长，有人愿意支持你的梦想，也有人期待着你走向更远的地方。"
+        },
+        "en": {
+          "content": "Someone Remembers Your Growth, Someone Wants to Support Your Dreams, and Someone Looks Forward to Seeing You Go Further."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-23",
+      "type": "subtitle",
+      "sort_order": 22,
+      "translations": {
+        "cn": {
+          "content": "公益不是一次抵达，而是长久同行"
+        },
+        "en": {
+          "content": "Charitable Work Is a Lasting Journey Together"
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-24",
+      "type": "text",
+      "sort_order": 23,
+      "translations": {
+        "cn": {
+          "content": "一次活动或许只有短短一天，但陪伴的意义，可以延续很久。"
+        },
+        "en": {
+          "content": "An event may last only a single day, but the meaning of companionship can endure for a long time."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-25",
+      "type": "text",
+      "sort_order": 24,
+      "translations": {
+        "cn": {
+          "content": "小绿叶筑梦始终相信，真正有力量的公益，不是单向的给予，而是彼此看见、彼此信任和共同成长。"
+        },
+        "en": {
+          "content": "Little Green Leaves Dream-Building has always believed that meaningful charitable work is more than giving in one direction. It means seeing one another, trusting one another, and growing together."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-26",
+      "type": "text",
+      "sort_order": 25,
+      "translations": {
+        "cn": {
+          "content": "我们希望留给孩子们的，不只是一次活动的热闹和一份暂时的礼物，更是一段可以被记住的成长经历：在他们努力向前的路上，始终有人愿意为他们鼓掌，也有人愿意陪他们多走一程。"
+        },
+        "en": {
+          "content": "We hope to leave children with more than the excitement of an event or a gift enjoyed for a while. We hope to offer a memorable experience of growing up: as they work to move forward, there will always be someone ready to applaud them and someone willing to walk a little further beside them."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-27",
+      "type": "text",
+      "sort_order": 26,
+      "translations": {
+        "cn": {
+          "content": "未来，小绿叶筑梦将继续连接更多筑梦人、志愿者和社会力量，把持续、真诚而有温度的陪伴带到更多孩子身边。"
+        },
+        "en": {
+          "content": "In the future, Little Green Leaves Dream-Building will continue connecting more sponsors, volunteers, and people across society to bring sustained, sincere, and warm companionship to more children."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-28",
+      "type": "text",
+      "sort_order": 27,
+      "translations": {
+        "cn": {
+          "content": "愿每一颗童心都被温柔守护，愿每一个梦想都拥有向阳生长的力量。"
+        },
+        "en": {
+          "content": "May every young heart be gently protected, and may every dream have the strength to grow toward the sun."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-29",
+      "type": "image",
+      "sort_order": 28,
+      "file": "picture-6.jpg",
+      "translations": {
+        "cn": {
+          "alt": "参与者在会场合影，部分面部以花朵图案遮挡",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Participants posing together at the venue, with flower graphics covering some faces",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-30",
+      "type": "text",
+      "sort_order": 29,
+      "translations": {
+        "cn": {
+          "content": "特别感谢康保县顺安小学，感谢康保县妇联对本次活动的支持，感谢每一位筑梦人、志愿者以及关心孩子成长的爱心人士。"
+        },
+        "en": {
+          "content": "Special thanks to Shun’an Primary School in Kangbao County, to the Kangbao County Women’s Federation for supporting this event, and to every sponsor, volunteer, and kind-hearted person who cares about children’s growth."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-31",
+      "type": "text",
+      "sort_order": 30,
+      "translations": {
+        "cn": {
+          "content": "因为一次次共同奔赴，“小绿叶”才能不断生长；因为每一份真诚的陪伴，孩子们通往未来的道路也多了一束光。"
+        },
+        "en": {
+          "content": "Little Green Leaves keeps growing because we keep making the journey together. Every act of sincere companionship brings another ray of light to the children’s path toward the future."
+        }
+      }
+    },
+    {
+      "id": "kangbao-2026-block-32",
+      "type": "text",
+      "sort_order": 31,
+      "translations": {
+        "cn": {
+          "content": "十年同行，初心未改。\n下一段筑梦旅程，我们继续携手出发！"
+        },
+        "en": {
+          "content": "Ten years of walking together, staying true to our original purpose.\nLet us set out hand in hand on the next journey of building dreams!"
+        }
+      }
+    }
+  ]
+}

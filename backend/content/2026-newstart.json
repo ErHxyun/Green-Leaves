@@ -1,0 +1,411 @@
+{
+  "id": "newstart-2026",
+  "slug": "a-new-start-after-ten-years-2026",
+  "year_id": "year-2026",
+  "event_date": null,
+  "sort_order": 0,
+  "translations": {
+    "cn": {
+      "title": "十年筑梦新起点"
+    },
+    "en": {
+      "title": "A New Starting Point After Ten Years of Building Dreams"
+    }
+  },
+  "warnings": [
+    "原文小标题为“19个家庭”，正文两处为“20个家庭”，均保留，待作者核对。",
+    "原文未提供具体活动日期，event_date 保持 null。",
+    "原文“公益不是少数人做很多而，是很多人做一点点。”疑有笔误；中文保留原文，英文按可辨认语义翻译，需审核。",
+    "原文提及春节前已送达，同时结尾写春节将至，按原文保留。",
+    "原文有9个 Image 占位标记，本篇采用封面及6张正文图片；不重复凑数，按文件顺序插入，排版待确认。",
+    "picture2–5 包含聊天姓名、头像、地名或奖状资料；picture6 包含儿童助学申请表、家庭及住址等资料；picture7 仍需检查聊天隐私。发布前应审核脱敏和图片使用授权。",
+    "英文是本次生成的待审核翻译，数字和事实按中文逐段保留。"
+  ],
+  "blocks": [
+    {
+      "id": "newstart-2026-block-01",
+      "type": "image",
+      "sort_order": 0,
+      "file": "cover.jpg",
+      "translations": {
+        "cn": {
+          "alt": "2026再起航：筑梦路上，温暖向前",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Setting sail again in 2026: moving forward with warmth on the dream-building journey",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-02",
+      "type": "subtitle",
+      "sort_order": 1,
+      "translations": {
+        "cn": {
+          "content": "2026\n十年再起航\n筑梦路上·温暖向前"
+        },
+        "en": {
+          "content": "2026\nSetting Sail Again After Ten Years\nMoving Forward with Warmth on the Dream-Building Journey"
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-03",
+      "type": "text",
+      "sort_order": 2,
+      "translations": {
+        "cn": {
+          "content": "当第一缕春风拂过大地，公益路也迎来了第二个十年的开端。2026年，这条路承载着更多希望与责任继续向前延伸。今天，我们怀着激动与感恩的心情向大家报告：2026年上半年的筑梦款已经在春节前夕，全部送达孩子们的手中。"
+        },
+        "en": {
+          "content": "As the first spring breeze sweeps across the land, our charitable journey enters its second decade. In 2026, this path continues forward, carrying greater hopes and responsibilities. Today, with excitement and gratitude, we report that all dream-building funds for the first half of 2026 reached the children before the Spring Festival."
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-04",
+      "type": "subtitle",
+      "sort_order": 3,
+      "translations": {
+        "cn": {
+          "content": "温暖传递·128份希望"
+        },
+        "en": {
+          "content": "Passing on Warmth · 128 Hopes"
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-05",
+      "type": "text",
+      "sort_order": 4,
+      "translations": {
+        "cn": {
+          "content": "这个春节，对于128名孩子来说格外温暖。从偏远山村到城市角落，筑梦款的及时送达不仅是一份物质支持，更是一份坚定的承诺——无论世界如何变化，总有人在关心着他们的成长。"
+        },
+        "en": {
+          "content": "This Spring Festival is especially warm for 128 children. From remote mountain villages to corners of cities, the timely arrival of dream-building funds is more than material support. It is a firm promise: however the world changes, someone cares about their growth."
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-06",
+      "type": "text",
+      "sort_order": 5,
+      "translations": {
+        "cn": {
+          "content": "每一份筑梦款的背后，都有一段温暖的传递旅程。当地的义工们承载着筑梦人的托付，将善款逐一送达每个孩子家中。这些义工中，有普通退休职工利用闲暇时间奔走于街巷；有村书记翻山越岭深入偏远户；有镇长深入村街实地筛选反馈孩子的生活和学习情况；有妇联主席亲自参与走访确保帮助精准到位；街道办主任细心关注每个孩子的具体需求……他们组成了筑梦款传递的“最后一公里”网络，让每一份爱心都不缺席。本地义工与远方的筑梦人形成了完美的接力——一个提供资源，一个确保资源精准落地。正是这样的协同，让公益之路越走越坚实。"
+        },
+        "en": {
+          "content": "Behind every contribution is a journey of warmth. Entrusted by the sponsors, local volunteers deliver the funds to each child’s home. They include retired workers who spend their free time visiting streets and neighborhoods; village Party secretaries who cross mountains to reach remote households; town leaders who visit villages to assess and report on children’s living and learning conditions; women’s federation chairs who join home visits to ensure support reaches those who need it; and subdistrict office directors who attend carefully to each child’s needs. Together, they form the “last mile” network for delivering these funds, ensuring no act of care is lost. Local volunteers and distant sponsors work in relay: one provides resources, the other ensures they reach the right people. This cooperation makes our charitable journey ever more solid."
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-07",
+      "type": "text",
+      "sort_order": 6,
+      "translations": {
+        "cn": {
+          "content": "我们看到孩子们眼中的惊喜与感激，听到家长们朴实而真挚的感谢。每一份筑梦款背后，都是一个可以继续的学业，一个可以被守护的梦想。"
+        },
+        "en": {
+          "content": "We see surprise and gratitude in the children’s eyes and hear their parents’ simple, heartfelt thanks. Behind each contribution is an education that can continue and a dream that can be protected."
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-08",
+      "type": "image",
+      "sort_order": 7,
+      "file": "picture2.png",
+      "translations": {
+        "cn": {
+          "alt": "筑梦款送达反馈的群聊截图",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Group chat screenshot reporting delivery of dream-building funds",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-09",
+      "type": "image",
+      "sort_order": 8,
+      "file": "picture3.png",
+      "translations": {
+        "cn": {
+          "alt": "包含奖状照片的群聊截图",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Group chat screenshot containing photographs of award certificates",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-10",
+      "type": "subtitle",
+      "sort_order": 9,
+      "translations": {
+        "cn": {
+          "content": "19个家庭·被看见的希望"
+        },
+        "en": {
+          "content": "19 Families · Hope That Is Seen"
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-11",
+      "type": "text",
+      "sort_order": 10,
+      "translations": {
+        "cn": {
+          "content": "2026年开端，我们又新增了15位筑梦爱神，对接了20个贫困家庭的筑梦计划。这些家庭各有各的不易，有的因疾病陷入困境，有的因变故失去支柱，但他们都有一个共同点——不放弃对子女教育的支持。"
+        },
+        "en": {
+          "content": "At the start of 2026, 15 new dream-building sponsors joined us, supporting dream-building plans for 20 families living in poverty. Each family faces its own hardships: some have fallen into difficulty because of illness, while others have lost their main support through unexpected events. Yet they share one thing: they have not given up on their children’s education."
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-12",
+      "type": "text",
+      "sort_order": 11,
+      "translations": {
+        "cn": {
+          "content": "我们的团队经过实地走访、详细评估，最终确定了这20个家庭作为新的帮助对象。每一个新增名额的背后，都是我们对“不让一个孩子因贫困失学”承诺的坚守。"
+        },
+        "en": {
+          "content": "Following home visits and detailed assessments, our team selected these 20 families as new recipients of support. Each new place reflects our commitment to ensuring that no child leaves school because of poverty."
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-13",
+      "type": "image",
+      "sort_order": 12,
+      "file": "picture4.png",
+      "translations": {
+        "cn": {
+          "alt": "义工出行视频的群聊截图",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Group chat screenshot showing travel video thumbnails",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-14",
+      "type": "image",
+      "sort_order": 13,
+      "file": "picture5.png",
+      "translations": {
+        "cn": {
+          "alt": "包含资助反馈和照片的群聊截图",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Group chat screenshot containing support feedback and photographs",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-15",
+      "type": "subtitle",
+      "sort_order": 14,
+      "translations": {
+        "cn": {
+          "content": "筑梦爱神·星光守护者"
+        },
+        "en": {
+          "content": "Dream-Building Sponsors · Guardians Like Stars"
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-16",
+      "type": "text",
+      "sort_order": 15,
+      "translations": {
+        "cn": {
+          "content": "特别令人感动的是，这些善款来自一群可敬的筑梦爱神。他们中有的人默默帮助着13个孩子，有的支持5个、3个或2个孩子。数字不同，爱心相同。"
+        },
+        "en": {
+          "content": "Especially moving is that these donations come from a group of admirable dream-building sponsors. Some quietly help 13 children; others support 5, 3, or 2. The numbers differ, but the care is the same."
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-17",
+      "type": "text",
+      "sort_order": 16,
+      "translations": {
+        "cn": {
+          "content": "这些筑梦人如同夜空中的繁星，虽然不一定耀眼夺目，却坚定地散发着光芒。他们中有企业家、有普通工薪族、有当代大学生，甚至还有曾经受过帮助如今回馈社会的年轻人。他们用行动诠释着：公益不是少数人做很多而，是很多人做一点点。"
+        },
+        "en": {
+          "content": "These sponsors are like stars in the night sky: they may not dazzle, but their light shines steadily. They include entrepreneurs, ordinary wage earners, university students, and even young people who once received help and are now giving back. Through their actions, they show that charity is not a few people doing a great deal, but many people each doing a little."
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-18",
+      "type": "image",
+      "sort_order": 17,
+      "file": "picture6.png",
+      "translations": {
+        "cn": {
+          "alt": "助学申请表与家庭走访照片拼图",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Collage of an educational support application and home visit photographs",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-19",
+      "type": "image",
+      "sort_order": 18,
+      "file": "picture7.png",
+      "translations": {
+        "cn": {
+          "alt": "受助反馈聊天记录与照片拼图",
+          "caption": ""
+        },
+        "en": {
+          "alt": "Collage of support feedback messages and photographs",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-20",
+      "type": "subtitle",
+      "sort_order": 19,
+      "translations": {
+        "cn": {
+          "content": "第二个十年的期许"
+        },
+        "en": {
+          "content": "Hopes for the Second Decade"
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-21",
+      "type": "text",
+      "sort_order": 20,
+      "translations": {
+        "cn": {
+          "content": "站在公益路第二个十年的起点，我们既感慨于过去十年走过的每一步，更对未来充满期待。"
+        },
+        "en": {
+          "content": "At the beginning of the second decade of our charitable journey, we reflect on every step of the past ten years and look ahead with hope."
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-22",
+      "type": "text",
+      "sort_order": 21,
+      "translations": {
+        "cn": {
+          "content": "过去十年，我们募捐过3万多本图书，帮助7所山村小学建图书角和图书室，募捐了几千件衣物帮助很多人，更见证了160名孩子的成长轨迹，看到他们中有人考上了大学，有人掌握了技能，有人在学校的成绩稳稳上升。这些变化让我们更加坚信，每一份善心都不会白费，每一份帮助都在悄然改变着命运。"
+        },
+        "en": {
+          "content": "Over the past ten years, we have collected more than 30,000 books, helped 7 mountain village primary schools establish book corners and reading rooms, and collected thousands of items of clothing to help many people. We have also witnessed the growth of 160 children: some have entered university, some have acquired skills, and others have steadily improved their school results. These changes strengthen our belief that no kindness is wasted and that every act of help quietly changes lives."
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-23",
+      "type": "text",
+      "sort_order": 22,
+      "translations": {
+        "cn": {
+          "content": "新的十年，我们将继续完善资助体系，不仅提供经济支持，更关注孩子们的全面成长。我们计划推出“筑梦+”计划，增加心理健康辅导、兴趣培养、职业规划等多元化支持，真正实现“助学”到“筑梦”的升华。"
+        },
+        "en": {
+          "content": "In the new decade, we will continue improving our support system, offering financial assistance while paying greater attention to children’s overall development. We plan to introduce “Dream-Building+,” adding mental health counseling, interest development, career planning, and other forms of support, moving from educational assistance toward helping children realize their dreams."
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-24",
+      "type": "subtitle",
+      "sort_order": 23,
+      "translations": {
+        "cn": {
+          "content": "感恩与前行"
+        },
+        "en": {
+          "content": "Gratitude and the Road Ahead"
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-25",
+      "type": "text",
+      "sort_order": 24,
+      "translations": {
+        "cn": {
+          "content": "春节将至，万家团圆之时，我们特别感谢所有筑梦人的无私奉献，感谢在地义工们的辛勤奔波，感谢社会各界对公益路的关注与支持。"
+        },
+        "en": {
+          "content": "As the Spring Festival approaches and families reunite, we offer special thanks to all sponsors for their selfless contributions, to local volunteers for their tireless efforts, and to people from all walks of life for their attention and support."
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-26",
+      "type": "text",
+      "sort_order": 25,
+      "translations": {
+        "cn": {
+          "content": "每一份筑梦款都是一颗种子，在孩子们心中生根发芽；每一次送达都是一次灌溉，让希望茁壮成长。2026年，公益路第二个十年的开端，我们继续并肩前行，为更多孩子照亮前行的道路。"
+        },
+        "en": {
+          "content": "Every contribution is a seed taking root in a child’s heart; every delivery waters that seed and helps hope grow. In 2026, at the start of our second decade, we continue walking side by side, lighting the way for more children."
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-27",
+      "type": "text",
+      "sort_order": 26,
+      "translations": {
+        "cn": {
+          "content": "春天即将到来，让我们共同期待，这些在爱心中成长的孩子，终将绽放出属于自己的光芒。"
+        },
+        "en": {
+          "content": "Spring is approaching. Let us look forward together to the day when these children, growing up surrounded by care, shine in their own way."
+        }
+      }
+    },
+    {
+      "id": "newstart-2026-block-28",
+      "type": "text",
+      "sort_order": 27,
+      "translations": {
+        "cn": {
+          "content": "十年公益路，不忘初心；\n\n百名筑梦童，未来可期。"
+        },
+        "en": {
+          "content": "Ten years of charitable work, staying true to our original purpose;\n\nA hundred children building dreams, with a promising future ahead."
+        }
+      }
+    }
+  ]
+}

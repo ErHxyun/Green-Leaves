@@ -5,7 +5,7 @@ import {extract,readTimeline} from '../scripts/extract.js';
 test('extracts full legacy timeline deterministically with stable IDs and existing media',()=>{
  const a=extract(),b=extract();
  assert.deepEqual(a,b);
- assert.equal(a.seed.years.length,10);assert.equal(a.seed.events.length,42);
+ assert.equal(a.seed.years.length,11);assert.equal(a.seed.events.length,42);
  assert.equal(a.seed.blocks.length,1086);
  assert.equal(a.seed.blocks.filter(b=>b.type==='image').length,196);
  assert.deepEqual(a.report.invalidImagePaths,[]);assert.deepEqual(a.report.duplicateIds,[]);

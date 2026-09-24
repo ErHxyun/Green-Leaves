@@ -24,9 +24,9 @@
     "cta": "了解更多"
   },
   "impact": {
-    "childrenValue": "140",
+    "childrenValue": "200",
     "regionsValue": "5",
-    "fundsValue": "￥800,000+",
+    "fundsValue": "￥1,000,000+",
     "title": "我们的影响力",
     "children": "受助儿童",
     "childrenDesc": "在不同地区获得小绿叶筑梦资助的孩子们",
@@ -83,7 +83,8 @@
     "title": "我们的努力"
   },
   "timeline": {
-    "heading": "我们的努力：2016–2025",
+    "2026": {"title": "十年筑梦新起点", "summary": ""},
+    "heading": "我们的努力：2016–2026",
     "subheading": "十年如一日，我们的每一份成长都离不开您的支持！",
     "closing": {
       "title": "携手托起更多孩子的梦想",

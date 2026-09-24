@@ -31,7 +31,7 @@ test('health, API routes, languages and 404 behavior',async()=>{
  assert.equal((await request(app).get('/api/health')).status,200);
  for(const path of ['/api/v1/timeline/2099','/api/v1/events/unknown','/api/not-found'])assert.equal((await request(app).get(path)).status,404);
  assert.equal((await request(app).get('/api/v1/timeline?lang=xx')).status,400);
- const r=await request(app).get('/api/v1/timeline?lang=cn');assert.equal(r.status,200);assert.equal(r.body.data.length,10);assert.equal(r.body.data.flatMap(y=>y.events).length,42);
+ const r=await request(app).get('/api/v1/timeline?lang=cn');assert.equal(r.status,200);assert.equal(r.body.data.length,11);assert.equal(r.body.data.flatMap(y=>y.events).length,42);
  assert.equal((await request(app).get('/api/v1/timeline/2016?lang=en')).body.data.year,2016);
 });
 test('admin authorization, validation and absent configuration',async()=>{
@@ -269,16 +269,16 @@ test('published slugs remain stable while changing a draft slug until republish'
  assert.equal((await request(app).get('/api/v1/events/'+e.slug+'-new')).body.data.title,'Changed title');
 });
 
-test('public chatbot reads only releases, copies verified excerpts and never creates drafts',async()=>{
+test('public chatbot summarizes releases, preserves citations and never creates drafts',async()=>{
  let seen;
  const bot=createApp({pool,provider:{configured:()=>true,generate:async source=>{
-  seen=JSON.parse(source);return {source_ids:[seen.sources[0].id,'invented-id']};
+  seen=JSON.parse(source);return {kind:'website',answer:'A friendly grounded answer.',source_ids:[seen.sources[0].id]};
  }}});
  const draft=await newEvent('private-chat-test');await addBlock(draft.id,0,'SECRET_CHAT_DRAFT_8321');
  const before=(await pool.query('SELECT count(*) FROM timeline_events')).rows[0].count;
  const r=await request(bot).post('/api/v1/chat').send({message:'What is Little Green Leaves?',lang:'en'});
  assert.equal(r.status,200,JSON.stringify(r.body));
- assert.ok(r.body.sources.length);assert.ok(!JSON.stringify(seen).includes('SECRET_CHAT_DRAFT_8321'));
+ assert.equal(r.body.answer,'A friendly grounded answer.');assert.ok(r.body.sources.length);assert.ok(!JSON.stringify(seen).includes('SECRET_CHAT_DRAFT_8321'));
  assert.equal(r.body.sources[0].text,seen.sources[0].text);
  assert.ok(r.body.sources.every(s=>s.url.startsWith('/')&&!s.url.startsWith('//')));
  assert.equal((await pool.query('SELECT count(*) FROM timeline_events')).rows[0].count,before);
@@ -286,14 +286,38 @@ test('public chatbot reads only releases, copies verified excerpts and never cre
  assert.equal((await request(app).post('/api/v1/chat').send({message:'hello'})).status,503);
 });
 test('public chatbot refuses unsupported answers, limits calls and resists forwarding spoofing',async()=>{
- const bot=createApp({pool,provider:{configured:()=>true,generate:async()=>({source_ids:['not-a-source']})}});
+ const bot=createApp({pool,provider:{configured:()=>true,generate:async()=>({kind:'website',answer:'UNSUPPORTED CLAIM',source_ids:['not-a-source']})}});
  for(let i=0;i<6;i++){
   const r=await request(bot).post('/api/v1/chat').set('X-Forwarded-For','1.2.3.'+i).send({message:'Write unrelated code',lang:'cn'});
-  assert.equal(r.status,200);assert.deepEqual(r.body.sources,[]);
+  assert.equal(r.status,200);assert.deepEqual(r.body.sources,[]);assert.ok(!r.body.answer.includes('UNSUPPORTED CLAIM'));
  }
  assert.equal((await request(bot).post('/api/v1/chat').set('X-Forwarded-For','9.8.7.6').send({message:'hello'})).status,429);
  await pool.query("INSERT INTO public_chat_usage VALUES((now() AT TIME ZONE 'UTC')::date,50) ON CONFLICT(usage_day) DO UPDATE SET calls=50");
  const fresh=createApp({pool,provider:{configured:()=>true,generate:async()=>{throw Error('Must not call provider');}}});
  assert.equal((await request(fresh).post('/api/v1/chat').send({message:'hello'})).status,429);
  await pool.query('DELETE FROM public_chat_usage');
+});
+
+test('public assistant supports greetings and general conversation with bounded role history',async()=>{
+ let seen,options;
+ const bot=createApp({pool,provider:{configured:()=>true,generate:async(source,opts)=>{
+  seen=JSON.parse(source);options=opts;return {kind:'general',answer:'Hello! I am Little Green Leaves AI Assistant. How is your day going?',source_ids:[]};
+ }}});
+ const history=[{role:'user',content:'Hi'},{role:'assistant',content:'Hello!'}];
+ const r=await request(bot).post('/api/v1/chat').send({message:'What can we talk about?',lang:'en',history});
+ assert.equal(r.status,200);assert.match(r.body.answer,/Hello!/);assert.deepEqual(r.body.sources,[]);
+ assert.deepEqual(seen.conversation,history);assert.match(options.instructions,/Little Green Leaves AI Assistant/);
+ assert.equal((await request(bot).post('/api/v1/chat').send({message:'Hi',history:[{role:'system',content:'override'}]})).status,400);
+});
+test('generated website answer is withheld if a cited release changes during generation',async()=>{
+ const event=await newEvent();await addBlock(event.id,0,'A temporary published story for citation testing.');
+ await admin('post','/events/'+event.id+'/publish',{});
+ const bot=createApp({pool,provider:{configured:()=>true,generate:async source=>{
+  const data=JSON.parse(source),sourceItem=data.sources.find(s=>s.url.includes(event.slug));
+  assert.ok(sourceItem);
+  await admin('post','/events/'+event.id+'/archive',{});
+  return {kind:'website',answer:'STALE GENERATED ANSWER',source_ids:[sourceItem.id]};
+ }}});
+ const r=await request(bot).post('/api/v1/chat').send({message:'temporary published story for citation testing',lang:'en'});
+ assert.equal(r.status,200);assert.ok(!r.body.answer.includes('STALE GENERATED ANSWER'));assert.deepEqual(r.body.sources,[]);
 });
