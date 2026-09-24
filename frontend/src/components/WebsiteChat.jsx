@@ -1,12 +1,19 @@
 import React,{useEffect,useRef,useState} from 'react';
 import {Box,Button,Paper,Avatar,TextField,Typography,Link,IconButton} from '@mui/material';
 import SendRoundedIcon from '@mui/icons-material/SendRounded';
-import SpaRoundedIcon from '@mui/icons-material/SpaRounded';
+import logo from '../pictures/logo.jpg';
+import {usePageMedia} from '../services/usePageMedia';
 import CloseIcon from '@mui/icons-material/Close';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import {useTranslation} from 'react-i18next';
 import {askWebsite,contentLanguage} from '../services/contentApi';
+function ChatAvatar({brand,small=false}){
+ return <Avatar src={brand.src} alt={brand.alt||'Little Green Leaves'} sx={{width:small?28:40,height:small?28:40,bgcolor:'white',p:.3,border:'1px solid #e0e9e1','& img':{objectFit:'contain'}}}>
+  <Box component="img" src={logo} alt="Little Green Leaves" sx={{width:'100%',height:'100%',objectFit:'contain'}}/>
+ </Avatar>;
+}
 export default function WebsiteChat(){
+ const brand=usePageMedia('logo',[{src:logo,alt:'Little Green Leaves'}])[0];
  const {i18n}=useTranslation(),cn=contentLanguage(i18n.language)==='cn';
  const [open,setOpen]=useState(false),[question,setQuestion]=useState(''),[messages,setMessages]=useState([]),[busy,setBusy]=useState(false),[error,setError]=useState('');
  const abort=useRef(null),scroll=useRef(null),launcher=useRef(null);
@@ -33,7 +40,7 @@ export default function WebsiteChat(){
   {open&&<Paper id="website-chat-panel" role="dialog" aria-modal="false" aria-labelledby="website-chat-title" elevation={12} onKeyDown={e=>{if(e.key==='Escape'){e.stopPropagation();close();}}}
    sx={{position:'fixed',right:{xs:12,sm:24},bottom:80,width:{xs:'calc(100vw - 24px)',sm:390},height:560,maxHeight:'calc(100dvh - 100px)',zIndex:1200,display:'flex',flexDirection:'column',borderRadius:4,overflow:'hidden',border:'1px solid #dce8de',boxShadow:'0 16px 64px #163c2930'}}>
    <Box sx={{display:'flex',alignItems:'center',gap:1.25,p:2,color:'white',background:'linear-gradient(120deg,#14532d,#287749)'}}>
-    <Avatar sx={{bgcolor:'#ffffff22',color:'white'}}><SpaRoundedIcon/></Avatar>
+    <ChatAvatar brand={brand}/>
     <Box sx={{flex:1}}>
      <Typography id="website-chat-title" sx={{fontWeight:700,fontSize:16}}>{cn?'小绿叶':'Green Leaves'}</Typography>
      <Typography variant="caption" sx={{opacity:.85}}>{cn?'官网 AI 助手 · 陪你了解我们的故事':'Website AI assistant · Our stories, together'}</Typography>
@@ -44,7 +51,7 @@ export default function WebsiteChat(){
     <Typography sx={{textAlign:'center',fontSize:11,color:'#748378',mb:2}}>{cn?'回答依据官网已发布内容':'Answers use published website information'}</Typography>
     <Box role="log" aria-live="polite" aria-label={cn?'聊天记录':'Conversation'}>
      <Box sx={{display:'flex',gap:1,alignItems:'flex-start',mb:2}}>
-      <Avatar sx={{width:28,height:28,bgcolor:'#deeddf',color:'#166534'}}><SpaRoundedIcon sx={{fontSize:18}}/></Avatar>
+      <ChatAvatar brand={brand} small/>
       <Box sx={{bgcolor:'white',border:'1px solid #e4ece5',borderRadius:'4px 16px 16px 16px',p:1.5,maxWidth:'85%'}}>
        <Typography variant="body2" sx={{lineHeight:1.8}}>{cn?'你好呀，我是小绿叶 🌱 想了解我们的公益活动、成长故事，或找到联系方式？可以直接问我。':"Hi, I'm Green Leaves 🌱 Ask me about our activities, our story, or how to get in touch."}</Typography>
       </Box>
@@ -55,7 +62,7 @@ export default function WebsiteChat(){
      {messages.map((m,i)=>{
       const user=m.role==='user';
       return <Box key={i} sx={{display:'flex',justifyContent:user?'flex-end':'flex-start',alignItems:'flex-start',gap:1,mb:2}}>
-       {!user&&<Avatar sx={{width:28,height:28,bgcolor:'#deeddf',color:'#166534'}}><SpaRoundedIcon sx={{fontSize:18}}/></Avatar>}
+       {!user&&<ChatAvatar brand={brand} small/>}
        <Box sx={{maxWidth:user?'85%':'calc(100% - 36px)',minWidth:0,bgcolor:user?'#216239':'white',color:user?'white':'#24372b',border:user?'none':'1px solid #e4ece5',borderRadius:user?'16px 4px 16px 16px':'4px 16px 16px 16px',p:1.5}}>
         <Typography variant="body2" sx={{whiteSpace:'pre-wrap',overflowWrap:'anywhere',lineHeight:1.8}}>{m.text||m.answer}</Typography>
         {m.sources?.map(s=><Box key={s.id} sx={{mt:1.25,pt:1.25,borderTop:'1px solid #e8eee8'}}>

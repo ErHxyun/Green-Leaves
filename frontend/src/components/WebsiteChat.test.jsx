@@ -3,7 +3,7 @@ import {render,screen,fireEvent,waitFor} from '@testing-library/react';
 import WebsiteChat from './WebsiteChat';
 import {askWebsite} from '../services/contentApi';
 jest.mock('../services/contentApi',()=>({contentLanguage:l=>l==='cn'?'cn':'en',askWebsite:jest.fn()}));
-jest.mock('react-i18next',()=>({useTranslation:()=>({i18n:{language:'cn'}})}));
+jest.mock('react-i18next',()=>({useTranslation:()=>({i18n:{language:'cn'},t:(_key,options)=>options.defaultValue})}));
 test('opens, asks, displays plain source text and source link',async()=>{
  askWebsite.mockResolvedValue({answer:'官网原文',sources:[{id:'s1',title:'活动',text:'捐赠140本书',url:'/our-efforts?event=test'}]});
  render(<WebsiteChat/>);fireEvent.click(screen.getByRole('button',{name:'问问小绿叶'}));
