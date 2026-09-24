@@ -1,95 +1,112 @@
-# 🌱 Green Leaves Web Platform
+# 🌱 Little Green Leaves
 
-A responsive web platform for the **Little Green Leaves Public Welfare Alliance**, designed to showcase the organization’s mission, impact stories, and long-term support for left-behind children in rural communities.
+**Ten years of small acts of kindness, growing into shared hope.**
 
-This project combines **storytelling, psychology-informed design, and modern frontend engineering** to present nonprofit impact in a clear, scalable, and emotionally resonant way.
+The official website of the **Little Green Leaves Volunteer Alliance** — a place to discover our work, explore our stories, and connect with a community committed to supporting children's education and growth.
 
----
+From book donations and one-to-one sponsorships to winter camps and community visits, the website brings together the people, moments, and continuing relationships behind our work.
 
-## ✨ Features
+**[Visit Our Website](https://little-green-leaves.world/) · [Explore Our Efforts](https://little-green-leaves.world/our-efforts) · [Get in Touch](https://little-green-leaves.world/contact)**
 
-### Impact Timeline & Storytelling
+![Little Green Leaves homepage](frontend/src/pictures/README/overview.png)
 
-- Modular timeline components for year-by-year fundraising events and sponsorship stories
-- Structured content blocks (text, subtitles, images) for scalable long-form narratives
+## Our Story
 
-### Responsive & Accessible UI
+Little Green Leaves connects people who want to help with children and families who need support. Our work is about more than a single donation or visit: it is about showing up, listening, and building lasting connections.
 
-- Built with **React** and **Material UI (MUI)**
-- Readable typography, consistent spacing, and mobile-friendly layouts
-- Optimized text wrapping and layout constraints for long paragraphs
+This website preserves that journey. Each story offers a closer look at an activity, the people who made it possible, and the care that continues beyond the event itself.
 
-### Leadership & Organization Pages
+## Features
 
-- “About Us” and “Meet Our Leader” sections
-- Multilingual (Chinese ↔ English) content adapted for international audiences
+### A Journey Through the Years
 
-### Maintainable Architecture
+Explore our work from **2016 to 2026** through a photo-led timeline.
 
-- Component-based design (Header, Footer, Timeline, Pages)
-- Clean separation of data, presentation, and assets
-- Easy to extend with new stories or campaigns
+A persistent year navigation makes it easy to move between chapters. Each year introduces its stories through photographs, a short overview, and individual articles with full text and images.
 
----
+Historical accounts retain their original context and figures, allowing readers to understand each activity on its own terms.
 
-## 🛠 Tech Stack
+![Our Efforts timeline, 2016–2026](frontend/src/pictures/README/our_efforts.png)
 
-- **Frontend:** React, JavaScript (ES6)
-- **UI Framework:** Material UI (MUI), Tailwind CSS
-- **Build Tools:** Webpack, html-webpack-plugin
-- **Styling:** MUI `sx` system, responsive Grid & Stack layouts
+### Chinese and English Content
 
----
+Visitors can switch between Chinese and English across the website, including organization information and activity stories.
 
-## 📁 Project Structure
+Content is maintained in both languages. Where a requested translation is missing, English provides a fallback so visitors can continue exploring.
 
-```text
-frontend/
-├── src/
-│   ├── components/       # Reusable UI components (Header, Footer, Timeline)
-│   ├── pages/            # Page-level components (AboutUs, Home, etc.)
-│   ├── pictures/         # Image assets
-│   ├── services/         # Shared utilities / services
-│   ├── App.js
-│   └── index.js
-├── public/
-├── package.json
-└── README.md
-```
+### Meet the Organization
 
-## ❤️ Join Us/ Support
+The homepage, About Us, and Contact Us pages introduce our mission, people, and ways to connect.
 
-Please scan the QR code below to follow our Wechat Official Account:
+Together with the activity archive, these pages help visitors understand what Little Green Leaves does, how our work has developed, and where to start a conversation with the team.
 
-![alt text](/frontend/src/pictures/QRCode/61aee902f714c9a5f6cadf22a5935c8.jpg)
+### Little Green Leaves AI Assistant
 
-Our Official Website:
-https://little-green-leaves.world/
+Our AI assistant is available across all public website pages, offering a friendly way to explore Little Green Leaves or simply start a conversation.
 
-## Content backend quick start
+Visitors can:
 
-Run from the Green-Leaves repository directory with Node 22+:
+- Say hello and ask general questions.
+- Explore volunteering ideas and everyday topics.
+- Ask about published activities and organization information.
+- Follow source links to read the website material behind an answer.
+- Continue a conversation while navigating between public pages.
 
-```powershell
-npm run setup
-# Windows Unicode paths: choose a writable ASCII runtime directory
-$env:LOCAL_POSTGRES_DIR='C:\AMPL\tmp\green-leaves-postgres'
-npm run db:local
-# Keep DB running; use another terminal in this same project directory:
-npm run extract
-npm run migrate
-npm run seed
-npm run start:backend
-# Another terminal:
-npm run start:frontend
-```
+The assistant introduces itself as AI. General suggestions are not organizational commitments, and website-related answers use published content as their reference. Responses may contain mistakes, so readers can check the linked sources or contact the team.
 
-Use `npm test` for backend PostgreSQL integration tests plus frontend tests; `npm run build` for the production frontend. The helper generates ignored backend/.env credentials; use backend/.env.example for an existing PostgreSQL service. AI output stays private: acceptance creates a draft; publication is a separate operation. Existing visual design and static outage fallback are retained.
+<img src="frontend/src/pictures/README/AI_Assistant.png" alt="Little Green Leaves AI Assistant" width="360" />
 
-For Docker, copy root .env.example to root .env, set unique POSTGRES_PASSWORD and ADMIN_API_KEY values, then run `docker compose up --build -d` and `docker compose exec backend npm run seed`. Open http://localhost:8080.
+### A Visual Content Workspace
 
-See [backend documentation](backend/README.md) for migration reports, all APIs, AI review and deployment details.
+The administration workspace lets collaborators maintain the website without editing page code.
 
-## Administration
+It supports:
 
-The visual content workspace is available at `/admin`. Sign in using the server-side ADMIN_API_KEY; credentials stay in page memory. See [the management guide](backend/ADMIN_GUIDE.md) for activity editing, media selection, bilingual preview, version restore and AI review.
+- Creating and editing yearly chapters and activity articles.
+- Managing Chinese and English titles and text.
+- Arranging subtitles, paragraphs, and images.
+- Uploading images and editing captions and alternative text.
+- Updating website copy and page imagery.
+- Previewing articles in both languages.
+
+This keeps everyday editorial work close to the content itself, making it easier for collaborators with different technical backgrounds to contribute.
+
+![Content workspace and image library](frontend/src/pictures/README/workspace.png)
+
+### Drafts, Review, and Version History
+
+Content can be prepared privately before it appears on the public website.
+
+Editors can save drafts, preview changes, publish finished articles, and archive older content. Editing an already published article preserves its public version until the new version is explicitly published.
+
+Version history allows editors to review earlier content and restore a previous version as a draft.
+
+### AI-Assisted Content Preparation
+
+The editorial AI assistant helps organize activity notes and imported text into structured bilingual suggestions.
+
+Suggestions can include titles, paragraphs, subtitles, and image descriptions, together with warnings about uncertain dates, conflicting figures, or information requiring privacy review.
+
+**AI suggestions never publish themselves.** An administrator must review and accept a suggestion to create a draft, then publish it through a separate action.
+
+### Published Content, Consistent Across the Website
+
+A shared content backend provides the website's published articles, translations, and editable page content.
+
+Public interfaces keep drafts separate from released material. The timeline also retains a built-in fallback for temporary API outages, helping visitors continue browsing existing stories when the content service is unavailable.
+
+## Care Behind Every Story
+
+Our stories involve real children, families, volunteers, and supporters. Preparing them for publication includes checking facts, preserving the meaning of the original account, and reviewing images and personal information with care.
+
+AI can help organize the work, but people remain responsible for editorial decisions and publication.
+
+## Stay Connected
+
+Discover our activities, share your thoughts, or reach out about ways to support the journey.
+
+**[Explore Little Green Leaves](https://little-green-leaves.world/) · [Contact the Team](https://little-green-leaves.world/contact)**
+
+![Little Green Leaves volunteers at the Lushan event](frontend/src/pictures/README/community.jpg)
+
+**Every small green leaf deserves a chance to grow toward the sun.**
